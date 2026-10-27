@@ -1,0 +1,3516 @@
+[
+  {
+    "path": ".dev.vars.example",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.dev.vars.example",
+    "sha256": "8075e8427d5ce3bd5250144b3f8a774c4d4c14a049b219b4de27fc63b0f427a3",
+    "bytes": 582,
+    "kind": "source"
+  },
+  {
+    "path": ".env.example",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.env.example",
+    "sha256": "4e4d0f6cd6169ac0d296c446b4b57fddbeb1548adeaf1a115100fbada807d7ab",
+    "bytes": 450,
+    "kind": "source"
+  },
+  {
+    "path": ".gitattributes",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "6dce5aae74b7b76934f2f55b3fae26e602586284d0ca0dbe01761460d0d2e205",
+    "bytes": 110,
+    "kind": "documentation"
+  },
+  {
+    "path": ".gitignore",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "3de668ba2082a1dfb40b64310271178fc720ef613dbf2ddc69586bb55bf31ca1",
+    "bytes": 383,
+    "kind": "documentation"
+  },
+  {
+    "path": ".npmrc",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.npmrc",
+    "sha256": "494e64a8818b6158e89321250500ad5ad018e33ad5cfea06a1cacd2cf4da75fa",
+    "bytes": 76,
+    "kind": "source"
+  },
+  {
+    "path": ".openai/hosting.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.openai/hosting.json",
+    "sha256": "ca21869f42e9c6d563e8c848a89b8657fd3ed5100aa8adfdc2bdfbee40dc027f",
+    "bytes": 95,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+    "sha256": "58a6b173d5ca1dec92166ea3c6cb1a84a4144556d10928ac14e8e6b40e4787bd",
+    "bytes": 16540,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+    "sha256": "f689f638f29fff460a2d5749edb5d5c38d7bef0389f32032d871f23fc6ebb008",
+    "bytes": 7968,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+    "sha256": "6129fc8571c3e0cb0a4c41f5160c974a843b055009dc4ad8858bd808e18a2d86",
+    "bytes": 14900,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+    "bytes": 29288,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+    "sha256": "b7a545bbb08256bd809f11cfe66d88da3e22d169ea4407737b1ef0ec1ed3d791",
+    "bytes": 7252,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-8ac0455e797f/style.css",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-8ac0455e797f/style.css",
+    "sha256": "480b607f72bec15c6a2349d91a88678306c3fb8d572e107120862c7a268f7014",
+    "bytes": 1919,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b",
+    "bytes": 23108,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+    "sha256": "d67e4a94ba498635f764ddca7d1ec4271f5642f032eb24b426764480f66f8497",
+    "bytes": 5892,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+    "sha256": "745994b5cd950ec201b66526375f057d540847cccfc70f4f24f5f571d26d3923",
+    "bytes": 14712,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+    "sha256": "75b3bedbebc35f347c0ae3b416aa871941555357e7b0f83767eb5987875589ed",
+    "bytes": 12872,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+    "sha256": "16e1d48b6dd29eb240aec5db36184eb182933c082cd43de7f35af686d58087d2",
+    "bytes": 7728,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+    "sha256": "e27f657e38d52887baa3b6b2f812bef93dfdd356f0810e40edd4ee284cc7e9f6",
+    "bytes": 6204,
+    "kind": "source"
+  },
+  {
+    "path": ".vinext/fonts/geist-mono-00e989178794/style.css",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/.vinext/fonts/geist-mono-00e989178794/style.css",
+    "sha256": "ce8872a6480dc7b1c5c95fcbf2641557a0146e2d52c599de179f3e0858184fc6",
+    "bytes": 2322,
+    "kind": "source"
+  },
+  {
+    "path": "app/adaptive-planner.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/adaptive-planner.tsx",
+    "sha256": "0cbbd071707d510c06e827061958d62df347b8dcf431235546f58f64d8523029",
+    "bytes": 6119,
+    "kind": "source"
+  },
+  {
+    "path": "app/air-quality-panel.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/air-quality-panel.tsx",
+    "sha256": "8deff000af146b9b77b596eaff08f90cbf6ff2968a6ff8b73f49307e795292d5",
+    "bytes": 3911,
+    "kind": "source"
+  },
+  {
+    "path": "app/assistant-context.css",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/assistant-context.css",
+    "sha256": "f692d60fc392d8cff2edfb3f9a4767f422eb7a034216a219da3fa5c1d8f835d0",
+    "bytes": 3404,
+    "kind": "source"
+  },
+  {
+    "path": "app/assistant-panel.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/assistant-panel.tsx",
+    "sha256": "746c4452fecf80861844360251c69a959c2154628d8b7194240808c4c471e98f",
+    "bytes": 8739,
+    "kind": "source"
+  },
+  {
+    "path": "app/capture-coach.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/capture-coach.tsx",
+    "sha256": "8c5441f7db52a00e7b2caff278903110d694ac6cf073ed60cc7ae3d6d1466747",
+    "bytes": 2073,
+    "kind": "source"
+  },
+  {
+    "path": "app/chatgpt-auth.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/chatgpt-auth.ts",
+    "sha256": "17a965f8948b21510cdf8ecbd70c5fdf58100e10970463f6a8fd2cc4795f8044",
+    "bytes": 2404,
+    "kind": "source"
+  },
+  {
+    "path": "app/data/georisk-numeric-manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/data/georisk-numeric-manifest.json",
+    "sha256": "114ee4b843a8a22b435a9a1e9dbcb0b45191e430bf44ccb0950f83dd60520c31",
+    "bytes": 2376,
+    "kind": "source"
+  },
+  {
+    "path": "app/data/georisk-reference-cdf.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/data/georisk-reference-cdf.json",
+    "sha256": "4aa0fbc635c64c0cffd238f6f29fff56a2adb780e80be52d893d23e8714f72b8",
+    "bytes": 112369,
+    "kind": "source"
+  },
+  {
+    "path": "app/ecosignal-terrain.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/ecosignal-terrain.tsx",
+    "sha256": "97e6bc3cc9e7c8a51b89a6d10d7ebeeb50ca92540d4789ae5d13cea5c4e72dc3",
+    "bytes": 1707,
+    "kind": "source"
+  },
+  {
+    "path": "app/environment.d.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/environment.d.ts",
+    "sha256": "9d74244a15ccaf75cc2a92c4c9a57f1ed322038ab6db6b6517b2349d9a30f65e",
+    "bytes": 147,
+    "kind": "source"
+  },
+  {
+    "path": "app/evidence-workspace.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/evidence-workspace.tsx",
+    "sha256": "fdc4e6ac1443328ba1bb8f0dcdd23356768808294d4b0e874930e6d690864a6e",
+    "bytes": 23624,
+    "kind": "source"
+  },
+  {
+    "path": "app/georisk-map.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/georisk-map.tsx",
+    "sha256": "8619e6326e594ab5d92acd6a219b55a074b41e69ef11f60cf2266f98beb4b480",
+    "bytes": 3857,
+    "kind": "source"
+  },
+  {
+    "path": "app/globals.css",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/globals.css",
+    "sha256": "338803590f0b485d412bb97961e2a320b5f5ab760514fbba662b22f1559239d4",
+    "bytes": 63205,
+    "kind": "source"
+  },
+  {
+    "path": "app/layout.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/layout.tsx",
+    "sha256": "a8156151ed32a71f0834d20d4be3d8ca0a71dd0131a80ce392359913bf8d8f6b",
+    "bytes": 910,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/air-quality-client.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/air-quality-client.ts",
+    "sha256": "ddfb6ae1059adbc30315e37086d1de0cd26d2b44fdbc6dd09d1045b07b4b37ab",
+    "bytes": 1239,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/air-quality.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/air-quality.ts",
+    "sha256": "5da3d8959fa7e90c64aff49df219308afe770d4a8a72756b8695d5a94cc152ff",
+    "bytes": 5567,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/assistant.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/assistant.ts",
+    "sha256": "496d933cdae72d12d3d8be2a4ad56e9c554a91e64b55fd8c37ecd6c9c4d3dd5f",
+    "bytes": 13032,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/chat-request.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/chat-request.ts",
+    "sha256": "6a601ecae1e8d39151deaa0e9da773ad74ca7fa63c77db6d24c628eb9fd4ce93",
+    "bytes": 2372,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/chat-response.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/chat-response.ts",
+    "sha256": "fbc5554c5d3b98136e5c2214f7f64945601a93b71d76c5943617a11275eb3ec8",
+    "bytes": 2176,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/device-observations.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/device-observations.ts",
+    "sha256": "c82357a25f78386e7c30974470cf22e6865b18160cc396afed4fbf4f011e1d88",
+    "bytes": 1523,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/display.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/display.ts",
+    "sha256": "7cd1333316aa185c7000c34d215242f89b80d57028fdb980e0c176cf0b65ed12",
+    "bytes": 877,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/evidence-api.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/evidence-api.ts",
+    "sha256": "c0ff4533312a55fff4f0bef7cef7874512ad7abdfb51495d9505feb9acf3ece1",
+    "bytes": 30501,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/evidence-client.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/evidence-client.ts",
+    "sha256": "03236f3dd3b43c1b30f2c6aed79e21fbf3e0167e911e084492c30ba682fa9cd1",
+    "bytes": 2560,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/evidence-core.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/evidence-core.ts",
+    "sha256": "8d687e6ab7df329bf8f2f54316d89441f656331796e914b8969d17a2e218d673",
+    "bytes": 9016,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/evidence-store.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/evidence-store.ts",
+    "sha256": "3c5d433d6d85a186369d53aa56d00f6daa97efec09c9b12862d9ebe767f5ded7",
+    "bytes": 4948,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/gemini.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/gemini.ts",
+    "sha256": "5e516e7fd185ce9c2c1536f3abb9e892f7d6eb91c8a345bba2d22da7f5e164cc",
+    "bytes": 6663,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/georisk-metadata.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/georisk-metadata.json",
+    "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83",
+    "bytes": 6192,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/georisk-numeric.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/georisk-numeric.ts",
+    "sha256": "f05a9cd5a6901b918260a118a1f43f90f9b2b532a154d6856a97b5e463054a23",
+    "bytes": 4697,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/georisk-overlay.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/georisk-overlay.json",
+    "sha256": "17d0f62bacee6afa07801d552b9d5386b77b6489f6c63c756eda587602de3ab9",
+    "bytes": 1245,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/georisk-palette.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/georisk-palette.json",
+    "sha256": "589fd6fd7d7d248359392a1cdda89a272497b761297d7ebb17c102bb5b4068b7",
+    "bytes": 256,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/image-evidence.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/image-evidence.ts",
+    "sha256": "782d54b3ad83f9a7c4c2bd46c985c8f11b23011b4252a6865b52201e81e30834",
+    "bytes": 14923,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/knowledge.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/knowledge.json",
+    "sha256": "204dffcae30edf6be89ed3f0023f730e8498aeb0948fd12f075050b0ec9d9845",
+    "bytes": 8655,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/map-geometry.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/map-geometry.ts",
+    "sha256": "3d7661dacd35966231ee4a893f38c0d76fe9cd3684754ca8dcf91306daf404d1",
+    "bytes": 2131,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/observation-context.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/observation-context.ts",
+    "sha256": "acdac43ac8d11199d74dd75379771f958b095e047215458ff89202bfa8272063",
+    "bytes": 13120,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/observation-image.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/observation-image.ts",
+    "sha256": "c7aacea1f972a19507eb96634d17a6787e0bc9b6d89a503522a6c2b46f82bee7",
+    "bytes": 393,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/photo-analysis-proxy.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/photo-analysis-proxy.ts",
+    "sha256": "1429e18f65495fb2093614910d5e10a75539469895fb3963aa55451f6b2cb73a",
+    "bytes": 4093,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/photo-analysis.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/photo-analysis.ts",
+    "sha256": "ea614cfa0ce34cd66a71df58505ee1930988a834df504f077b65329f7fa4df88",
+    "bytes": 3060,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/planner-local.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/planner-local.ts",
+    "sha256": "e5d868407255d686c4625f186fd262b02dead3d1e9bfbce0a9d1f12d3ad42f61",
+    "bytes": 6213,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/planner-proxy.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/planner-proxy.ts",
+    "sha256": "568a36470e96f02b907ff1b7e4cfd15d18c8374ea3f465a1be2182cae2ca6b53",
+    "bytes": 2431,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/prepare-observation.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/prepare-observation.ts",
+    "sha256": "2d884d869a57d25c4822869c76699a396875453e2bf03e0c7d8d1362346c486c",
+    "bytes": 2894,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/satellite-data.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/satellite-data.json",
+    "sha256": "132fdc7781e720775628c7830081472afb76f0e34287a5957d07d3804d536272",
+    "bytes": 9291,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/satellite.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/satellite.ts",
+    "sha256": "f67d28cf00d0928a790fbb3167b59bac09591c525bd7cecb6939c688e39401a6",
+    "bytes": 1675,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/site-export.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/site-export.ts",
+    "sha256": "cc378fc4d3a1934146a86286d7f2dc4adfa551882c9b3f676923f4545283e981",
+    "bytes": 6259,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/unified-air.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/unified-air.ts",
+    "sha256": "559864c8ee158f993eb994e2017996d23d99b22713400f3809bc196ef5977226",
+    "bytes": 1084,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/unified-satellite.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/unified-satellite.ts",
+    "sha256": "f250d769fe0b82f078e8cca185619da6528b4084d63afc7181978b930b0701b2",
+    "bytes": 3604,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/unified.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/unified.ts",
+    "sha256": "45515528f91e75480c4a842831202463ba45b15eee7708a3d6d403f555a1d6f5",
+    "bytes": 13843,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/vendor/jpeg-encoder.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/vendor/jpeg-encoder.ts",
+    "sha256": "3526ebe1bc385bd63331a22c672cc3f7d39a85f215873cb8a78fb18f5cab6605",
+    "bytes": 21591,
+    "kind": "source"
+  },
+  {
+    "path": "app/lib/vendor/JPEG-LICENSE.txt",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/lib/vendor/JPEG-LICENSE.txt",
+    "sha256": "c0a8512eabe960492fefd4f287523eb3b5ca1518ca37ef0ec83344cd7f089cb8",
+    "bytes": 1448,
+    "kind": "source"
+  },
+  {
+    "path": "app/observation-attachments.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/observation-attachments.tsx",
+    "sha256": "cb058654981780f5ebbfd9cb97b51cf6dcbfc4b5d2cd959f2c512a638451e4ef",
+    "bytes": 7837,
+    "kind": "source"
+  },
+  {
+    "path": "app/page.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/page.tsx",
+    "sha256": "5a1ebf4b944cf5f3319746622b7dd5082b03ef8273436e8e58362a1e2527922a",
+    "bytes": 59349,
+    "kind": "source"
+  },
+  {
+    "path": "app/raster-overlay.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/raster-overlay.tsx",
+    "sha256": "5119565608649b627d0faae1ef790e624809ae7e544d1dbd7dbe6bbcb82481e3",
+    "bytes": 3041,
+    "kind": "source"
+  },
+  {
+    "path": "app/satellite-map.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/satellite-map.tsx",
+    "sha256": "c81ef195f36152cfb9356dc1739d52b9be6f7503ba81af01f49bdac2f89364a6",
+    "bytes": 12211,
+    "kind": "source"
+  },
+  {
+    "path": "app/terrain-observatory.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/terrain-observatory.tsx",
+    "sha256": "ed3019bfde329934907ae8fb5149247d680ea590bcfd2f3775edf80b88f0fc50",
+    "bytes": 785,
+    "kind": "source"
+  },
+  {
+    "path": "app/ui-polish.css",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/ui-polish.css",
+    "sha256": "75651a235732f761bf5813f28cf9badc2f7a706c4a719164d45b6141e0d9f633",
+    "bytes": 33521,
+    "kind": "source"
+  },
+  {
+    "path": "app/unified-panel.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/unified-panel.tsx",
+    "sha256": "deb9fc224058aba86449275cabe220515e7b04aa6feb7ca9ffdeb1c8a245ce25",
+    "bytes": 15475,
+    "kind": "source"
+  },
+  {
+    "path": "app/unified-score-scale.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/app/unified-score-scale.tsx",
+    "sha256": "7b904b301f852158aee2f30e08698977e606db737266a244753692b217cb3f20",
+    "bytes": 1251,
+    "kind": "source"
+  },
+  {
+    "path": "build/sites-vite-plugin.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/build/sites-vite-plugin.ts",
+    "sha256": "81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b",
+    "bytes": 1254,
+    "kind": "source"
+  },
+  {
+    "path": "db/index.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/db/index.ts",
+    "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+    "bytes": 423,
+    "kind": "source"
+  },
+  {
+    "path": "db/schema.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/db/schema.ts",
+    "sha256": "e4eacb3c24aa86c3507fb3ecfa3f49e523ca8149fee97d5c519bfcff642ce199",
+    "bytes": 2157,
+    "kind": "source"
+  },
+  {
+    "path": "docs/ATTRIBUTION.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "dc4c41179506d2ba6ed9f42dd8a8f07d88bc2afaeb26ed6ab7b093db9fd13d06",
+    "bytes": 1754,
+    "kind": "documentation"
+  },
+  {
+    "path": "docs/chat/BACKEND_PACKAGE.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/chat/BACKEND_PACKAGE.json",
+    "sha256": "ff26deb0dc4b87f96910be266bce8f93c122eba05b169180f673c731a435fde8",
+    "bytes": 188,
+    "kind": "source"
+  },
+  {
+    "path": "docs/chat/MULTIMODAL_INTEGRATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/chat/MULTIMODAL_INTEGRATION.md",
+    "sha256": "15bd13f72c30fa3070be9d891feeda0e9cda9e7ca0cfab8b0ac42008ed757de2",
+    "bytes": 6014,
+    "kind": "source"
+  },
+  {
+    "path": "docs/chat/SITE_TEST_RESULTS.txt",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/chat/SITE_TEST_RESULTS.txt",
+    "sha256": "6b3455541b47b567c2002bf69275c8426c177efd242e8ac14f88db4af581ec3d",
+    "bytes": 13752,
+    "kind": "source"
+  },
+  {
+    "path": "docs/chat/VALIDATION.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/chat/VALIDATION.json",
+    "sha256": "2e9775ecf6fdca9e57d02840969c5be65e26b3cae1b364a55e74a64e5423e7d3",
+    "bytes": 895,
+    "kind": "source"
+  },
+  {
+    "path": "docs/features/INTEGRATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/features/INTEGRATION.md",
+    "sha256": "53a315a65f290aecf977046f0890386462366d12222e30858a62dae2c7a961a9",
+    "bytes": 9488,
+    "kind": "source"
+  },
+  {
+    "path": "docs/features/notebook-reference/image_algorithms.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/features/notebook-reference/image_algorithms.py",
+    "sha256": "d0aaa6db2c44ca5b000027a22af72982d7da3e7168e716177e60ee4cb44e5921",
+    "bytes": 7912,
+    "kind": "source"
+  },
+  {
+    "path": "docs/features/notebook-reference/schemas.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/features/notebook-reference/schemas.py",
+    "sha256": "f8f24c10a53440967b189c3bcd6ba76881d1d0375c307e89414f378f396988ce",
+    "bytes": 14886,
+    "kind": "source"
+  },
+  {
+    "path": "docs/features/notebook-reference/services.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/features/notebook-reference/services.py",
+    "sha256": "4b9fb53de034a4c69fb109919b86a79ed21916bd5b0446edb700f41fa89e6580",
+    "bytes": 8733,
+    "kind": "source"
+  },
+  {
+    "path": "docs/features/notebook-reference/sources.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/features/notebook-reference/sources.json",
+    "sha256": "33df83a001d94e6bd0eb37409527514387399f9697ac4bb52a94751b3cc232b6",
+    "bytes": 417,
+    "kind": "source"
+  },
+  {
+    "path": "docs/features/VALIDATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/features/VALIDATION.md",
+    "sha256": "6672f3f702040bdef1a63c30e9310a03a1591c9937eb9a87a925155cb3cdf299",
+    "bytes": 2999,
+    "kind": "source"
+  },
+  {
+    "path": "docs/FEATURES.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "kind": "documentation/source verification",
+    "sha256": "6b0b4e59d0ec940dc90385396742894a6b8df4772b9dd92671bb4f2bc9577766",
+    "bytes": 1637
+  },
+  {
+    "path": "docs/NOTEBOOK_PROVENANCE.json",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "401cd83acf215be21660566c7cdcd5bab90cd71500477470d72061539756c2af",
+    "bytes": 6236,
+    "kind": "documentation"
+  },
+  {
+    "path": "docs/PHOTO_ANALYSIS_INTEGRATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/PHOTO_ANALYSIS_INTEGRATION.md",
+    "sha256": "6940e3d8da1901baea246136bd991bbbc14deef0c906cb6c5a32a728e4480c62",
+    "bytes": 3401,
+    "kind": "source"
+  },
+  {
+    "path": "docs/reference/V39_EXPORT_README.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/README.md",
+    "sha256": "65a68e63783fb9d22e18b10a1082f070a67b2e1ff1d046d89f340c67ffc5391f",
+    "bytes": 5714,
+    "kind": "source"
+  },
+  {
+    "path": "docs/reference/V39_EXPORT_SETUP.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/GITHUB-SETUP.md",
+    "sha256": "60e59069962adcd7a451e96f8899d2df895cce50efb1de5719ec6f938297c704",
+    "bytes": 5498,
+    "kind": "source"
+  },
+  {
+    "path": "docs/RELATED_REPOSITORIES.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "e8d6642c7a5a90a1dc0ae9c52402d677da49cd20ced1c74999a31aa8b4f9ac7e",
+    "bytes": 1327,
+    "kind": "documentation"
+  },
+  {
+    "path": "docs/SHOWCASE_VERIFICATION.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "86ce7de35d380c67e79e4829f4ac0c506c9e6b996f306e221dcf3be5bd0365c2",
+    "bytes": 1796,
+    "kind": "documentation"
+  },
+  {
+    "path": "docs/training-records/coverage-run.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\training-records\\coverage-run.json",
+    "sha256": "8e84ca9d26f68b33394fb5a087098dc34a8e57234950290742aa5ba8d7e8f287",
+    "bytes": 2231,
+    "kind": "source"
+  },
+  {
+    "path": "docs/training-records/dataset-provenance.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\training-records\\dataset-provenance.json",
+    "sha256": "7790bb9b9759e659a0a74441c072981020d28438bd62f59a0f871351c160eed1",
+    "bytes": 1268,
+    "kind": "source"
+  },
+  {
+    "path": "docs/training-records/georisk-v1-run.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\training-records\\georisk-v1-run.json",
+    "sha256": "8fc3f7b661866053226e8c04eb32288c09b250c05ca70a310331e3ba75dacc3b",
+    "bytes": 2255,
+    "kind": "source"
+  },
+  {
+    "path": "docs/training-records/growth-form-baseline-run.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\training-records\\growth-form-baseline-run.json",
+    "sha256": "33b3d00ebe90b68895cebe537c709333c0c70a6ada3815cc73f83165ed6ead29",
+    "bytes": 2466,
+    "kind": "source"
+  },
+  {
+    "path": "docs/training-records/supplied-pairs.csv",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\training-records\\supplied-pairs.csv",
+    "sha256": "052138c53d82a7049de85b58f7a863d670bca8e90bfb8e0fa0e9c8e9c2323253",
+    "bytes": 20566,
+    "kind": "source"
+  },
+  {
+    "path": "docs/TRAINING_RECORDS.md",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\TRAINING_RECORDS.md",
+    "sha256": "05ebf7fc08cecb1e75ac8dc3d0f7334d3b3ce77cb98347a3911a51edbf304f23",
+    "bytes": 3175,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/GEORISK_DATA_CONTRACT.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/GEORISK_DATA_CONTRACT.md",
+    "sha256": "63c23ade8610adf6110e4dd30d8eaf76a59c1dfc3aa6fd8815d3ccddae12a123",
+    "bytes": 2383,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/IMPLEMENTATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/IMPLEMENTATION.md",
+    "sha256": "e602f112ec11ae63b797898e02c2fc2d0100eb633f43a5763f690594e5f0e96f",
+    "bytes": 11615,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/native-source-verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/native-source-verification.json",
+    "sha256": "a61455d3384b7b938b0ae3a6cf2818d030d6457d865381903707eaf7bce1950e",
+    "bytes": 339,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/notebook-reference.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/notebook-reference.py",
+    "sha256": "321789ff213baa434aaced5d68a3187455ee50d02290cb0a81a9613fb20cd49f",
+    "bytes": 30663,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/numeric-georisk/INTEGRATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/numeric-georisk/INTEGRATION.md",
+    "sha256": "d2a09fba8421c84406d0ff9f8257026521de13e03a35829ba7af14d3439b73c3",
+    "bytes": 1674,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/numeric-georisk/package-verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/numeric-georisk/package-verification.json",
+    "sha256": "274351e977bb593a608a3561383c945c6858de1cb6be123437a493019e3791c4",
+    "bytes": 1222,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/numeric-georisk/reference/build_numeric_georisk.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/numeric-georisk/reference/build_numeric_georisk.py",
+    "sha256": "c0f9ea4874a0be555551a45b88d6f80b4f7c7a677cf9ccee10d88658338eea03",
+    "bytes": 8129,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/numeric-georisk/reference/georisk-model-portable.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/numeric-georisk/reference/georisk-model-portable.json",
+    "sha256": "bd91f79fe5d5fd75ea931ded9b23bbc955a837ff582de341fa71e2027ead1e57",
+    "bytes": 984074,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/numeric-georisk/reference/georisk-model-portable.ubj",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/numeric-georisk/reference/georisk-model-portable.ubj",
+    "sha256": "3c119e8fa0e7bb0d479ffbaba36062e54d21afb43b3fd7677c8abd91383e78df",
+    "bytes": 670265,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/numeric-georisk/reference/model-metadata.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/numeric-georisk/reference/model-metadata.json",
+    "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83",
+    "bytes": 6192,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/PENDING_INTEGRATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/PENDING_INTEGRATION.md",
+    "sha256": "5a94b3ed2a9fc7e991101084c4c6a7b862105e15210bdf382526f110090666d9",
+    "bytes": 2649,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/PRODUCTION_VALIDATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/PRODUCTION_VALIDATION.md",
+    "sha256": "a336d1c8b54d2c26a54739df4b31e322b8d7cfea534327e02d60abc6b7692ef0",
+    "bytes": 8474,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/v20/IMPLEMENTATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/v20/IMPLEMENTATION.md",
+    "sha256": "162b9377e11aa6102df69b3a4b48aa20b478b38f046ceaa3cddb9395eb7965bc",
+    "bytes": 7216,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/v20/validation-status.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/v20/validation-status.json",
+    "sha256": "5e1d49ef01125eef34d963e9751f61bdb6f523cd65638e565b662155ade8dd54",
+    "bytes": 1163,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/validation-status.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/validation-status.json",
+    "sha256": "f18b8ab9a123a47bef2dfb4a4bcef9e6297a6e106bfcc3a496d2ceb715ebfcb1",
+    "bytes": 3156,
+    "kind": "source"
+  },
+  {
+    "path": "docs/unified/VERIFICATION_2026-10-23.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/docs/unified/VERIFICATION_2026-10-23.md",
+    "sha256": "ab146c6742a6d07d909eb8a666d487024453ee568e04b7ff6be88a98213e6e0e",
+    "bytes": 11030,
+    "kind": "source"
+  },
+  {
+    "path": "docs/V39_SOURCE_VERIFICATION.json",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "c639fac4a5db537921abb6a00e5ea56d37a398ba0e298b300b279c07642d4084",
+    "bytes": 2424,
+    "kind": "documentation"
+  },
+  {
+    "path": "drizzle/0000_tidy_meltdown.sql",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/drizzle/0000_tidy_meltdown.sql",
+    "sha256": "ad59ecb77e2a5c008ad45c536c627b648f9b2cbfcda6aa1cf29da4a9c72092bb",
+    "bytes": 1955,
+    "kind": "source"
+  },
+  {
+    "path": "drizzle/meta/0000_snapshot.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/drizzle/meta/0000_snapshot.json",
+    "sha256": "09b0ec2397f2439da6031a834c30e2ad7316bd33e0b5d4ed279a9f79dcfb20f5",
+    "bytes": 10005,
+    "kind": "source"
+  },
+  {
+    "path": "drizzle/meta/_journal.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/drizzle/meta/_journal.json",
+    "sha256": "2c66640b72601c5e11c880a793b5b556ebbcaf7b49291a9d0073651ed971d823",
+    "bytes": 203,
+    "kind": "source"
+  },
+  {
+    "path": "drizzle.config.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/drizzle.config.ts",
+    "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+    "bytes": 148,
+    "kind": "source"
+  },
+  {
+    "path": "eslint.config.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/eslint.config.mjs",
+    "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+    "bytes": 465,
+    "kind": "source"
+  },
+  {
+    "path": "examples/d1/app/api/notes/route.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/examples/d1/app/api/notes/route.ts",
+    "sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909",
+    "bytes": 1700,
+    "kind": "source"
+  },
+  {
+    "path": "examples/d1/db/schema.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/examples/d1/db/schema.ts",
+    "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454",
+    "bytes": 370,
+    "kind": "source"
+  },
+  {
+    "path": "EXPORT-MANIFEST.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/EXPORT-MANIFEST.json",
+    "sha256": "eb68d9a018e8660cc22ea15c8c2ea0d2e54df27b7b26674050cc9c1f5dfbedcc",
+    "bytes": 50830,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/.gitignore",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/.gitignore",
+    "sha256": "b67dce5169ff11869f1e4f6b2a3cebd5c21320bf752e6036e293816dd5528c59",
+    "bytes": 154,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/.python-version",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/.python-version",
+    "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+    "bytes": 5,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/CONVERSATION_CONTEXT.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/CONVERSATION_CONTEXT.md",
+    "sha256": "775d8f1238179071fdb0b717ee718ab3d27041c7ac095fa59f12204bb36bc7fd",
+    "bytes": 278,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/gemini_diagnostic.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/gemini_diagnostic.py",
+    "sha256": "c3c61789b53276b22e5813592c65889ee90fed05d178ee98b27645596fa9fd4d",
+    "bytes": 7497,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/main.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/main.py",
+    "sha256": "b5eb6f2c9e63c8eb7024b7eda5e4e648ae118fc859c0418d0a56b78f0fdb4143",
+    "bytes": 225009,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/measure_response_times.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/measure_response_times.py",
+    "sha256": "c9dd339866edefd2e213ca671d3f664b1e222dd94b267d7b2e1dabae457bc21d",
+    "bytes": 2977,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/observation_context.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/observation_context.py",
+    "sha256": "43f0945e8ddb9c48a10fa859776e266e1d1e540e1948fcf50566c0ceee9f2165",
+    "bytes": 7125,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/PACKAGE_MANIFEST.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/PACKAGE_MANIFEST.json",
+    "sha256": "a5e2ab6e81a7f388a038a40e84f9d72c0fc0a258720ba7ab2f1d1715e473b8ac",
+    "bytes": 2480,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/README.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/README.md",
+    "sha256": "15bd13f72c30fa3070be9d891feeda0e9cda9e7ca0cfab8b0ac42008ed757de2",
+    "bytes": 6014,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/render.yaml",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/render.yaml",
+    "sha256": "edb5b418b9ec25e7621ba6671ebbc7a390268d5c730bfeefcfc42c8ad58b676f",
+    "bytes": 1137,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/RENDER_DIAGNOSTICS.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/RENDER_DIAGNOSTICS.md",
+    "sha256": "f9949b5b346566dd49736b68600aaf661f3816fd1597400fd50c07813e8a28c7",
+    "bytes": 6119,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/requirements.txt",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/requirements.txt",
+    "sha256": "2ffffd3eedd89b485fbeca2b87ec4b69186a83d4c3ea38f0ed9822b9109322d1",
+    "bytes": 162,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/RESPONSE_TIMES.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/RESPONSE_TIMES.json",
+    "sha256": "894e6ffa6689653e2c4646c01da67b596ea190ae563910efb550936ca16c3fc8",
+    "bytes": 185,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/semantic_checks.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/semantic_checks.py",
+    "sha256": "21ff6219bdcdb45e188f0a821605b66bf09096dd36e4aec55f5625a485a5e8a3",
+    "bytes": 11807,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/TEST_RESULTS.txt",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/TEST_RESULTS.txt",
+    "sha256": "a5d6aa36f140735b25d14630dd32e628e2b2cb00bd3da5bb32ef635a44cbc6b5",
+    "bytes": 6913,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/tests/test_diagnostic.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/tests/test_diagnostic.py",
+    "sha256": "04e8972b9e601996af723e46a19660e7b26089ddd04ee8600c9cfdc0189e17ea",
+    "bytes": 6351,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/tests/test_multimodal.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/tests/test_multimodal.py",
+    "sha256": "de9b8879b68f21284c09fb3d6e9455f8b11c05118b6821ea2c81134a3fee6b34",
+    "bytes": 7369,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/tests/test_semantic.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/tests/test_semantic.py",
+    "sha256": "35dc6cf7f431858fb9364b5df6ace2b2e9f4a79e547251f0d389fd3277e16cfb",
+    "bytes": 231,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/UPLOAD_INSTRUCTIONS.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/UPLOAD_INSTRUCTIONS.md",
+    "sha256": "872a6a3f59e4c6caf3a36ee40d15b710c69e9a290048c47c6786ef516337ac7d",
+    "bytes": 2533,
+    "kind": "source"
+  },
+  {
+    "path": "integrations/ask-lichenlens-render/VALIDATION.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/integrations/ask-lichenlens-render/VALIDATION.md",
+    "sha256": "08660b111725f620a67cc1f44425ca07fa7589c3cebf7003ede04faf070cea1f",
+    "bytes": 970,
+    "kind": "source"
+  },
+  {
+    "path": "next.config.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/next.config.ts",
+    "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+    "bytes": 133,
+    "kind": "source"
+  },
+  {
+    "path": "notebooks/assistant/environmental-databank-saved-run.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\assistant\\environmental-databank-saved-run.ipynb",
+    "sha256": "b5795e2ec4cfffba43a6a4b1f372e54b21e13100cfac72d953ee841d04af6025",
+    "bytes": 291311,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/assistant/grounded-chatbot-saved-run.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\assistant\\grounded-chatbot-saved-run.ipynb",
+    "sha256": "96f917b2717e1c338685b6515b563bec79dc6918bee232602d233f650e1728a1",
+    "bytes": 81681,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/assistant/semantic-conversation.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\assistant\\semantic-conversation.ipynb",
+    "sha256": "78eb7324d4fe041e65b79b8f51abc52123b00d99383905f61fbd0403cad40513",
+    "bytes": 383081,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/field/features-17-19.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\field\\features-17-19.ipynb",
+    "sha256": "6483d757771da878438fb47dd1a13d84f652e7face4a2d20202ad8c4cbecf68a",
+    "bytes": 80545,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/field/repeat-scans-saved-run.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\field\\repeat-scans-saved-run.ipynb",
+    "sha256": "59b9304dab466d9a80c3f2ad8ee6e247296a7695e2f245d7ddbc108ef91b6707",
+    "bytes": 39428,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/georisk/GeoRisk-v2-reviewed.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\georisk\\GeoRisk-v2-reviewed.ipynb",
+    "sha256": "b4cfacd4fd6c9fb9429ef642314fa11d3bdd749533a99346e1d81fe60bbc7ebf",
+    "bytes": 50871,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/georisk/GeoRisk-v2-runtime.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\georisk\\GeoRisk-v2-runtime.ipynb",
+    "sha256": "8b620d3e14f7a2f95306edb1a5b9df01fddfea07d0ba280c8492652ab23c4c1b",
+    "bytes": 50879,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/historical/coverage-pytorch.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\historical\\coverage-pytorch.ipynb",
+    "sha256": "a2735a6191d6ed4197f9bfb743f86869b603a6e4e63e0676ca2a5bcb8b9801fd",
+    "bytes": 50726,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/historical/features-01-16.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\historical\\features-01-16.ipynb",
+    "sha256": "cb0e18f82c724e0a4d457e886e8f3b860a632a4e5912018beaa91c7184c7b88c",
+    "bytes": 233460,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/historical/framework-synthetic-data.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\historical\\framework-synthetic-data.ipynb",
+    "sha256": "13727fdb5b5b8e11e1fabdabd3a06bb4780b75f6bf00bc6843c0c44c4705a69b",
+    "bytes": 40674,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/planner/active-sampling-real-data.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\planner\\active-sampling-real-data.ipynb",
+    "sha256": "d7d531cf4f9aa6ede1c9b3b1bc9b8d6c973226ba3221ade786967e50c01df4ac",
+    "bytes": 32048,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/planner/adaptive-planner-v3.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\planner\\adaptive-planner-v3.ipynb",
+    "sha256": "6f7c1076c9a0a57310ce4dc1404c4fea209751f660584cc4be5da5e31297c476",
+    "bytes": 3681818,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/planner/planner-confidence-v2.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\planner\\planner-confidence-v2.ipynb",
+    "sha256": "5ce544f50e8f8fbba5b5effb41767907be2d4339821ca2cad61d5de082bddb57",
+    "bytes": 78336,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/README.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "d89427e4cb74ddc950d5d9c31f10f6b336aedc76ee1da91029aa2af0b2288283",
+    "bytes": 1506,
+    "kind": "documentation"
+  },
+  {
+    "path": "notebooks/research/chlorosis-historical.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\research\\chlorosis-historical.ipynb",
+    "sha256": "81a34324dcd9755aaacc66487d92d475eb25a7600a01cd6ea0f4749defc37a2b",
+    "bytes": 33904,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/research/chlorosis-retraining-v2.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\research\\chlorosis-retraining-v2.ipynb",
+    "sha256": "2d6626c261b4e84e49c8d89f38e40852a76e6e4de5700ca459dc25fded33a12c",
+    "bytes": 31589,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/satellite/repair-preview.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\satellite\\repair-preview.ipynb",
+    "sha256": "8ee9cadb497d8bfed78604c85452a965604c71641db23977f03e2cf2bba55ab2",
+    "bytes": 9440,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/satellite/weekly-satellite.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\satellite\\weekly-satellite.ipynb",
+    "sha256": "62dece3a3d544038d40c828a28d49d4a2ba4fc9f8695ef45877a9f068f63f321",
+    "bytes": 30924,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/training/coverage-v3-corrected-untrained.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\training\\coverage-v3-corrected-untrained.ipynb",
+    "sha256": "b335cd33c3bcd9546d50d572fff5e3797c71ec27be543c33bd8ccf642619b30f",
+    "bytes": 87796,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/training/growth-form-filtered.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\training\\growth-form-filtered.ipynb",
+    "sha256": "e4a99a9a74d2930e36f44fecb6cc998cdd3f540d3fc763cfe8d25f33c450a832",
+    "bytes": 41859,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/user-supplied/Copy_of_GeoRisk3D (3).ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\user-supplied\\Copy_of_GeoRisk3D (3).ipynb",
+    "sha256": "af2f93f6954904915f42d308f4d90065d533673e5fdb7b6f1d5c412434563ce4",
+    "bytes": 199818,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/user-supplied/EcoSignal_Final_Coverage_Retraining_v2 (3).ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\user-supplied\\EcoSignal_Final_Coverage_Retraining_v2 (3).ipynb",
+    "sha256": "221f72c943d5f182104b44c4dab9f78432c0aaef774d94e25dcb754babeb77be",
+    "bytes": 61429,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/user-supplied/Image_Extraction (1).ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\user-supplied\\Image_Extraction (1).ipynb",
+    "sha256": "ddb44ed6f714229bf5af3edeea28091b7b0a312a7afc1705fb08f13713b3a1b8",
+    "bytes": 35425,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/validation/unified-score-original.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\validation\\unified-score-original.ipynb",
+    "sha256": "f07420bc4e31fa721a32fc5fdf5a595d129abc5afdd9cfa148272681c1a8ed83",
+    "bytes": 53929,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "notebooks/validation/unified-score-revised.ipynb",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\notebooks\\validation\\unified-score-revised.ipynb",
+    "sha256": "c6103535f699d5eb954a502fc30c9059e4bd73cdf2d74b42463aefa1ac02333b",
+    "bytes": 33350,
+    "kind": "notebook source; outputs cleared"
+  },
+  {
+    "path": "package-lock.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/package-lock.json",
+    "sha256": "e7f327909792a9db368e1a48546bb0d851006a6e0cc0c7baf90c93b044f155c0",
+    "bytes": 378903,
+    "kind": "source"
+  },
+  {
+    "path": "package.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/package.json",
+    "sha256": "e3bea0c5488a15578bfe143f1815dfd5f9a1e9d4834dd7d725d802b3b5af3f7e",
+    "bytes": 1407,
+    "kind": "source"
+  },
+  {
+    "path": "postcss.config.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/postcss.config.mjs",
+    "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+    "bytes": 94,
+    "kind": "source"
+  },
+  {
+    "path": "public/favicon.svg",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/favicon.svg",
+    "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+    "bytes": 712,
+    "kind": "source"
+  },
+  {
+    "path": "public/file.svg",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/file.svg",
+    "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+    "bytes": 391,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/assets/ecosignal_georisk_v2_1m.joblib",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/assets/ecosignal_georisk_v2_1m.joblib",
+    "sha256": "6ec3a4a5e8cd3453f10f8f6b4b84b16dc87fcecccfbf7b0aa5e122bf62c5736d",
+    "bytes": 215815,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/assets/ecosignal_georisk_v2_1m_metadata.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/assets/ecosignal_georisk_v2_1m_metadata.json",
+    "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83",
+    "bytes": 6192,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/assets/export_verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/assets/export_verification.json",
+    "sha256": "66d174ce4a45d87aba961354372fd3847dddfccea3a8b79511f824a04be5e8fa",
+    "bytes": 2191,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/assets/georisk-overlay.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/assets/georisk-overlay.png",
+    "sha256": "3ccd850a3e1e3c43155f0e5a0a3c4a4e70bcc9b0a46f55f6a49d9354a00de9d5",
+    "bytes": 2320817,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/assets/projection-assessment.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/assets/projection-assessment.json",
+    "sha256": "7bcb6c7222fa6f2b23a6b2da001fddbeee80a862be2953d06faa58cdc44d86eb",
+    "bytes": 1115,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/assets/terrain.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/assets/terrain.json",
+    "sha256": "d8a61bdc5e66851b5bd070f7aee2d5b8283cae2244b40d6322f43b7dfa5fff28",
+    "bytes": 887770,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/browser-verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/browser-verification.json",
+    "sha256": "ecafce2814254d26f7a49253164d142bcfdcfecabbaa9c284dcfa88fceeda922",
+    "bytes": 648,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/bundle-manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/bundle-manifest.json",
+    "sha256": "61a5621fc658652ae72f0e324410963ad78698a128497eecd7a0260bb084b7e8",
+    "bytes": 2545,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/data-verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/data-verification.json",
+    "sha256": "44fbcb659c63a6fb1909f66066319b91b773a0c02ad9882d989a415782d8586a",
+    "bytes": 900,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/index.html",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/index.html",
+    "sha256": "50937939747292a7458e8550be8f569ef00e59ff5cab0a1c97844f62071bca35",
+    "bytes": 762,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/integration/EcoSignalTerrain.tsx",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/integration/EcoSignalTerrain.tsx",
+    "sha256": "2aaf34c503cebfc4ab5e25178259749425312e09d0f7db7236086c146442e6e5",
+    "bytes": 1702,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/README.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/README.md",
+    "sha256": "c09532c03ffd508fb9cdb9b4a22a7f470b138c10235f6a5f52e6834cf273e8fc",
+    "bytes": 4812,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/vendor/MATPLOTLIB-LICENSE.txt",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/vendor/MATPLOTLIB-LICENSE.txt",
+    "sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc",
+    "bytes": 4830,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/vendor/OrbitControls.js",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/vendor/OrbitControls.js",
+    "sha256": "30386f7141d5ce5d5e0a3ab643e4eb16265f4564466108105ce449857f62fdda",
+    "bytes": 40767,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/vendor/THREE-LICENSE.txt",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/vendor/THREE-LICENSE.txt",
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+    "bytes": 1081,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/vendor/three.core.js",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/vendor/three.core.js",
+    "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "bytes": 1458113,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/vendor/three.module.js",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/vendor/three.module.js",
+    "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "bytes": 662772,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/viewer.css",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/viewer.css",
+    "sha256": "58da3cd110de91a2dd2cc3d88e6b279f816ec816bf986b9a2dfbb6139f51d3ff",
+    "bytes": 6386,
+    "kind": "source"
+  },
+  {
+    "path": "public/geomorphology-3d/viewer.js",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/geomorphology-3d/viewer.js",
+    "sha256": "9db5159aec3a1625709ff2853d23385b4f2681a8242f3d073cf41610e0aadefd",
+    "bytes": 23553,
+    "kind": "source"
+  },
+  {
+    "path": "public/georisk-v2/ecosignal_georisk_v2_1m_metadata.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/georisk-v2/ecosignal_georisk_v2_1m_metadata.json",
+    "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83",
+    "bytes": 6192,
+    "kind": "source"
+  },
+  {
+    "path": "public/georisk-v2/ecosignal_georisk_v2_overlay.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/georisk-v2/ecosignal_georisk_v2_overlay.json",
+    "sha256": "17d0f62bacee6afa07801d552b9d5386b77b6489f6c63c756eda587602de3ab9",
+    "bytes": 1245,
+    "kind": "source"
+  },
+  {
+    "path": "public/georisk-v2/ecosignal_georisk_v2_overlay.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/georisk-v2/ecosignal_georisk_v2_overlay.png",
+    "sha256": "3ccd850a3e1e3c43155f0e5a0a3c4a4e70bcc9b0a46f55f6a49d9354a00de9d5",
+    "bytes": 2320817,
+    "kind": "source"
+  },
+  {
+    "path": "public/georisk-v2/export_verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/georisk-v2/export_verification.json",
+    "sha256": "66d174ce4a45d87aba961354372fd3847dddfccea3a8b79511f824a04be5e8fa",
+    "bytes": 2191,
+    "kind": "source"
+  },
+  {
+    "path": "public/globe.svg",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/globe.svg",
+    "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+    "bytes": 1035,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-baseline-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-baseline-count.bin.gz",
+    "sha256": "fd58c1e86e05630635e8b69f5dc89372a06f23bf72eaa804891406192acc4f39",
+    "bytes": 74209,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-baseline.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-baseline.bin.gz",
+    "sha256": "f4da777fcdb54e00376cd1f3f4aa9fc0485233beada4f47646cffd828a9ce99f",
+    "bytes": 3598730,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-baseline.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-baseline.png",
+    "sha256": "fbd6ca88394c02354db6c73ead187301042f63b57c9d719feacdcf93c5d3206d",
+    "bytes": 3969242,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-change.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-change.bin.gz",
+    "sha256": "e011889bc594a2ba1c540d8d691b362f2d80fd5b5022f4f9aa4a9007d2b5af0f",
+    "bytes": 2651004,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-change.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-change.png",
+    "sha256": "974a6bcd251dbbd3b72cf06ac71dd75f964f00ae9c1eaffdf958caef78956717",
+    "bytes": 4111162,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-comparison-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-comparison-count.bin.gz",
+    "sha256": "3d6d4013b76a294f28c3455b511b2bbb632a2a74243bec88085a8e080f5d1ed0",
+    "bytes": 138679,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-comparison.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-comparison.bin.gz",
+    "sha256": "18bf815af06271e5e48939c743bcd5c290d590b9f18b9d1ceac4b2a6ce03e814",
+    "bytes": 3346927,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/bsi-comparison.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/bsi-comparison.png",
+    "sha256": "b024936890f21159162fe7aa90ac256e1fed39ac56de343f5b2cae0653f6f81f",
+    "bytes": 3775383,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/catalog.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/catalog.json",
+    "sha256": "75217cfba95a64c5fa2865e95b192ab37cb41dc881027253d8c825e0e3a6bd55",
+    "bytes": 47466,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/dataset.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/dataset.json",
+    "sha256": "132fdc7781e720775628c7830081472afb76f0e34287a5957d07d3804d536272",
+    "bytes": 9291,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/manifest.json",
+    "sha256": "a80f3722fbe85ec9df62999e718c827dff2b3b462fdf5f77e56f4aded27a7150",
+    "bytes": 5433,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-baseline-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-baseline-count.bin.gz",
+    "sha256": "71066983dbd2ac798cc956e909df4f3d1f03eeb1ecd28b65b33a061d13eba3a0",
+    "bytes": 58662,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-baseline.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-baseline.bin.gz",
+    "sha256": "5feab3ae8f116efc59de1fe9208a0be57d795afcf02ffaf9672a86fb3107c387",
+    "bytes": 3535885,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-baseline.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-baseline.png",
+    "sha256": "965cd48bb0b5f626e9e1b16d35d869791fc0139673a09de89c999639341af28e",
+    "bytes": 2687497,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-change.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-change.bin.gz",
+    "sha256": "bb2be4bcde6fcb1b7cea7994fac3ec5c0710fb54e0832d838f82a5a0c6bfff9d",
+    "bytes": 2694038,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-change.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-change.png",
+    "sha256": "6875a9798456ff4efa0855aac4160e541d1e7ffe97d7cab91c138a8aca7c3004",
+    "bytes": 3933103,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-comparison-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-comparison-count.bin.gz",
+    "sha256": "248144d569fcb1b0aff37a875a94a0ee359e39de7356e089c5e2416c019fd5f6",
+    "bytes": 128969,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-comparison.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-comparison.bin.gz",
+    "sha256": "16b7304bef15c5db52df7ca60242d1be8144b1a890d8400869c33ce8f55562ff",
+    "bytes": 3299761,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/mndwi-comparison.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/mndwi-comparison.png",
+    "sha256": "5f02cb2fa460e272b6e09ca88a4d35bf4150c36f7aee8b1fe8f6496bbac72a42",
+    "bytes": 3669332,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-baseline-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-baseline-count.bin.gz",
+    "sha256": "c5f6dee4ec27c30536dd223977f12cea828b1456a846f9dc396701a2af14cb75",
+    "bytes": 147864,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-baseline.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-baseline.bin.gz",
+    "sha256": "f7e77859559e295489daefa8bc8f28b9633fc56bf0345dbbda776ab971873537",
+    "bytes": 3454931,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-baseline.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-baseline.png",
+    "sha256": "6c3b431d6fe7c1dfe8e50eb4ffe31e2c289d006d717ca03e063902c621e67963",
+    "bytes": 3342977,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-change.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-change.bin.gz",
+    "sha256": "2e398cca198d84550fa3c05308e62884b558efd0c2da326c150dd5179056788d",
+    "bytes": 2559754,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-change.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-change.png",
+    "sha256": "575d96aeaa5fc416c7a2b2a7b64e464bcc53fe4425174a79cd7e8824ed5dec57",
+    "bytes": 4125186,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-comparison-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-comparison-count.bin.gz",
+    "sha256": "74b21bc84e8a6aceb190a19706161aa0a44bde6f6805b6b10559e341be833288",
+    "bytes": 185167,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-comparison.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-comparison.bin.gz",
+    "sha256": "3862d2010abcd21d44072fc87dfef2db5a424fb729efa6b0ca4314d31a391cfa",
+    "bytes": 3193728,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndmi-comparison.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndmi-comparison.png",
+    "sha256": "3cefe842240448b69ac501dcc5a554003c330feb224a9419bae382c4f95d5e24",
+    "bytes": 3938039,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-baseline-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-baseline-count.bin.gz",
+    "sha256": "ee9008b9e3df94f602d5c4d6df5bb1ed501286b2ecd453805a3d29446ce8ed8b",
+    "bytes": 74210,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-baseline.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-baseline.bin.gz",
+    "sha256": "da0c94863cc9e0bf555c21862eef50b5cada207cba627daf6b5a0fcc552d1d33",
+    "bytes": 3623503,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-baseline.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-baseline.png",
+    "sha256": "92aa982bd66c62fe4dc2f0a00e93dedc6432a3c404ac8b4bb4b11a8878df933a",
+    "bytes": 4311848,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-change.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-change.bin.gz",
+    "sha256": "d637e981b1602049ba9f1b6e52cb56510e27750901801b7242ee5fb870dac5a2",
+    "bytes": 2656571,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-change.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-change.png",
+    "sha256": "f13dc4ac182c74d0dd469f9feb78abe0821e09bbd801b3c4031f4f01f281a695",
+    "bytes": 3859900,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-comparison-count.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-comparison-count.bin.gz",
+    "sha256": "f46c1e2cb1190544364da52a06be747dd7d0f950b0ea36e445c0092777c41624",
+    "bytes": 138680,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-comparison.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-comparison.bin.gz",
+    "sha256": "e10f553ff9b6e12aac16b8e9fc68a227043592c252293b5105b49e729c629689",
+    "bytes": 3366442,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/ndvi-comparison.png",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/ndvi-comparison.png",
+    "sha256": "72b55ace7a7e32d5daf9aad82e9605a44f572c8a859977e49559ba61eb5b7279",
+    "bytes": 4151828,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/study_area.geojson",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/study_area.geojson",
+    "sha256": "478ad21e0fde2ad4722dcb145a2b4b7e92362c74bce375332e772bfa001f98df",
+    "bytes": 10578,
+    "kind": "source"
+  },
+  {
+    "path": "public/satellite/raleigh/weekly_summary.csv",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/satellite/raleigh/weekly_summary.csv",
+    "sha256": "ee12bebbe9bc98c517a9aaf9ce733e9dfd1068cfecd5c1231de2f03033d9670f",
+    "bytes": 701,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/georisk/georisk-2024-samples.u16",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/georisk/georisk-2024-samples.u16",
+    "sha256": "cb1bd7e15d47cbbd9d2a4282108061ca17b5d1600c9e13b78c29934f47309ec7",
+    "bytes": 5031936,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/georisk/georisk-numeric-manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/georisk/georisk-numeric-manifest.json",
+    "sha256": "114ee4b843a8a22b435a9a1e9dbcb0b45191e430bf44ccb0950f83dd60520c31",
+    "bytes": 2376,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/georisk/georisk-reference-cdf.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/georisk/georisk-reference-cdf.json",
+    "sha256": "4aa0fbc635c64c0cffd238f6f29fff56a2adb780e80be52d893d23e8714f72b8",
+    "bytes": 112369,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/georisk/numeric-verification.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/georisk/numeric-verification.json",
+    "sha256": "2e1e4aacaccafc9a94864a77854baa30b9ddef37f4b3fcb864bea49fc417170f",
+    "bytes": 745,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/methodology.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/methodology.md",
+    "sha256": "a2a261ca9b0fa40fbc172c811345e02c26cb80e03365ebe4fb1d5441c269406f",
+    "bytes": 12090,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/photo-analysis-integration.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/photo-analysis-integration.md",
+    "sha256": "6940e3d8da1901baea246136bd991bbbc14deef0c906cb6c5a32a728e4480c62",
+    "bytes": 3401,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/manifest.json",
+    "sha256": "b575f3b913a87ca878cfbb883cb37be05ed11fb64e3f7a7768cf39746e9789bd",
+    "bytes": 34278,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-0.bin.gz",
+    "sha256": "54ab36b5a0860db3e42c03bca826232798edc7ad69fa93442765235838c7a445",
+    "bytes": 175153,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-128.bin.gz",
+    "sha256": "ae23675925d0c857a921101951d8a294d2318b7ab10fe03341d0aaad727ef092",
+    "bytes": 181127,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-256.bin.gz",
+    "sha256": "b7049269168b7b3f05b12bbe64bba1e72c246ca5ca4fd58487aef296490fdf6b",
+    "bytes": 179834,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-384.bin.gz",
+    "sha256": "d687928778a0a6a3b71f94abd54c561ceb8900485e23de0f399efd335fe105f2",
+    "bytes": 188973,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-512.bin.gz",
+    "sha256": "585ef360ae80897b6a24c746b8699da50ff47596106a787b05473cc3342407be",
+    "bytes": 191739,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-640.bin.gz",
+    "sha256": "568e7bb46f8ee3f8c3699c78c685e9149075e4402c26d31645b5696d60a554ee",
+    "bytes": 187426,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-768.bin.gz",
+    "sha256": "b46435bb8f19e32890458e2c49a0ae5279cf90148cc94ede1cad415ec19524a7",
+    "bytes": 170057,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-0-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-0-896.bin.gz",
+    "sha256": "3ac077f176138a729239c1c0cdb45de60d920e9540d53a4a5756f414adc9eec5",
+    "bytes": 161766,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-0.bin.gz",
+    "sha256": "5f86b92b196b140f554664fa91f67b55dc06707d7276606ee210f6a195ff6579",
+    "bytes": 225132,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-128.bin.gz",
+    "sha256": "6e0ecbb1bda6ac771693798b97de31147753ab1cec68e8842e615497e1ef0de9",
+    "bytes": 224916,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-256.bin.gz",
+    "sha256": "8385facef40e2d1668009e5fb91df24ad485c2dea25d8651fe5858f272a41463",
+    "bytes": 233787,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-384.bin.gz",
+    "sha256": "e2789de77b3b92c52b9099730f85840f7909e70d2cdbfb84dc5cfa0b35455e41",
+    "bytes": 233137,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-512.bin.gz",
+    "sha256": "499b7c3a2c3682bc7986af668af8c8913afe3d8c70df10f27dbabe4c9f2e7ef0",
+    "bytes": 229562,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-640.bin.gz",
+    "sha256": "6a63d5316603b29e1d21b15a8d9701024cef3c9795df28c96559aea499c464ce",
+    "bytes": 232346,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-768.bin.gz",
+    "sha256": "5347dd6b2b630f84583be086869862da154f4aea9aa5d3e9ef4b2d60ca00e2d0",
+    "bytes": 226492,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-128-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-128-896.bin.gz",
+    "sha256": "71e7d3f2b1efdb16100cc858039267616d8e65b5f7de75741d9ac8e4ffc0eab4",
+    "bytes": 219572,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-0.bin.gz",
+    "sha256": "7a6a42f3c754a8865a71e74935ab61fdc20d4c3469e76d3d0fd258485bd98d5b",
+    "bytes": 217753,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-128.bin.gz",
+    "sha256": "0d81893a3c0b9f6e68e8f4fdf602be6580c5c4374499fa9ac8234c7861d627b2",
+    "bytes": 208385,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-256.bin.gz",
+    "sha256": "9b142cc666c9626bc30e4229c7df9e5fc54263e23eab5cd4c190e797ae9bdf0d",
+    "bytes": 164613,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-384.bin.gz",
+    "sha256": "f2d9c3f1056191639a8581762374aaf74cae086ce82aef0144e6d1abbf1a7bc9",
+    "bytes": 189146,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-512.bin.gz",
+    "sha256": "d4921b694fa5359ac503d9e8eba54ca50cc3fb0c7274552febb666cbcb7a5d23",
+    "bytes": 222580,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-640.bin.gz",
+    "sha256": "99dbba8539106f85ead2f0eea9af27cedac1d2c5c8a9fc975f65e11603a6db2e",
+    "bytes": 228744,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-768.bin.gz",
+    "sha256": "78a317aecd9b4a9d81a383553a9aea579fdcc0212d7630fddf8d099694a3b3b6",
+    "bytes": 224433,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-256-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-256-896.bin.gz",
+    "sha256": "71eb06af8d76d179ef4c09736121627af5e3285f566b7b4f0a1f3ff76897228f",
+    "bytes": 224243,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-0.bin.gz",
+    "sha256": "3c3b0b325beb31b2493692d41092d1a504b7c560d40639509d1effc1e2d4af8a",
+    "bytes": 184576,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-128.bin.gz",
+    "sha256": "8f7485f3f027cf1c084df8f7c4273df4e07e8831598ee039a11104d944bf04f1",
+    "bytes": 142364,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-256.bin.gz",
+    "sha256": "b1f27732836aaacf9cfbaeda66a0e0292a5ed3c8b54c665128b25f727bc6d5a7",
+    "bytes": 79593,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-384.bin.gz",
+    "sha256": "13e0d59adac4dde57b31d34ccedd57e41bd0fa43459acccfcb6873981b6fc06f",
+    "bytes": 110198,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-512.bin.gz",
+    "sha256": "de97b429ecb7b36bcd3cdc294f37163c85462a9035b856fb2e23213e4d490530",
+    "bytes": 177853,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-640.bin.gz",
+    "sha256": "716fc13f06c64406fe5d8b410952a4e6b209dc6ea55474587096aabf73806ab3",
+    "bytes": 225187,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-768.bin.gz",
+    "sha256": "081262e88deabde7b8d44781979ba41aa969f2b4428affd0fa3e064ce939dac2",
+    "bytes": 227536,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-384-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-384-896.bin.gz",
+    "sha256": "105870f2de40567392014b518f8ac06a87f040a464e7f831997ba14eb56a3562",
+    "bytes": 225891,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-0.bin.gz",
+    "sha256": "d6ccaa94e855d69d378ab6041beb4a8080a54fcade7a5c43b5bcb4bda06e006d",
+    "bytes": 152828,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-128.bin.gz",
+    "sha256": "19db70803d2ffd84b08e7ed6e95c782c6841e4402cb572c4a78df74295e4ca99",
+    "bytes": 121043,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-256.bin.gz",
+    "sha256": "75664387006679824c78827528f7cfa8f693ebbff3ecbe6916ac2766ba7612b4",
+    "bytes": 216673,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-384.bin.gz",
+    "sha256": "f796c9e657082c16a8e650977caafc5a6faf70281da9165d00dc82da89156570",
+    "bytes": 82898,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-512.bin.gz",
+    "sha256": "b7710aa7447ec9e8255659a16f92b34550aa8417b3e7d080cf6d5b4cf2167c04",
+    "bytes": 121984,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-640.bin.gz",
+    "sha256": "f2f0ac7af42534e4890708f2c0597f21d3447993c704499da8509888826ac007",
+    "bytes": 222970,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-768.bin.gz",
+    "sha256": "78ca7697fa17cd4627068023e58e7af5f55f531fe47e94818cf36168016f4b1a",
+    "bytes": 231151,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-512-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-512-896.bin.gz",
+    "sha256": "4ca41ee2104720f056acd210b3155a43ac1fba03c188b45ec6cb81677e9d744a",
+    "bytes": 226947,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-0.bin.gz",
+    "sha256": "ebecdc195e47e70a643a4a9ced07a25703163dce4bea70967a8ba1e234f4512e",
+    "bytes": 130532,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-128.bin.gz",
+    "sha256": "bb6a810ddea8a23ff8fd82b5c5ee9b07ff75c458e8481d3cfdd36ef07e83c78e",
+    "bytes": 195665,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-256.bin.gz",
+    "sha256": "5e455cf06ef3e13076f6e0591ca1c9cd84ade0701b247389b1cb81d06900beeb",
+    "bytes": 138291,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-384.bin.gz",
+    "sha256": "2429d578d6547bdca178abe83c1678b99d7b65bf8e07c7da0064d89b35bedfbf",
+    "bytes": 138892,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-512.bin.gz",
+    "sha256": "cf65f7313a2c7b776cb56829f86826d0608b8ee7b4372734f94e00d190732ac6",
+    "bytes": 227042,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-640.bin.gz",
+    "sha256": "ad9951e18fb548575c86b5db44c61784fd2245ec18b7ee6694644ac4073256bd",
+    "bytes": 228032,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-768.bin.gz",
+    "sha256": "c0e9f312ae5e945988312c72598cb0f35c45c060305ccaaf644dd9b965ac7c99",
+    "bytes": 233414,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-640-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-640-896.bin.gz",
+    "sha256": "28719184cff4ff20c81bb1b44927bc1469247dec6dabf5d788bfa8a16731a217",
+    "bytes": 228984,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-0.bin.gz",
+    "sha256": "14733bdd2a2f8cedebdcb493559aa47bd1b9ec368dc0fbf9437aacec520e7547",
+    "bytes": 67055,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-128.bin.gz",
+    "sha256": "115f54ed913fccb21a88bfbcb6e5cfed751b87bf7dda3ed8d7cc0353a3f2942e",
+    "bytes": 107997,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-256.bin.gz",
+    "sha256": "7ab203340847877f2f99ec29e8e39114e21e6df823750da1cf88cbc807d124a2",
+    "bytes": 108545,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-384.bin.gz",
+    "sha256": "a48a410c86fbfe445d3b7a600b69872ac04680e5b0429f0e37403a01ee70935f",
+    "bytes": 111129,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-512.bin.gz",
+    "sha256": "44d4b6e0818176d5651231fd44f7d8a4d48fde82d9f9ccc0d260bfca954fd56c",
+    "bytes": 169115,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-640.bin.gz",
+    "sha256": "507f78385bc8a2c1fc9d627f9332a749732c2374d6cf46b5a16c80a7c2656483",
+    "bytes": 189884,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-768.bin.gz",
+    "sha256": "07aad1c09ffef1d5892494a2f44f193118a906e1388500f41b99249791149ea7",
+    "bytes": 214862,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-768-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-768-896.bin.gz",
+    "sha256": "74892c87c196ad4444a1a33af1a45947c907c511129616923bdaea52340b6912",
+    "bytes": 221049,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-0.bin.gz",
+    "sha256": "d3c2a1b3c9ac031f540210fce8f8af21db75fc88f547699d987e1311d1a915cb",
+    "bytes": 134998,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-128.bin.gz",
+    "sha256": "679a3b3f7179e2e97aa0860b8ae336c0faaf480bd88081e6ee69dd00540c7a96",
+    "bytes": 112502,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-256.bin.gz",
+    "sha256": "660b27b35a2c5388d28781e50ebaed4172433851a9680017628254fb0b2eaa40",
+    "bytes": 58557,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-384.bin.gz",
+    "sha256": "870e125ae77236f9fac256805729b08ba24c36c1c09d153ee0f166f062284efc",
+    "bytes": 75114,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-512.bin.gz",
+    "sha256": "3238eb055dfc77a5c2b221156a7ab63e11a931251c9a62eece547e5d1c84b743",
+    "bytes": 109721,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-640.bin.gz",
+    "sha256": "476c8a285ebeb91ec4339dac6101d0ffe2c408ba58634585549e810d1974f7b8",
+    "bytes": 128434,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-768.bin.gz",
+    "sha256": "e8e5f2b4978337ef7dd3c46e02257d07333633327b1a74fc2c0ff83910130c60",
+    "bytes": 83915,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c0-896-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c0-896-896.bin.gz",
+    "sha256": "8a97e654f440c06181a332c0e21b5f37a15abb39534db90bf2d9c1eaa099a4f9",
+    "bytes": 190459,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-0-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-0-0.bin.gz",
+    "sha256": "56a0d94b176bc0d40721345eff3d3793c1b2e567b02ffac35470db2847faea0d",
+    "bytes": 177221,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-0-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-0-128.bin.gz",
+    "sha256": "54c44958d69b5fb3ae03bbe6369196e9a936eb0c1ff3b5652cdd2dc62c923840",
+    "bytes": 223123,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-0-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-0-256.bin.gz",
+    "sha256": "e97bc041c127a3851ca6051f75a8b5ec4f8b187157a8690b0335103f343bc661",
+    "bytes": 222742,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-0-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-0-384.bin.gz",
+    "sha256": "f1ac232a27e2b1618bc8695f715cca19bf035b20ce06ed37f343d4546e8b2972",
+    "bytes": 221629,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-0-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-0-512.bin.gz",
+    "sha256": "c222b4f833195bdd7a5612c00a5a5b1f566208bc69aa09743454ee6dc2d8c4c8",
+    "bytes": 110969,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-128-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-128-0.bin.gz",
+    "sha256": "73b8c3ed9e5e7c9e781e7fb70c28cd849ee66678b39157fb71c8842ed28b3c87",
+    "bytes": 207553,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-128-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-128-128.bin.gz",
+    "sha256": "350683fe13fd3250b7359759a0ade54d34f0224d1d96334890c14d60a4fec64b",
+    "bytes": 234653,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-128-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-128-256.bin.gz",
+    "sha256": "78a1eff110c62c08b7627dbbe80b64747da694ff0e7a05b616a9a49826a6855e",
+    "bytes": 234807,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-128-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-128-384.bin.gz",
+    "sha256": "a4de67d7629051b24b9384c8974ebb941c6bec9b1cfc4b8ba96f717a3da0870a",
+    "bytes": 234527,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-128-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-128-512.bin.gz",
+    "sha256": "4ef9edc5973de6f8d422c3d9c9557e602bd2560c29d837208380eceeaba0097d",
+    "bytes": 129523,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-256-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-256-0.bin.gz",
+    "sha256": "4f6e765c88a6181e13bfafa27384f52a9cfa39ee09ab0e08f232213cc7372641",
+    "bytes": 234885,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-256-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-256-128.bin.gz",
+    "sha256": "69bc5914741c13f5e9d0d76039ecb74840c9ab953181ef4a28860fc4f89611df",
+    "bytes": 222068,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-256-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-256-256.bin.gz",
+    "sha256": "54da0f45cc8b949dff477eefa191746cbc13e3123d6c1dab76c61f12be960fec",
+    "bytes": 237972,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-256-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-256-384.bin.gz",
+    "sha256": "696fdc92d5308c8e262cfb0169d04e728af168abb09b141f0fb2d44d40623211",
+    "bytes": 237086,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-256-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-256-512.bin.gz",
+    "sha256": "fbd9da824adad47eb54dc3249fd9dec8fbad53f23423d51faed3f4c70504499b",
+    "bytes": 133099,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-384-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-384-0.bin.gz",
+    "sha256": "fce333e056f795a73c160cb99255d93d1e5926bc9592676d0aff6e5e801d6f4d",
+    "bytes": 232173,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-384-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-384-128.bin.gz",
+    "sha256": "705ef6e0abd977d8243097573bcf18baf9fc43c4fd4da7c2fed30a542e01e579",
+    "bytes": 229291,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-384-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-384-256.bin.gz",
+    "sha256": "ad6995b1e952e41fc4b241020b42c32773921806ee12ff5564c9562b358d35fa",
+    "bytes": 234249,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-384-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-384-384.bin.gz",
+    "sha256": "f7e2f5f16c7ef6c45f7576bd58780c94ba89dc163fa74392faabc95247758b26",
+    "bytes": 236037,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-384-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-384-512.bin.gz",
+    "sha256": "54f9fcd979984492c3604b500d45ec7beca5f003acbd614dec07c50c213ad416",
+    "bytes": 139787,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-512-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-512-0.bin.gz",
+    "sha256": "e2cf6d73eae22118495f502f6c07cde1e0a6903c741411da464eea20c2415dcf",
+    "bytes": 219845,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-512-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-512-128.bin.gz",
+    "sha256": "b21242acb5116a5f801601f707f6488c98d1f99aad82a6f5c5198ba450948f00",
+    "bytes": 225401,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-512-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-512-256.bin.gz",
+    "sha256": "380e0a786c299daac1121c81b84e4ace51f28c40441a86c9fefe696df3f9e59a",
+    "bytes": 222435,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-512-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-512-384.bin.gz",
+    "sha256": "b9c7f325c92871665b1edc9c773479ab86e785231e8c1c6524a74b6d8c796b30",
+    "bytes": 237212,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-512-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-512-512.bin.gz",
+    "sha256": "04103a665b050887d19fa39609b8c609c9d249a195cc417f927d1a3ab71c8305",
+    "bytes": 145907,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-640-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-640-0.bin.gz",
+    "sha256": "19696f7a43ee71de40ae56732e34f4096124ec905baee16720e5319de43c0192",
+    "bytes": 228702,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-640-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-640-128.bin.gz",
+    "sha256": "d6b978245365080de7f41b870a9958821a41d89001d0ec182cda844652143135",
+    "bytes": 232992,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-640-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-640-256.bin.gz",
+    "sha256": "091ff8e4be2b18a5d101cfca2b5a691c7e4ef319ecbed04ef6660f417b2bdfaa",
+    "bytes": 227353,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-640-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-640-384.bin.gz",
+    "sha256": "3adfc0610ae0c0489500637858226b17cf9d401116fd29893e0cb28c694d875e",
+    "bytes": 236187,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-640-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-640-512.bin.gz",
+    "sha256": "19e12e06a914a105025d8014b1963b3f60e1157db71f85c2a0aafd1fa898b6f4",
+    "bytes": 147630,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-768-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-768-0.bin.gz",
+    "sha256": "7d9490db822cedd332714c52207f45cb4a6710a806310b401859a7de7793cc50",
+    "bytes": 235706,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-768-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-768-128.bin.gz",
+    "sha256": "d2634db21cc7d314a3942ea4bcc47ffa9f31443210b0ce306f2eca1ef68eb32a",
+    "bytes": 240649,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-768-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-768-256.bin.gz",
+    "sha256": "ec06332ff29910c15b71fe0114c1f8ee40a33a121748eb9ba27fb951011ad749",
+    "bytes": 220471,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-768-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-768-384.bin.gz",
+    "sha256": "6ff6089109527b46d339fbec18e6908d31500fb6183c7bf9487c8c3e31f6e692",
+    "bytes": 233204,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-768-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-768-512.bin.gz",
+    "sha256": "2a8180e8d7cf62c173f07f439320a4d9c26a116000b858ca390157c33ae3501e",
+    "bytes": 155568,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-896-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-896-0.bin.gz",
+    "sha256": "5a6e029f5ed95701f12612afaa249f7f185f082f3e2de5a2d74364282f70fa6e",
+    "bytes": 229469,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-896-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-896-128.bin.gz",
+    "sha256": "114146683dd5a93bdbeaaf7ecef4ec5e6fe03cdb1bbc8207bb7297ee63668478",
+    "bytes": 235292,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-896-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-896-256.bin.gz",
+    "sha256": "a84fd1db87f3211e74ce3f85b48da9d108e435ec161f954e0d4429fd9f3f672d",
+    "bytes": 219367,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-896-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-896-384.bin.gz",
+    "sha256": "c7e73e423b1de9706725bc944ee2459e3cb7491f4875196c3eb5675bf2c0b64a",
+    "bytes": 219820,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r0_c1024-896-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r0_c1024-896-512.bin.gz",
+    "sha256": "05c8dc393b228ff465400e447638adf45924b57b83c22a5622fd210e49b710d3",
+    "bytes": 153382,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-0.bin.gz",
+    "sha256": "93856a2a14c88e753d926ed269eb567c705f5883f423be91d2e63452e7f2a4f7",
+    "bytes": 147128,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-128.bin.gz",
+    "sha256": "14b8819ade6d8f7a0332dc0cb9141fc03fd5442b9c4407c60ea9f2658c2efd84",
+    "bytes": 101590,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-256.bin.gz",
+    "sha256": "8b05868a2180491f265a8bc8318e3dd1dac9a345506d9ff08e90698babd9439c",
+    "bytes": 41971,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-384.bin.gz",
+    "sha256": "d26eb737f3beb8b3d6f08cfd109aeaebfa3419dcf2cec332fa2044841651e73d",
+    "bytes": 6685,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-512.bin.gz",
+    "sha256": "dd3580dc859a39ece0970216efb2dd91f44f9cd18bbdcc0fbc1c509c327bd914",
+    "bytes": 79874,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-640.bin.gz",
+    "sha256": "bdbf09458d67ec1d4fa5719c221d4b898024b2bf262d964d4b328d752f61c633",
+    "bytes": 193661,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-768.bin.gz",
+    "sha256": "639c65445495c13fb14a1b6f863deca215fe88d24b8870f55066a6c35328bb0b",
+    "bytes": 211032,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-0-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-0-896.bin.gz",
+    "sha256": "7366c4004c58cbe3e66801eb70732899a8198e5e4e2604e8fb23e9ef7453214e",
+    "bytes": 238665,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-0.bin.gz",
+    "sha256": "cc5f54434f465eeeaa7a13f56d686f90a23e8a6e9a36f4e36c76486bba2a815e",
+    "bytes": 175395,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-128.bin.gz",
+    "sha256": "b0925a55fcd797ca49a7379b686364b1eeaedd97559275644c46199047dcf374",
+    "bytes": 97885,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-256.bin.gz",
+    "sha256": "204b363d1a8f77c9b4ac04c178939ffb4733223dfead4a854bb60fec6eb864dd",
+    "bytes": 56236,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-384.bin.gz",
+    "sha256": "beb7c1454bfb74e72a134f2e497f64222cb9d1fb6f2f6193d83c9ac00a9349e3",
+    "bytes": 64677,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-512.bin.gz",
+    "sha256": "651a4d2ee1b510a6a44f7a02ee7efb748150a2139237c45f20e76cbe87de427b",
+    "bytes": 74989,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-640.bin.gz",
+    "sha256": "d878733cd1b1fde9f4eb79ac3a748d6df60c12c206cc748f7609cdf4adc2ca02",
+    "bytes": 183159,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-768.bin.gz",
+    "sha256": "1a6c3a13b22ba7e2c34f352062efb06dd3e0b34a3aab52b1da5ea74593f328da",
+    "bytes": 236007,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-128-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-128-896.bin.gz",
+    "sha256": "430d261c176c47d2754e11a8c650d4bb2621c17f5f941d4ab6e8653ff01aaa96",
+    "bytes": 233046,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-0.bin.gz",
+    "sha256": "09c2dc1ab3be234f0154be898858426a532f1a0680af456afcf1d08345b30c05",
+    "bytes": 183414,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-128.bin.gz",
+    "sha256": "79d743d63dbafc96301c3ea5301292f4e8225073b11a762d1620e77e62735065",
+    "bytes": 185785,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-256.bin.gz",
+    "sha256": "8920a979539b260f11ea2662c3fec6a1c002abf1cb6e9d138add076a35705f50",
+    "bytes": 108589,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-384.bin.gz",
+    "sha256": "0b9c7dd3490e1955c219baa32658fb070f9d8d0a77fec69504e077319fd93840",
+    "bytes": 101243,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-512.bin.gz",
+    "sha256": "941399366a937c2e9619868a64029892b111ea54783df0e8ce32a55090129b8d",
+    "bytes": 93449,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-640.bin.gz",
+    "sha256": "d4150385a31bc1125ecdd79cdb6707928a1fed01b0764167baa02a4ced3f77a5",
+    "bytes": 191007,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-768.bin.gz",
+    "sha256": "4fc036771c0cec232b4061a605a528122df2a3d018bb75cbb0cc9e8918d282a9",
+    "bytes": 235671,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-256-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-256-896.bin.gz",
+    "sha256": "c9499a0f862bb777107c32db37aaa7e960755621a0314b9f6f9ea88fc92d6297",
+    "bytes": 231874,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-0.bin.gz",
+    "sha256": "b24d491d0b25cd1ed78b626275b878830576684e5177de4fec894528fa0c23b2",
+    "bytes": 183092,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-128.bin.gz",
+    "sha256": "6e8ff1ca5f3a27322ac396a850eb84a01b98af89fb6f48f5e2816d0ef08bbedb",
+    "bytes": 233231,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-256.bin.gz",
+    "sha256": "fc21840d9c1bf03511546ce5a4bd0ccfe58151463d450386d97cc367504f1876",
+    "bytes": 228668,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-384.bin.gz",
+    "sha256": "316527155b382e39ba7383faa1a8243498cd63ed2c95bff9a6fac57a29809a5c",
+    "bytes": 195939,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-512.bin.gz",
+    "sha256": "be1292bfb3583bed141eeb3b3b1244efca85551ef752d6a35695b2178953922c",
+    "bytes": 184758,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-640.bin.gz",
+    "sha256": "a2b451c3b29bffa90c559dd9f08d9c453ae38ece4fcf40c0549e6787972fed18",
+    "bytes": 221184,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-768.bin.gz",
+    "sha256": "abbaa29253a4e2d8a73c1fc813eff71535745e47ba90222cb262a4a3556c539c",
+    "bytes": 235351,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-384-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-384-896.bin.gz",
+    "sha256": "2e8836161e40b94ea2e8dec6704799025b14d2472a9e06eef9a4315cd5c8cd88",
+    "bytes": 237085,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-0.bin.gz",
+    "sha256": "b24253906d3e13cda804dc9ac26e1eb49220a7490cf1b0886840336c9a80b9d0",
+    "bytes": 30387,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-128.bin.gz",
+    "sha256": "2b897fc255a40b061b6729225b5c2c513dd6a49399ebe440f4a1238d153bf27e",
+    "bytes": 35348,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-256.bin.gz",
+    "sha256": "ea135bd35ad49708f2b86019b1b2ba96fb63ca8a97ae6cd9d753117557838d15",
+    "bytes": 30440,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-384.bin.gz",
+    "sha256": "39f12c9514d7bee3b58d46f8217796be7dc426881f6569c0a14b413972d30009",
+    "bytes": 25277,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-512.bin.gz",
+    "sha256": "811e2a34c2700312d17cad5acf6647b5bf433a2b5b7c28f5a085916ff2329c1b",
+    "bytes": 21089,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-640.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-640.bin.gz",
+    "sha256": "ae908f2a4ed803f1af7aa8e94a8ce6162d23c3d7c4ce77f256cf025b9df58091",
+    "bytes": 16801,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-768.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-768.bin.gz",
+    "sha256": "dcfccc2d91cacda0eb47fbabe4ed737007c9df917a81f60ae5cd4df98dca76f5",
+    "bytes": 12141,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c0-512-896.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c0-512-896.bin.gz",
+    "sha256": "ecdd22287c9600eae4b5b46029c5af32f5fd2500cd94bdff84911e68737ba1d0",
+    "bytes": 6564,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-0-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-0-0.bin.gz",
+    "sha256": "14e4ad98dd1d3c74e5ad5f186e5eadf549e4588ed57e4dda5f1352b178309b53",
+    "bytes": 224951,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-0-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-0-128.bin.gz",
+    "sha256": "07564d0040ee429e1083bb9a1dce2a816871b6ac805e2c1cbf6bfa2856ab8c2e",
+    "bytes": 236867,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-0-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-0-256.bin.gz",
+    "sha256": "fd256074ac50c95180dece1b05bbc91bb3bacabff6dcc763d1e48e1a0b9049d8",
+    "bytes": 182863,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-0-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-0-384.bin.gz",
+    "sha256": "6374206c169909357bdcc8ecc5d5b2fdbbd81a73c640276e975ca0b596abf52e",
+    "bytes": 227843,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-0-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-0-512.bin.gz",
+    "sha256": "9f48bd1efae5cf1f7735722b324571a10063e262e0ea153d7a1c3a73bb19b9d3",
+    "bytes": 145345,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-128-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-128-0.bin.gz",
+    "sha256": "de73cd69f3dc5f008939dae4799823f4a77582d86f1dac8b92c53f04934ff80e",
+    "bytes": 223316,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-128-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-128-128.bin.gz",
+    "sha256": "fb6a0f835e6e168c8092a5ae49597196f55ace48a59738e32da99e20d414ddcc",
+    "bytes": 243102,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-128-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-128-256.bin.gz",
+    "sha256": "d0ddbfe2b63aa9b1f0fce0651fd8eab034e0fe2110adc6d6176049e26823131d",
+    "bytes": 130371,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-128-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-128-384.bin.gz",
+    "sha256": "28cf3e8ad8508e0f386e69949e619ae109c23745879e59402a53d02403505033",
+    "bytes": 88975,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-128-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-128-512.bin.gz",
+    "sha256": "8614a3d9d96e174250447f57ed4749d71d76131c0ec35178f9213167707130ac",
+    "bytes": 104464,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-256-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-256-0.bin.gz",
+    "sha256": "9c17d030013acdc4ae5e0d403d302bf60d60a2c6ba65e773f39904580b9293ca",
+    "bytes": 235134,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-256-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-256-128.bin.gz",
+    "sha256": "2963f2936c6b70be554d7c509edf8d6dd9fa31030c3b9a77bab42376b2b3c882",
+    "bytes": 194308,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-256-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-256-256.bin.gz",
+    "sha256": "72777ff278b65e8eba9c85ca97545fe39b9b34b8a1dafe817de781e58189e704",
+    "bytes": 153386,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-256-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-256-384.bin.gz",
+    "sha256": "441777887f91bbc0a0b1dbc07c9728b421f356f5084a5f1dc1bd2d12ee04ef14",
+    "bytes": 161010,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-256-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-256-512.bin.gz",
+    "sha256": "b474f94751200d35656ae683e40d131ace7bebaf5ba261f76a95a200c7816255",
+    "bytes": 149450,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-384-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-384-0.bin.gz",
+    "sha256": "949133a5a7f2db68f7316eadc9c3d6356528dae99202d1dad2c6b8cc87c15ba7",
+    "bytes": 221159,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-384-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-384-128.bin.gz",
+    "sha256": "0395f39de60d40569498f5840d31b4904e767af65f5fee31a8a2c3fd5da283ff",
+    "bytes": 160658,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-384-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-384-256.bin.gz",
+    "sha256": "5150b1cc3df7dc6c7da53790debaa2daa12bcb722245b1d6bae62b137889b300",
+    "bytes": 199583,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-384-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-384-384.bin.gz",
+    "sha256": "7dd5709b2f38737be2316a27712e490f71e80c00b1a113d1aa08327de377fd41",
+    "bytes": 219590,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-384-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-384-512.bin.gz",
+    "sha256": "27d1aad1fc382437dcaa037b297789da5116837be8ee6c2cd29a21ec326a8b46",
+    "bytes": 149657,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-512-0.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-512-0.bin.gz",
+    "sha256": "0c3ef23a2ac5f1422733c99cf09b14462ff00bfecca0f5c299398e35ebe6a6da",
+    "bytes": 1639,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-512-128.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-512-128.bin.gz",
+    "sha256": "9a047038efe8dc78f22259d073fc77d75771641dbdc0d0eebd495d2926c9663e",
+    "bytes": 133,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-512-256.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-512-256.bin.gz",
+    "sha256": "9a047038efe8dc78f22259d073fc77d75771641dbdc0d0eebd495d2926c9663e",
+    "bytes": 133,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-512-384.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-512-384.bin.gz",
+    "sha256": "9a047038efe8dc78f22259d073fc77d75771641dbdc0d0eebd495d2926c9663e",
+    "bytes": 133,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/satellite/r1024_c1024-512-512.bin.gz",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/satellite/r1024_c1024-512-512.bin.gz",
+    "sha256": "0f2315a11e00eb64f027668807c4ee31778ec334ccf0cd57e082bff43204e04d",
+    "bytes": 109,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/source-backup/index.html",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "ea5565e91d61ec06f510a9fb0bc7b61711321cb96dce90a12aada91a9e229193",
+    "bytes": 623,
+    "kind": "documentation"
+  },
+  {
+    "path": "public/unified/source-backup/manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/source-backup/manifest.json",
+    "sha256": "13209ba7609a42886397f0ab745b494150aba7c52763c25cf6768f9f9e374e98",
+    "bytes": 1807,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/validation/README.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/validation/README.md",
+    "sha256": "a336d1c8b54d2c26a54739df4b31e322b8d7cfea534327e02d60abc6b7692ef0",
+    "bytes": 8474,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/validation/site_inputs_TEMPLATE.csv",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/validation/site_inputs_TEMPLATE.csv",
+    "sha256": "52f210b08314c7ae9d98fc6f44b74d2c497c5356b2f3b334418028ec25671981",
+    "bytes": 1129,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/validation-status.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/validation-status.json",
+    "sha256": "4bbfd9b1b2ee91e37b7a6583e7a5386ba84d50f802608d6ce9b6a3edb44d8b72",
+    "bytes": 4736,
+    "kind": "source"
+  },
+  {
+    "path": "public/unified/verification-report.md",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/unified/verification-report.md",
+    "sha256": "ab146c6742a6d07d909eb8a666d487024453ee568e04b7ff6be88a98213e6e0e",
+    "bytes": 11030,
+    "kind": "source"
+  },
+  {
+    "path": "public/vendor/opencv/LICENSE",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/vendor/opencv/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "kind": "source"
+  },
+  {
+    "path": "public/vendor/opencv/manifest.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/vendor/opencv/manifest.json",
+    "sha256": "0c93efa2efb5947f6e914d3412737866ecfc25831a4df6669f2dfd0ce89c38ce",
+    "bytes": 175,
+    "kind": "source"
+  },
+  {
+    "path": "public/vendor/opencv/opencv.js",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/vendor/opencv/opencv.js",
+    "sha256": "bd0c3e6448043de04f6a64a12cb7b759f78c3ab8f7c35c9f2e0f71c88bb17103",
+    "bytes": 10872779,
+    "kind": "source"
+  },
+  {
+    "path": "public/window.svg",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/public/window.svg",
+    "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+    "bytes": 385,
+    "kind": "source"
+  },
+  {
+    "path": "README.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "kind": "documentation/source verification",
+    "sha256": "700aa97dc5672b47b77629575457b0c817c40220f37505ecbfae436172f75fbf",
+    "bytes": 22620
+  },
+  {
+    "path": "research/docs/CURRENT_COMPONENT_CHECKS.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\docs\\CURRENT_COMPONENT_CHECKS.json",
+    "sha256": "df33af44a055775b064677edf069f4847995d78104970adf0d42f0e561f6ed13",
+    "bytes": 1409,
+    "kind": "source"
+  },
+  {
+    "path": "research/evidence/coverage-notebook/Findings.md",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\evidence\\coverage-notebook\\Findings.md",
+    "sha256": "3003f35ba76e12fc774c1c0243012d1d9cbaeb0e909649b8a06f3ea86d41152e",
+    "bytes": 6245,
+    "kind": "source"
+  },
+  {
+    "path": "research/evidence/coverage-notebook/validation_report.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\evidence\\coverage-notebook\\validation_report.json",
+    "sha256": "da35a2f5c1ceb5eb2bd0682c7469d2026b43c25d7f691c610f71c05e03794906",
+    "bytes": 1404,
+    "kind": "source"
+  },
+  {
+    "path": "research/evidence/photo-analysis/replacement-inference-summary.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\evidence\\photo-analysis\\replacement-inference-summary.json",
+    "sha256": "42a21f50a6a9e6555883a0269361e66e9f29296d739acdaa37c51b33bc3558f6",
+    "bytes": 8177,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/aligned_dem_validation.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\aligned_dem_validation.json",
+    "sha256": "1e9ed46b1bfd0d036f86d9fb69809f03a4e08f7e4edcf4fe845cf39223db0da5",
+    "bytes": 5344,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/ecosignal_georisk_v2_1m.joblib",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\ecosignal_georisk_v2_1m.joblib",
+    "sha256": "6ec3a4a5e8cd3453f10f8f6b4b84b16dc87fcecccfbf7b0aa5e122bf62c5736d",
+    "bytes": 215815,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/ecosignal_georisk_v2_1m_metadata.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\ecosignal_georisk_v2_1m_metadata.json",
+    "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83",
+    "bytes": 6192,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/ecosignal_georisk_v2_holdout_checkpoint.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\ecosignal_georisk_v2_holdout_checkpoint.json",
+    "sha256": "53605ddc86cac787a67a9863402e26a43b83fd43c7c9d08249764a008b7f3a4f",
+    "bytes": 1111,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/ecosignal_georisk_v2_overlay.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\ecosignal_georisk_v2_overlay.json",
+    "sha256": "17d0f62bacee6afa07801d552b9d5386b77b6489f6c63c756eda587602de3ab9",
+    "bytes": 1245,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/execution_checkpoint.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\execution_checkpoint.json",
+    "sha256": "3c6f305a3b2a2bcf560c065de0b166f1ba1c54845ee6f9d8918c7e1cfa1c3246",
+    "bytes": 507,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/export_verification.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\export_verification.json",
+    "sha256": "66d174ce4a45d87aba961354372fd3847dddfccea3a8b79511f824a04be5e8fa",
+    "bytes": 2191,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/independent_holdout_predictions.npz",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\independent_holdout_predictions.npz",
+    "sha256": "aedaba63b591c5f152f05f704711e2defaad6c54f135273b5847da14d2d53be9",
+    "bytes": 327388,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/model_selection_2015_2022_dev.csv",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\model_selection_2015_2022_dev.csv",
+    "sha256": "de83e891571bcad04d5080f107d79a55aac79e72068e74a6420c9622a6328de3",
+    "bytes": 736,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/stable_ground_1m_diagnostic.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\stable_ground_1m_diagnostic.json",
+    "sha256": "ad9d247d93e2559b2fca1320a2ae99e963189459d03359aaafd3d64261b94d99",
+    "bytes": 551,
+    "kind": "source"
+  },
+  {
+    "path": "research/georisk-v2/tile_manifest.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\models\\georisk-v2\\tile_manifest.json",
+    "sha256": "7798a7e0d4dce4f845e569b3daa218a8b588abdef7269549409bc1a514119211",
+    "bytes": 62170,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/build-verified.sh",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/build-verified.sh",
+    "sha256": "4a777c7c6102d84f78e3ef52a16bad539f3ec28368e5e46e201acdefe3222565",
+    "bytes": 1001,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/create-source-backup.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/create-source-backup.py",
+    "sha256": "9f8a171a6d15aebfeb407ed1a0382bd607eea620c473e9903bbdf21af59c14ac",
+    "bytes": 2915,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/install-ci.sh",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/install-ci.sh",
+    "sha256": "c86541a04dec39f982eb6b103b60e3b376c518e84816b7876635877fb4c8569f",
+    "bytes": 6430,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/install-numeric-georisk.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/install-numeric-georisk.py",
+    "sha256": "e3020c0683d797ce6ab9f8e14dc36c75844928587cfd65bc16b479cb74cd4a8b",
+    "bytes": 1559,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/prepare-satellite.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/prepare-satellite.py",
+    "sha256": "b8124b7f54f3128f29fce8461787c6215ee446bdfe3fe881a8a54521547b50c1",
+    "bytes": 5697,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/prepare-unified-satellite.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/prepare-unified-satellite.py",
+    "sha256": "ba307d8b46b44fdb359355f27486a6d6bf15f1a03a565db096d267eed7ba3fe4",
+    "bytes": 2131,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/sites-env.sh",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/sites-env.sh",
+    "sha256": "df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60",
+    "bytes": 1530,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/validate-artifact.sh",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/validate-artifact.sh",
+    "sha256": "826354a781d909a664342b6a6f1a3155529e21f757dc163befa937420c713c2b",
+    "bytes": 1220,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/validate-site-export.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/validate-site-export.mjs",
+    "sha256": "b7ce8e0482f9c0cdf5dee98ea717d9b6d7650328f300a0a41bfa6ddb0e4d106c",
+    "bytes": 11411,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/verify-native-satellite.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/scripts/verify-native-satellite.py",
+    "sha256": "a2bb6ee7c656f3c1e4877a2d71337e59edf88ae795e8f48510c2b431647e206c",
+    "bytes": 1746,
+    "kind": "source"
+  },
+  {
+    "path": "scripts/verify-showcase.py",
+    "source": "showcase documentation authored 2026-10-26",
+    "kind": "documentation/source verification",
+    "sha256": "e659fac75ed38834666a7dccdf02d01bb34ed748f909e63c4b91a143b2622774",
+    "bytes": 1519
+  },
+  {
+    "path": "services/photo-analysis/api/__init__.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\api\\__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/api/coverage.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\api\\coverage.py",
+    "sha256": "f091c46666fae26f121c97cede2260f212526186b07a0ac6b76723fcc0acafbe",
+    "bytes": 5102,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/api/coverage_quality.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\api\\coverage_quality.py",
+    "sha256": "a0503ed98f45338d0bfb07a018ea83ceba3fd0eb91b02d96edb738c1fc4a20e9",
+    "bytes": 2796,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/api/growth.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\api\\growth.py",
+    "sha256": "cc9566705f92406ceb03a95e8b531087dbd04f38a7830b2e261ab482d7466c19",
+    "bytes": 3034,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/api/main.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\api\\main.py",
+    "sha256": "47caf869846e6951e4c9bfdb5734c184851d9d8e676d1dc4c558715fd62a191e",
+    "bytes": 5715,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/Dockerfile",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\Dockerfile",
+    "sha256": "406e574d71f10fb96ea10fb1b77e9812b90e6d8a6a12cd05e39a88d1aa9d9c0b",
+    "bytes": 544,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/MODEL_UPDATE.md",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\MODEL_UPDATE.md",
+    "sha256": "fc9f8247fcc357867d8a1033508e21454f8ecadfeadc3c87b12d6106f9cf57c0",
+    "bytes": 3328,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/models/coverage_metadata.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\models\\coverage_metadata.json",
+    "sha256": "d4647449bff8cc93eb7e562291be72b0b900f291e2c2d883bd5fd740a149b20f",
+    "bytes": 376,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/models/growthform_effnet_filtered_highacc.keras",
+    "source": "previously recovered local verified model growthform_effnet_filtered_highacc.keras",
+    "kind": "trained Keras model",
+    "sha256": "e8a1bc9033e9f0eada2aaf756abc15a73adf1e60ab082cf38b39f1314290e077",
+    "bytes": 29072841
+  },
+  {
+    "path": "services/photo-analysis/models/lichen_coverage_v2.keras",
+    "source": "previously recovered local verified model lichen_coverage_v2.keras",
+    "kind": "trained Keras model",
+    "sha256": "0496f79a349de607d43f6e3db3f05fe542e7d76ee13e46bf7b352feae7db3133",
+    "bytes": 68084295
+  },
+  {
+    "path": "services/photo-analysis/models/README.md",
+    "source": "showcase documentation authored 2026-10-26",
+    "sha256": "635395241f7faf69d92448b919bcf341bc7213037c7c0e4c39058abd032006d2",
+    "bytes": 1032,
+    "kind": "documentation"
+  },
+  {
+    "path": "services/photo-analysis/requirements.txt",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\requirements.txt",
+    "sha256": "5ec05477c6b2204de625532c8f866cc2d903eb0ceec51647b03b9bd069d78e2d",
+    "bytes": 152,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/site-integration/app/lib/photo-analysis-proxy.ts",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\site-integration\\app\\lib\\photo-analysis-proxy.ts",
+    "sha256": "5265fa5512ee9d95fd7c8e87ca4b96ec5bb3265e61930ebf46c22f68e2441f81",
+    "bytes": 2769,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/site-integration/app/lib/photo-analysis.ts",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\site-integration\\app\\lib\\photo-analysis.ts",
+    "sha256": "b14f73cb4817f9ac59d4464d69b87f1dbb0b3db3948ea84314617992beeced15",
+    "bytes": 2205,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/site-integration/install.mjs",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\site-integration\\install.mjs",
+    "sha256": "da5ffd4e6429fa42576315920c7b822c8524f43783e8fbfb3e299d1244d0f8d1",
+    "bytes": 9317,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/site-integration/test-connection.mjs",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\site-integration\\test-connection.mjs",
+    "sha256": "8769367cca6986c622a7d741136014fc0b109aa2c2731d3bd65e69b6c6acdf48",
+    "bytes": 3624,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/tests/test_api.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\tests\\test_api.py",
+    "sha256": "6025853ac2dfde902332aeeebc345dc79155b68c6ccea23486bc7a1a785e0399",
+    "bytes": 2967,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/tests/test_coverage_v2.py",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\tests\\test_coverage_v2.py",
+    "sha256": "527e86367f0d54ef8ca24d4661481d14efe79e778070b4f01f26b518c0a54c29",
+    "bytes": 1910,
+    "kind": "source"
+  },
+  {
+    "path": "services/photo-analysis/update-manifest.json",
+    "source": "C:\\Users\\dhina\\.codex\\.chatgpt-projects\\g-p-6a302292d4cc8191844cdfe35f4fa457\\EcoSignal_CAC_Repository\\services\\photo-analysis\\update-manifest.json",
+    "sha256": "ffe7a66ccd41454c4f993b2f200acf1f3c2d3bac7a7e496e36cae6379ea396d9",
+    "bytes": 1307,
+    "kind": "source"
+  },
+  {
+    "path": "tests/air-quality-client.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/air-quality-client.test.mjs",
+    "sha256": "56095464420920998a7247bcf518ef8777d267a175404e4b4d33428039f19944",
+    "bytes": 1804,
+    "kind": "source"
+  },
+  {
+    "path": "tests/air-quality.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/air-quality.test.mjs",
+    "sha256": "cdefc6672af709092bed68dbad529cf740c3ebf6ce09491a3d0d464573d4474d",
+    "bytes": 4129,
+    "kind": "source"
+  },
+  {
+    "path": "tests/chat-request.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/chat-request.test.mjs",
+    "sha256": "fc266d882453512fb043b589a3d09aa1605273320e695da2f71134e7005ddc4b",
+    "bytes": 6898,
+    "kind": "source"
+  },
+  {
+    "path": "tests/chat-response.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/chat-response.test.mjs",
+    "sha256": "080e2868122f72d3b3e5cd35c915adced8cad3a46bacc812e0310b09f5e22e08",
+    "bytes": 2225,
+    "kind": "source"
+  },
+  {
+    "path": "tests/chat-worker-runtime.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/chat-worker-runtime.test.mjs",
+    "sha256": "1dbd7bba3ae4badb0d66549139dcb1a135ad83e30eaa2c8325befbb4f0444f72",
+    "bytes": 2599,
+    "kind": "source"
+  },
+  {
+    "path": "tests/device-observations.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/device-observations.test.mjs",
+    "sha256": "7e1851bd1af7b6a8d16692273d8ed7022a4fdf812193d3119e0117019e49352f",
+    "bytes": 1872,
+    "kind": "source"
+  },
+  {
+    "path": "tests/display.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/display.test.mjs",
+    "sha256": "2ecba2c11da9efbe01c6bf3eb70d2df7fad7a1fd53b350e6ccba7fc81a9b8817",
+    "bytes": 1088,
+    "kind": "source"
+  },
+  {
+    "path": "tests/evidence-workspace.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/evidence-workspace.test.mjs",
+    "sha256": "69d278b18750daeea06702b327059fa597d7f5c1ea030bbcdd3bc91f82f68e27",
+    "bytes": 16755,
+    "kind": "source"
+  },
+  {
+    "path": "tests/fixtures/chat-images/baseline.jpg",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/fixtures/chat-images/baseline.jpg",
+    "sha256": "a5bfd1a2cb2c2b2450778f095a6b0103c1777ef0c5c439dd74a3e6d9b22234d4",
+    "bytes": 718,
+    "kind": "source"
+  },
+  {
+    "path": "tests/fixtures/chat-images/progressive.jpg",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/fixtures/chat-images/progressive.jpg",
+    "sha256": "2446e9cbc0ea3f42bc46d0891a137e996541f599ab29c0d877ef935e5b02b70d",
+    "bytes": 600,
+    "kind": "source"
+  },
+  {
+    "path": "tests/fixtures/georisk-sampling-fixtures.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/fixtures/georisk-sampling-fixtures.json",
+    "sha256": "3817d4add56a63c3ad7a5c0d521af8a9b0b1436f78ae8c31b5ce601ad1ed671f",
+    "bytes": 7100,
+    "kind": "source"
+  },
+  {
+    "path": "tests/georisk-assets.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/georisk-assets.test.mjs",
+    "sha256": "8a6181e7901cf2bce787f0de1feeb31788705dbf277c63376b87e4a031d5da62",
+    "bytes": 1962,
+    "kind": "source"
+  },
+  {
+    "path": "tests/georisk-numeric.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/georisk-numeric.test.mjs",
+    "sha256": "655a43cc11d81e3ed0993ea35b976808c148e1903d4b1fb7f744f6ae215ce117",
+    "bytes": 5258,
+    "kind": "source"
+  },
+  {
+    "path": "tests/map-geometry.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/map-geometry.test.mjs",
+    "sha256": "774ce4fe26b21fbc456cda03b7df58c60be97217a7b944a5467b53f51ea0b3e9",
+    "bytes": 3203,
+    "kind": "source"
+  },
+  {
+    "path": "tests/multimodal-chat.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/multimodal-chat.test.mjs",
+    "sha256": "c12e2873f28ef84815ab02e1d3dcac864a657bd95c9c9bf18e13f09e7d0cac1f",
+    "bytes": 12201,
+    "kind": "source"
+  },
+  {
+    "path": "tests/opencv-contract.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/opencv-contract.test.mjs",
+    "sha256": "7ce9256a645ec45b260bef7ceb3fb96ab3c87ecb4eb9c8137a83928f2c6759b7",
+    "bytes": 1883,
+    "kind": "source"
+  },
+  {
+    "path": "tests/photo-analysis.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/photo-analysis.test.mjs",
+    "sha256": "1f8767f2fca1a815eded989132d284ff3e57db2a5efb57bf6647c7e80ee366b5",
+    "bytes": 7034,
+    "kind": "source"
+  },
+  {
+    "path": "tests/photo-worker-runtime.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/photo-worker-runtime.test.mjs",
+    "sha256": "b740185717661b208effef53c2a548fce95fa106d50b2379dac63c8e80628340",
+    "bytes": 1639,
+    "kind": "source"
+  },
+  {
+    "path": "tests/production-runner.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/production-runner.test.mjs",
+    "sha256": "a6f132d18fcf6a4108760e156d780eba1a100a3abec7111a7fcb5d3b4cf623be",
+    "bytes": 4476,
+    "kind": "source"
+  },
+  {
+    "path": "tests/rendered-html.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/rendered-html.test.mjs",
+    "sha256": "cb2f7ab5025ad78f734906803c245b6a9c2c914c9c67fd0d8557cb53c8ff8174",
+    "bytes": 12347,
+    "kind": "source"
+  },
+  {
+    "path": "tests/satellite-data.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/satellite-data.test.mjs",
+    "sha256": "594494368dd93a5751dc5a3d1e2d0a2ddebe7aea18f7945baf9481db200a5daf",
+    "bytes": 2529,
+    "kind": "source"
+  },
+  {
+    "path": "tests/site-export.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/site-export.test.mjs",
+    "sha256": "2792d5108ff84c0b5d2ec65363094efd4659042547d05eaf06629af5947ab679",
+    "bytes": 3204,
+    "kind": "source"
+  },
+  {
+    "path": "tests/terrain-integration.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/terrain-integration.test.mjs",
+    "sha256": "a51604eb254f98ae9f1052a6ff94b74168c35e490858832c015c10eafd818355",
+    "bytes": 4778,
+    "kind": "source"
+  },
+  {
+    "path": "tests/unified-air.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/unified-air.test.mjs",
+    "sha256": "eb3e624016ebd578b6329dc1948635e47876a723b473ae59ef0adaa1830404f5",
+    "bytes": 2022,
+    "kind": "source"
+  },
+  {
+    "path": "tests/unified-native-fixtures.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/unified-native-fixtures.json",
+    "sha256": "ffb6641c5a6f9035b8c3831494596189b43b91015e52fa6bbbb4d3fce8a31e95",
+    "bytes": 1615,
+    "kind": "source"
+  },
+  {
+    "path": "tests/unified.test.mjs",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/unified.test.mjs",
+    "sha256": "125fbb934b09032a5096eaf03ee306eab690f82a8bab8ca0c2a04da5c1659afc",
+    "bytes": 13100,
+    "kind": "source"
+  },
+  {
+    "path": "tests/validate-satellite-source.py",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tests/validate-satellite-source.py",
+    "sha256": "7e92f5b6ede316c1290f4bb4f3986df540866d67272aba7cf2d6422cd6a8da0b",
+    "bytes": 2274,
+    "kind": "source"
+  },
+  {
+    "path": "tsconfig.json",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/tsconfig.json",
+    "sha256": "91ed94cb101ce4e60871b0d339943e421213108c2dabf49b1048e4a72104882c",
+    "bytes": 791,
+    "kind": "source"
+  },
+  {
+    "path": "vite.config.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/vite.config.ts",
+    "sha256": "43e5f02f727ca043f08ebf34789f330580a7a0cb90f426c92f4a454d066988fc",
+    "bytes": 1807,
+    "kind": "source"
+  },
+  {
+    "path": "worker/index.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/worker/index.ts",
+    "sha256": "b65c6c5dcbf4ae1d761a5c568b15b5f81b5acc7a67555d11fde4b4a57f6fa408",
+    "bytes": 2893,
+    "kind": "source"
+  },
+  {
+    "path": "worker-configuration.d.ts",
+    "source": "C:\\Users\\dhina\\Downloads\\EcoSignal-GitHub-v39-2026-10-26.zip!ecosignal-github/worker-configuration.d.ts",
+    "sha256": "8da638be703660014d134b11fa12f81f27e1a86560142e188d2d6578b21be180",
+    "bytes": 508046,
+    "kind": "source"
+  }
+]

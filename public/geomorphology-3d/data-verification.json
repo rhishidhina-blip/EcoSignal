@@ -1,0 +1,29 @@
+{
+  "status": "prepared",
+  "observed_years": [
+    2015,
+    2022,
+    2024
+  ],
+  "projection_years": [
+    2025,
+    2040
+  ],
+  "terrain_vertices_with_common_coverage": 10092,
+  "model_scored_display_vertices": 9778,
+  "risk_texture_hash_matches_verified_export": true,
+  "risk_geometry_uv_projection": "EPSG:32119 vertex centers transformed to EPSG:3857 original PNG coordinates",
+  "projection_is_not_georisk_output": true,
+  "hindcast": {
+    "test": "2015 and 2022 elevations predict withheld 2024 survey",
+    "n_display_cells": 10092,
+    "trend_mae_m": 0.19427877809863559,
+    "trend_rmse_m": 1.3136634286051132,
+    "no_change_mae_m": 0.1600862068965517,
+    "no_change_rmse_m": 1.064142498369978,
+    "trend_beats_no_change_mae": false,
+    "not_independent_of_survey_errors": true
+  },
+  "three_version": "0.186.0",
+  "website_deployment": "not performed"
+}

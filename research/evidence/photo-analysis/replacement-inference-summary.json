@@ -1,0 +1,211 @@
+[
+  {
+    "status": "completed",
+    "coverage": {
+      "status": "available",
+      "value": {
+        "coverage_percent": 2.265625
+      },
+      "confidence": 0.5810475589018258,
+      "version": "coverage_mobilenetv2_unet_320_v2_t065",
+      "warnings": [
+        "Coverage mask QA (legacy, uncalibrated for v2): mean_probability_low",
+        "Coverage mask QA (legacy, uncalibrated for v2): uncertain_boundaries",
+        "Coverage and confidence diagnostics require review; this replacement has not been independently validated on these field photos."
+      ],
+      "details": {
+        "quality_label": "review_medium_quality",
+        "needs_manual_review": true,
+        "quality_reasons": [
+          "mean_probability_low",
+          "uncertain_boundaries"
+        ],
+        "lichen_coverage_percent": 2.265625,
+        "mean_prob_inside": 0.7195873856544495,
+        "p10_prob_inside": 0.6649802327156067,
+        "uncertain_fraction_inside": 0.0,
+        "boundary_uncertain_fraction": 0.5500764525993884,
+        "component_count": 13,
+        "largest_component_ratio": 0.8284482758620689,
+        "small_component_count": 11,
+        "edge_touch_fraction": 0.0,
+        "mask_pixels": 2320,
+        "image_pixels": 102400,
+        "coverage_confidence": 0.5810475589018258,
+        "checkpoint_sha256": "0496f79a349de607d43f6e3db3f05fe542e7d76ee13e46bf7b352feae7db3133",
+        "input_size": 320,
+        "threshold": 0.65,
+        "threshold_source": "model_owner_explicit_instruction_2026-10-24",
+        "input_preprocessing": "RGB [0,1]; bilinear resize; [-1,1] rescaling inside model",
+        "coverage_basis": "thresholded native 320x320 mask over the entire photograph",
+        "postprocessing": "none; nearest-neighbor display mask",
+        "confidence_calibrated": false,
+        "quality_gate": "legacy heuristic retained, not validated for replacement model"
+      }
+    },
+    "growth_form": {
+      "status": "available",
+      "value": {
+        "growth_form": "crustose",
+        "raw_prediction": "crustose",
+        "decision": "tentative"
+      },
+      "confidence": 0.7311451435089111,
+      "version": "growthform_effnet_filtered_highacc_v1",
+      "warnings": [
+        "Growth-form result is tentative; retake preferred"
+      ],
+      "details": {
+        "class_order": [
+          "crustose",
+          "foliose",
+          "fruticose"
+        ],
+        "probabilities": {
+          "crustose": 0.7311451435089111,
+          "foliose": 0.06966377049684525,
+          "fruticose": 0.19919103384017944
+        },
+        "input_size": [
+          224,
+          224
+        ],
+        "preferred_confidence_threshold": 0.75,
+        "minimum_tentative_threshold": 0.6,
+        "checkpoint_sha256": "e8a1bc9033e9f0eada2aaf756abc15a73adf1e60ab082cf38b39f1314290e077",
+        "validation_at_0_80": {
+          "accepted_accuracy": 0.848,
+          "coverage": 0.458,
+          "retake_rate": 0.542
+        }
+      }
+    },
+    "image_sha256": "f9089de97622ec5e7f98fbc7674d5426c49d60b5ce5147d3dea7316cc9282db7",
+    "image_dimensions": {
+      "original": [
+        3024,
+        4032
+      ],
+      "analyzed": [
+        1200,
+        1600
+      ]
+    },
+    "warnings": [
+      "Coverage mask QA (legacy, uncalibrated for v2): mean_probability_low",
+      "Coverage mask QA (legacy, uncalibrated for v2): uncertain_boundaries",
+      "Coverage and confidence diagnostics require review; this replacement has not been independently validated on these field photos.",
+      "Growth-form result is tentative; retake preferred"
+    ],
+    "coverage_basis": "Percent of the entire analyzed photograph, not a separately identified bark surface."
+  },
+  {
+    "status": "needs_review",
+    "coverage": {
+      "status": "rejected_low_confidence",
+      "value": {
+        "coverage_percent": 0.0
+      },
+      "confidence": 0.0,
+      "version": "coverage_mobilenetv2_unet_320_v2_t065",
+      "warnings": [
+        "Coverage mask QA (legacy, uncalibrated for v2): coverage_too_low",
+        "Coverage mask QA (legacy, uncalibrated for v2): mean_probability_low",
+        "Coverage mask QA (legacy, uncalibrated for v2): low_confidence_regions_inside_mask",
+        "Coverage mask QA (legacy, uncalibrated for v2): too_much_uncertainty_inside_mask",
+        "Coverage mask QA (legacy, uncalibrated for v2): uncertain_boundaries",
+        "Coverage and confidence diagnostics require review; this replacement has not been independently validated on these field photos."
+      ],
+      "details": {
+        "quality_label": "review_or_reject_low_quality",
+        "needs_manual_review": true,
+        "quality_reasons": [
+          "coverage_too_low",
+          "mean_probability_low",
+          "low_confidence_regions_inside_mask",
+          "too_much_uncertainty_inside_mask",
+          "uncertain_boundaries"
+        ],
+        "lichen_coverage_percent": 0.0,
+        "mean_prob_inside": 0.0,
+        "p10_prob_inside": 0.0,
+        "uncertain_fraction_inside": 1.0,
+        "boundary_uncertain_fraction": 1.0,
+        "component_count": 0,
+        "largest_component_ratio": 0.0,
+        "small_component_count": 0,
+        "edge_touch_fraction": 0.0,
+        "mask_pixels": 0,
+        "image_pixels": 102400,
+        "coverage_confidence": 0.0,
+        "checkpoint_sha256": "0496f79a349de607d43f6e3db3f05fe542e7d76ee13e46bf7b352feae7db3133",
+        "input_size": 320,
+        "threshold": 0.65,
+        "threshold_source": "model_owner_explicit_instruction_2026-10-24",
+        "input_preprocessing": "RGB [0,1]; bilinear resize; [-1,1] rescaling inside model",
+        "coverage_basis": "thresholded native 320x320 mask over the entire photograph",
+        "postprocessing": "none; nearest-neighbor display mask",
+        "confidence_calibrated": false,
+        "quality_gate": "legacy heuristic retained, not validated for replacement model"
+      }
+    },
+    "growth_form": {
+      "status": "rejected_low_confidence",
+      "value": {
+        "growth_form": "uncertain",
+        "raw_prediction": "crustose",
+        "decision": "retake_required"
+      },
+      "confidence": 0.5525420904159546,
+      "version": "growthform_effnet_filtered_highacc_v1",
+      "warnings": [
+        "Growth-form confidence below 0.60; retake required"
+      ],
+      "details": {
+        "class_order": [
+          "crustose",
+          "foliose",
+          "fruticose"
+        ],
+        "probabilities": {
+          "crustose": 0.5525420904159546,
+          "foliose": 0.2117999941110611,
+          "fruticose": 0.23565787076950073
+        },
+        "input_size": [
+          224,
+          224
+        ],
+        "preferred_confidence_threshold": 0.75,
+        "minimum_tentative_threshold": 0.6,
+        "checkpoint_sha256": "e8a1bc9033e9f0eada2aaf756abc15a73adf1e60ab082cf38b39f1314290e077",
+        "validation_at_0_80": {
+          "accepted_accuracy": 0.848,
+          "coverage": 0.458,
+          "retake_rate": 0.542
+        }
+      }
+    },
+    "image_sha256": "676165b38f3f2148aa97b04cb8f9176967286998538b279426c77f3ebdea5430",
+    "image_dimensions": {
+      "original": [
+        3024,
+        4032
+      ],
+      "analyzed": [
+        1200,
+        1600
+      ]
+    },
+    "warnings": [
+      "Coverage mask QA (legacy, uncalibrated for v2): coverage_too_low",
+      "Coverage mask QA (legacy, uncalibrated for v2): mean_probability_low",
+      "Coverage mask QA (legacy, uncalibrated for v2): low_confidence_regions_inside_mask",
+      "Coverage mask QA (legacy, uncalibrated for v2): too_much_uncertainty_inside_mask",
+      "Coverage mask QA (legacy, uncalibrated for v2): uncertain_boundaries",
+      "Coverage and confidence diagnostics require review; this replacement has not been independently validated on these field photos.",
+      "Growth-form confidence below 0.60; retake required"
+    ],
+    "coverage_basis": "Percent of the entire analyzed photograph, not a separately identified bark surface."
+  }
+]

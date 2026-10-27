@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "manifest_files": 502,
+  "errors": [],
+  "scope": "File hashes, Python syntax, notebook structure and feature documentation links; not a production build or field validation",
+  "secret_pattern_hits": [],
+  "largest_file_bytes": 68084295,
+  "published_website_version": 39,
+  "source_commit": "e91366006e0f3a20992163d41eea143abaa75ef9",
+  "application_build_or_model_training_performed": false,
+  "remote_push": "not performed; local Git HTTPS connection failed credential/certificate checks",
+  "dataset_archives": "not redistributed; provenance records included",
+  "keras_weights": "both exact active checkpoints included and SHA-256 verified"
+}

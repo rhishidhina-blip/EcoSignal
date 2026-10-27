@@ -1,0 +1,17 @@
+{
+  "zip_sha256": "97ee60bae227ee6b3924b5dfd27d6426be946ad95437d6b76c3c17ed67bf8de9",
+  "files": {
+    "georisk-2024-samples.u16": "cb1bd7e15d47cbbd9d2a4282108061ca17b5d1600c9e13b78c29934f47309ec7",
+    "georisk-numeric-manifest.json": "114ee4b843a8a22b435a9a1e9dbcb0b45191e430bf44ccb0950f83dd60520c31",
+    "georisk-reference-cdf.json": "4aa0fbc635c64c0cffd238f6f29fff56a2adb780e80be52d893d23e8714f72b8",
+    "numeric-verification.json": "2e1e4aacaccafc9a94864a77854baa30b9ddef37f4b3fcb864bea49fc417170f",
+    "georisk-sampling-fixtures.json": "3817d4add56a63c3ad7a5c0d521af8a9b0b1436f78ae8c31b5ce601ad1ed671f",
+    "INTEGRATION.md": "d2a09fba8421c84406d0ff9f8257026521de13e03a35829ba7af14d3439b73c3",
+    "reference/georisk-model-portable.ubj": "3c119e8fa0e7bb0d479ffbaba36062e54d21afb43b3fd7677c8abd91383e78df",
+    "reference/georisk-model-portable.json": "bd91f79fe5d5fd75ea931ded9b23bbc955a837ff582de341fa71e2027ead1e57",
+    "reference/build_numeric_georisk.py": "c0f9ea4874a0be555551a45b88d6f80b4f7c7a677cf9ccee10d88658338eea03",
+    "reference/model-metadata.json": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83"
+  },
+  "valid_samples": 1473136,
+  "terrain_fixtures_are_observations": false
+}

@@ -1,0 +1,56 @@
+{
+  "notebook": "C:\\Users\\dhina\\Downloads\\Image_Extraction (1).ipynb",
+  "sha256": "69e481c5f764ca6dc21517df8829f3b8a2e2a032c24838814a1371c26e7fed02",
+  "type": "baseline; not verified active filtered classifier training run",
+  "data_source": "GBIF iNaturalist Research-grade occurrence media joined to Zenodo lichen species-growth-form trait data",
+  "gbif_dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+  "trait_csv_url": "https://zenodo.org/records/14236370/files/Lichen_dataset2024.11.28.csv?download=1",
+  "label_type": "silver_species_trait_join",
+  "source_config_target_per_class": 700,
+  "saved_training_image_count": 900,
+  "train_count": 720,
+  "validation_count": 180,
+  "test_set": "not recorded",
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "input": [
+    224,
+    224,
+    3
+  ],
+  "batch_size": 32,
+  "classes": [
+    "crustose",
+    "foliose",
+    "fruticose"
+  ],
+  "architecture": "ImageNet EfficientNetB0, global average pooling, dropout 0.35, softmax dense 3",
+  "head_learning_rate": 0.001,
+  "fine_tune_learning_rate": 1e-05,
+  "head_epochs_limit": 15,
+  "fine_tune_epochs_limit": 8,
+  "checkpoint_monitor": "val_accuracy (maximize), early-stop patience 4",
+  "checkpoint_basename": "growthform_effnet_baseline.keras",
+  "saved_validation_report": "              precision    recall  f1-score   support\n\n    crustose       0.82      0.75      0.79        61\n     foliose       0.75      0.77      0.76        62\n   fruticose       0.77      0.81      0.79        57\n\n    accuracy                           0.78       180\n   macro avg       0.78      0.78      0.78       180\nweighted avg       0.78      0.78      0.78       180\n\n\n<Figure size 640x480 with 2 Axes>",
+  "saved_review_prediction_counts": {
+    "correct": 140,
+    "incorrect": 40
+  },
+  "saved_model_sha256": "not recorded",
+  "active_checkpoint_basename": "growthform_effnet_filtered_highacc.keras",
+  "active_checkpoint_sha256": "e8a1bc9033e9f0eada2aaf756abc15a73adf1e60ab082cf38b39f1314290e077",
+  "active_linkage": "Baseline notebook is not evidence of active filtered model weights or accuracy. Previously recovered filtered notebook contains baseline-looking saved outputs (15-epoch output under 20-epoch source), so executed filtered-run provenance remains unverified.",
+  "evidence_cells_zero_based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28
+  ]
+}

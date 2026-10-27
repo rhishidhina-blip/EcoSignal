@@ -1,0 +1,7 @@
+*.ipynb text eol=lf
+*.u16 binary
+*.joblib binary
+*.npz binary
+*.ubj binary
+*.tif binary
+*.keras binary

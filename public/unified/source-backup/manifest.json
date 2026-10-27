@@ -1,0 +1,57 @@
+{
+  "filename": "EcoSignal-full-source-checkpoint.zip",
+  "size": 126473135,
+  "sha256": "510fcfbe5fe00050fbdc5f2cf969d772b865afcba971d5372b85116dc117a199",
+  "parts": [
+    {
+      "file": "source-checkpoint.part00",
+      "size": 16777216,
+      "sha256": "c5c68a24bd42ba4cfbf1e86e9215298c9daafe5acaafb75b97db70365bfe3287"
+    },
+    {
+      "file": "source-checkpoint.part01",
+      "size": 16777216,
+      "sha256": "7080a1bb2e1d101611c63bab5d629ffd79a80c9e0d5249a76824d885b064e4fb"
+    },
+    {
+      "file": "source-checkpoint.part02",
+      "size": 16777216,
+      "sha256": "a3147b717bf63c2bf7fc82d0f7420b9a288610a6da864101acc3331071fcb1c0"
+    },
+    {
+      "file": "source-checkpoint.part03",
+      "size": 16777216,
+      "sha256": "94509529516dd53c248182af1e51a658a0ed7bbeb7e810dfb721e14ce1fc1c5f"
+    },
+    {
+      "file": "source-checkpoint.part04",
+      "size": 16777216,
+      "sha256": "c788a34ab2a9f4a43a92d2f5aec11a142bfddb21868dc984a9ebb4b2a1175d56"
+    },
+    {
+      "file": "source-checkpoint.part05",
+      "size": 16777216,
+      "sha256": "91bb0c7796d18fa34890019b189000ac51ffadb1383b84f7905524702de017ec"
+    },
+    {
+      "file": "source-checkpoint.part06",
+      "size": 16777216,
+      "sha256": "03ce723e3dfe5b62bc296d019f7ee0abc95be49a4f348123e1a1e7851d11c533"
+    },
+    {
+      "file": "source-checkpoint.part07",
+      "size": 9032623,
+      "sha256": "ebe123a849a48732a139e494ac966dcfcaf2f6d62ecdc55226e21a7d9893d1ef"
+    }
+  ],
+  "snapshot": "Observation-image chat + existing environmental and evidence workflows; exact saved source commit is reported by Sites",
+  "excluded": [
+    "credentials",
+    "environment secrets",
+    "node_modules",
+    "build outputs",
+    "browser observation records",
+    "D1/R2 runtime data",
+    "executed notebook outputs"
+  ]
+}

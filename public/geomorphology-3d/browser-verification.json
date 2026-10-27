@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    "WebGL renders actual texture",
+    "2024 source model reference remains fixed",
+    "2040 geometry matches explicit trend formula",
+    "observed snapshots match source data",
+    "future labels visible",
+    "keyboard skips unavailable historic dates",
+    "surface switching works",
+    "mobile has no horizontal overflow",
+    "no browser errors",
+    "all assets same origin"
+  ],
+  "initial": {
+    "ready": true,
+    "year": 2040,
+    "kind": "exploratory-projection",
+    "riskReferenceYear": 2024,
+    "textureWidth": 1300,
+    "textureHeight": 1225,
+    "triangles": 19548,
+    "glError": 0
+  }
+}

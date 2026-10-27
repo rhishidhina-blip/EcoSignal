@@ -1,0 +1,37 @@
+{
+  "sample_signature": "8f8d0846cdf29d5c00e2246bf2f6c1c4c17402d1ec46c77ceda2cd99d64415fd",
+  "feature_implementation_version": "square-footprint-north-grade-v2",
+  "metrics": {
+    "roc_auc": 0.8032985710345042,
+    "pr_auc": 0.2694189983588361,
+    "precision": 0.09973463069438301,
+    "recall": 0.6278422273781903,
+    "f1": 0.17212645506011068,
+    "brier_uncalibrated": 0.20771255250247864,
+    "eligible_sample_prevalence": 0.0269375,
+    "top_decile_lift": 5.406032482598608,
+    "top_decile_recall": 0.5406032482598608,
+    "n": 80000,
+    "model": "XGBoost",
+    "threshold": 0.6140792965888977,
+    "test": "2022-2024 independent survey interval and geographically held-out blocks",
+    "lowering_threshold_m": 0.15
+  },
+  "eligible_source_counts": {
+    "eligible_0": 65838112,
+    "eligible_1": 1789692,
+    "ambiguous_or_invalid": 511683
+  },
+  "confusion_matrix": [
+    [
+      65632,
+      12213
+    ],
+    [
+      802,
+      1353
+    ]
+  ],
+  "frozen_model_file": "ecosignal_georisk_v2_frozen_checkpoint.joblib",
+  "warning": "Do not tune the model or thresholds using these holdout results."
+}

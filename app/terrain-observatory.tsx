@@ -1,0 +1,3 @@
+"use client";
+import EcoSignalTerrain from './ecosignal-terrain';
+export default function TerrainObservatory(){return <div className="terrain-observatory"><div className="terrain-intro"><div><p className="eyebrow">MEASURED TERRAIN / EXPLORATORY SCENARIOS</p><h2>3D Terrain Observatory</h2><p>2015, 2022 &amp; 2024 DEMs · Model surface fixed at 2024</p></div><a className="button secondary" href="/geomorphology-3d/assets/ecosignal_georisk_v2_1m.joblib" download="ecosignal_georisk_v2_1m.joblib">Download trained model ↗</a></div><EcoSignalTerrain/><p className="terrain-source-note">2025–2040 shapes extend historical elevation trends; they are exploratory scenarios, not validated forecasts. GeoRisk colors remain the actual 2024 susceptibility output for every date.</p></div>}

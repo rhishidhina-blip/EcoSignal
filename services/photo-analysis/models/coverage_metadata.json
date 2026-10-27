@@ -1,0 +1,9 @@
+{
+  "model": "lichen_coverage_v2.keras",
+  "sha256": "0496f79a349de607d43f6e3db3f05fe542e7d76ee13e46bf7b352feae7db3133",
+  "input_size": 320,
+  "threshold": 0.65,
+  "threshold_source": "user instruction 2026-10-24",
+  "preprocessing": "RGB float [0,1], bilinear; built-in Rescaling(2,-1)",
+  "postprocessing": "threshold native mask; nearest-neighbor display resize"
+}

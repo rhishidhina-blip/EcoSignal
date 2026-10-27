@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: ecosignal-ask-lichen-lens
+    runtime: python
+    buildCommand: python -m pip install --only-binary=:all: -r requirements.txt
+    startCommand: uvicorn main:api --host 0.0.0.0 --port $PORT
+    healthCheckPath: /assistant/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ECOSIGNAL_CHAT_MODEL
+        value: gemini-3.1-flash-lite
+      - key: ECOSIGNAL_CHAT_FALLBACK_MODELS
+        value: ""
+      - key: ECOSIGNAL_ALLOWED_ORIGINS
+        value: https://ecosignal-app.dhina-srini.chatgpt.site
+      - key: ECOSIGNAL_ENABLE_EMBEDDINGS
+        value: "0"
+      - key: ECOSIGNAL_ENABLE_PUBLIC_AUDIT
+        value: "0"
+      - key: ECOSIGNAL_ENABLE_GEMINI_DIAGNOSTICS
+        value: "0"
+      - key: ECOSIGNAL_GEMINI_TIMEOUT_MS
+        value: "18000"
+      - key: ECOSIGNAL_GEMINI_CONCURRENCY
+        value: "1"
+      - key: ECOSIGNAL_GEMINI_MAX_ATTEMPTS
+        value: "2"
+      - key: ECOSIGNAL_GEMINI_BACKOFF_SECONDS
+        value: "1.0"
+      - key: ECOSIGNAL_GEMINI_QUEUE_TIMEOUT_SECONDS
+        value: "3"
+      - key: ECOSIGNAL_GEMINI_BUDGET_SECONDS
+        value: "40"

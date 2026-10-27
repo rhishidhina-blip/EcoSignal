@@ -1,0 +1,15 @@
+"use client";
+/* eslint-disable @next/next/no-img-element */
+import {useEffect,useState} from 'react';
+import {satelliteAsset,satelliteData,numericValue,rasterCell,SatelliteIndex,SatellitePeriod,periodLabel} from './lib/satellite';
+type Point={lon:number;lat:number};
+const cache=new Map<string,{values:Int16Array;counts:Uint8Array|null}>();
+async function unpack(url:string,signal:AbortSignal){const r=await fetch(url,{signal});if(!r.ok)throw Error('Satellite values unavailable');if(!r.body)throw Error('Satellite values unavailable');return new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();}
+export default function RasterOverlay({index,period,screen,point,visible,retry}:{index:SatelliteIndex;period:SatellitePeriod;screen:(lon:number,lat:number)=>{x:number;y:number};point:Point;visible:boolean;retry:number}){
+ const [data,setData]=useState<{values:Int16Array;counts:Uint8Array|null}|null>(null),[error,setError]=useState(''),[imageError,setImageError]=useState(false);
+ const asset=satelliteAsset(index,period),key=`${index}-${period}`;
+ useEffect(()=>{setData(null);setError('');setImageError(false);const old=cache.get(key);if(old){setData(old);return;}const controller=new AbortController();(async()=>{try{const values=new Int16Array(await unpack(asset.values,controller.signal));const counts='counts' in asset?new Uint8Array(await unpack(asset.counts,controller.signal)):null;if(values.length!==satelliteData.width*satelliteData.height)throw Error('Invalid satellite grid');const result={values,counts};cache.set(key,result);if(cache.size>3)cache.delete(cache.keys().next().value!);if(!controller.signal.aborted)setData(result);}catch{if(!controller.signal.aborted)setError('Point values unavailable. Retry the layer.');}})();return()=>controller.abort();},[key,retry,asset]);
+ const [west,south,east,north]=satelliteData.bounds,nw=screen(west,north),se=screen(east,south),cell=rasterCell(point.lon,point.lat),value=data?numericValue(data.values,cell):null,count=data?.counts&&cell!==null?data.counts[cell]:null;
+ return <>{visible&&<img key={key+'-'+retry} className="measured-raster" src={asset.image} draggable={false} alt={`${index} ${periodLabel(period)} georeferenced Sentinel-2 index layer`} style={{left:nw.x,top:nw.y,width:se.x-nw.x,height:se.y-nw.y,opacity:0.45}} onError={()=>setImageError(true)} onLoad={()=>setImageError(false)}/>}
+ <div className="raster-inspector" role="status"><b>{period==='change'?'Δ ':''}{index} <small>{periodLabel(period)}</small></b><strong>{error?'Unavailable':!data?'Loading…':cell===null?'Outside study area':value===null?'No clear data':`${value>0&&period==='change'?'+':''}${value.toFixed(2)}`}</strong><span>{point.lat.toFixed(2)}, {point.lon.toFixed(2)}</span><small>{error||imageError?'Layer could not fully load. Use Retry.':count!==null&&value!==null?`${count} clear observation${count===1?'':'s'} · selected pixel`:period==='change'&&value!==null?'Common clear pixels · index difference':'Click the map to inspect a pixel'}</small></div></>;
+}

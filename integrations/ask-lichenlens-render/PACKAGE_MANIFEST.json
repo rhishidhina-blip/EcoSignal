@@ -1,0 +1,78 @@
+{
+  "UPLOAD_INSTRUCTIONS.md": {
+    "bytes": 2533,
+    "sha256": "872a6a3f59e4c6caf3a36ee40d15b710c69e9a290048c47c6786ef516337ac7d"
+  },
+  "main.py": {
+    "bytes": 225009,
+    "sha256": "b5eb6f2c9e63c8eb7024b7eda5e4e648ae118fc859c0418d0a56b78f0fdb4143"
+  },
+  "render.yaml": {
+    "bytes": 1137,
+    "sha256": "edb5b418b9ec25e7621ba6671ebbc7a390268d5c730bfeefcfc42c8ad58b676f"
+  },
+  "CONVERSATION_CONTEXT.md": {
+    "bytes": 278,
+    "sha256": "775d8f1238179071fdb0b717ee718ab3d27041c7ac095fa59f12204bb36bc7fd"
+  },
+  ".python-version": {
+    "bytes": 5,
+    "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+  },
+  "semantic_checks.py": {
+    "bytes": 11807,
+    "sha256": "21ff6219bdcdb45e188f0a821605b66bf09096dd36e4aec55f5625a485a5e8a3"
+  },
+  "VALIDATION.md": {
+    "bytes": 970,
+    "sha256": "08660b111725f620a67cc1f44425ca07fa7589c3cebf7003ede04faf070cea1f"
+  },
+  "README.md": {
+    "bytes": 6014,
+    "sha256": "15bd13f72c30fa3070be9d891feeda0e9cda9e7ca0cfab8b0ac42008ed757de2"
+  },
+  "TEST_RESULTS.txt": {
+    "bytes": 6913,
+    "sha256": "a5d6aa36f140735b25d14630dd32e628e2b2cb00bd3da5bb32ef635a44cbc6b5"
+  },
+  "RESPONSE_TIMES.json": {
+    "bytes": 185,
+    "sha256": "894e6ffa6689653e2c4646c01da67b596ea190ae563910efb550936ca16c3fc8"
+  },
+  "observation_context.py": {
+    "bytes": 7125,
+    "sha256": "43f0945e8ddb9c48a10fa859776e266e1d1e540e1948fcf50566c0ceee9f2165"
+  },
+  "requirements.txt": {
+    "bytes": 162,
+    "sha256": "2ffffd3eedd89b485fbeca2b87ec4b69186a83d4c3ea38f0ed9822b9109322d1"
+  },
+  "RENDER_DIAGNOSTICS.md": {
+    "bytes": 6119,
+    "sha256": "f9949b5b346566dd49736b68600aaf661f3816fd1597400fd50c07813e8a28c7"
+  },
+  "gemini_diagnostic.py": {
+    "bytes": 7497,
+    "sha256": "c3c61789b53276b22e5813592c65889ee90fed05d178ee98b27645596fa9fd4d"
+  },
+  "measure_response_times.py": {
+    "bytes": 2977,
+    "sha256": "c9dd339866edefd2e213ca671d3f664b1e222dd94b267d7b2e1dabae457bc21d"
+  },
+  ".gitignore": {
+    "bytes": 154,
+    "sha256": "b67dce5169ff11869f1e4f6b2a3cebd5c21320bf752e6036e293816dd5528c59"
+  },
+  "tests/test_diagnostic.py": {
+    "bytes": 6351,
+    "sha256": "04e8972b9e601996af723e46a19660e7b26089ddd04ee8600c9cfdc0189e17ea"
+  },
+  "tests/test_multimodal.py": {
+    "bytes": 7369,
+    "sha256": "de9b8879b68f21284c09fb3d6e9455f8b11c05118b6821ea2c81134a3fee6b34"
+  },
+  "tests/test_semantic.py": {
+    "bytes": 231,
+    "sha256": "35dc6cf7f431858fb9364b5df6ace2b2e9f4a79e547251f0d389fd3277e16cfb"
+  }
+}

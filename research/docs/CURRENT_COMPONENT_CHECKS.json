@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "photo_service": {
+    "passed": true,
+    "tests": 9,
+    "method": "pytest; recovered models, transport and adapter checks",
+    "live_inference_this_task": false
+  },
+  "planner": {
+    "passed": true,
+    "tests": 33,
+    "method": "unittest; original recovered embedded v3 source"
+  },
+  "text_assistant_baseline": {
+    "passed": true,
+    "top_level_tests": 8,
+    "nested_semantic_checks": 25,
+    "distinct_checks": 32,
+    "live_gemini": false
+  },
+  "newer_recovered_multimodal_backend": {
+    "passed": false,
+    "top_level_tests": 15,
+    "top_level_passed": 13,
+    "errors": 2,
+    "nested_semantic_passed": 25,
+    "error_scope": "Windows cleanup PermissionError on temporary audit.db files in two test tearDown methods; behavior assertions did not fail. Source was not modified to hide errors.",
+    "live_gemini": false
+  },
+  "website_build": "not_run",
+  "deployment": "not_performed",
+  "secret_screening": "Known provider/token/credential patterns in text and decoded notebook strings; excluded actual environment/credential files; no detected live credentials in screened source",
+  "source_checkpoint": {
+    "bytes": 126473135,
+    "members": 412,
+    "sha256": "510fcfbe5fe00050fbdc5f2cf969d772b865afcba971d5372b85116dc117a199",
+    "recovered_from": "existing published EcoSignal source-download page",
+    "latest_live_commit": "not established"
+  }
+}

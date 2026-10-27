@@ -1,0 +1,18 @@
+{
+  "2015-2022": {
+    "candidate_points": 3553620,
+    "median_m": -0.022064208984375,
+    "robust_spread_m": 0.0624951533973217,
+    "regional_p95_minus_p05_m": 0.08723058700561523,
+    "regional_blocks": 184,
+    "status": "candidate_terrain_only_no_geoid_correction"
+  },
+  "2022-2024": {
+    "candidate_points": 3563150,
+    "median_m": 0.0160675048828125,
+    "robust_spread_m": 0.03628677874803543,
+    "regional_p95_minus_p05_m": 0.04525222778320312,
+    "regional_blocks": 184,
+    "status": "candidate_terrain_only_no_geoid_correction"
+  }
+}

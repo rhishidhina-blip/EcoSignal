@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "source": "Copernicus Sentinel-2 L2A",
+  "start": "2026-09-21",
+  "end_exclusive": "2026-10-05",
+  "crs": "EPSG:32617",
+  "resolution_m": 20,
+  "indices": [
+    "NDVI",
+    "NDMI",
+    "BSI",
+    "MNDWI"
+  ],
+  "min_clear_observations": 1,
+  "cloud_probability_threshold_percent": 40,
+  "cloud_buffer_m": 40,
+  "acquisition_dates": [
+    "2026-09-21",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-29",
+    "2026-10-01",
+    "2026-10-04"
+  ],
+  "outputs": [
+    {
+      "kind": "weekly",
+      "week": "2026-09-21",
+      "tile": "r0_c0",
+      "file": "weekly/2026-09-21/r0_c0.tif",
+      "bbox_wgs84": [
+        -78.82747855223299,
+        35.7925949701759,
+        -78.59543831100972,
+        35.981418939149854
+      ],
+      "acquisition_dates": [
+        "2026-09-21",
+        "2026-09-24",
+        "2026-09-26"
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-28",
+      "tile": "r0_c0",
+      "file": "weekly/2026-09-28/r0_c0.tif",
+      "bbox_wgs84": [
+        -78.82747855223299,
+        35.7925949701759,
+        -78.59543831100972,
+        35.981418939149854
+      ],
+      "acquisition_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-04"
+      ]
+    },
+    {
+      "kind": "change",
+      "week": "2026-09-28",
+      "previous_week": "2026-09-21",
+      "tile": "r0_c0",
+      "file": "changes/2026-09-28/r0_c0.tif",
+      "bbox_wgs84": [
+        -78.82747855223299,
+        35.7925949701759,
+        -78.59543831100972,
+        35.981418939149854
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-21",
+      "tile": "r0_c1024",
+      "file": "weekly/2026-09-21/r0_c1024.tif",
+      "bbox_wgs84": [
+        -78.60101197271158,
+        35.78983587664361,
+        -78.46068577874767,
+        35.97708237779211
+      ],
+      "acquisition_dates": [
+        "2026-09-21",
+        "2026-09-24",
+        "2026-09-26"
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-28",
+      "tile": "r0_c1024",
+      "file": "weekly/2026-09-28/r0_c1024.tif",
+      "bbox_wgs84": [
+        -78.60101197271158,
+        35.78983587664361,
+        -78.46068577874767,
+        35.97708237779211
+      ],
+      "acquisition_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-04"
+      ]
+    },
+    {
+      "kind": "change",
+      "week": "2026-09-28",
+      "previous_week": "2026-09-21",
+      "tile": "r0_c1024",
+      "file": "changes/2026-09-28/r0_c1024.tif",
+      "bbox_wgs84": [
+        -78.60101197271158,
+        35.78983587664361,
+        -78.46068577874767,
+        35.97708237779211
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-21",
+      "tile": "r1024_c0",
+      "file": "weekly/2026-09-21/r1024_c0.tif",
+      "bbox_wgs84": [
+        -78.83009315167642,
+        35.69638512190098,
+        -78.60101197271158,
+        35.79690240363229
+      ],
+      "acquisition_dates": [
+        "2026-09-21",
+        "2026-09-24",
+        "2026-09-26"
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-28",
+      "tile": "r1024_c0",
+      "file": "weekly/2026-09-28/r1024_c0.tif",
+      "bbox_wgs84": [
+        -78.83009315167642,
+        35.69638512190098,
+        -78.60101197271158,
+        35.79690240363229
+      ],
+      "acquisition_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-04"
+      ]
+    },
+    {
+      "kind": "change",
+      "week": "2026-09-28",
+      "previous_week": "2026-09-21",
+      "tile": "r1024_c0",
+      "file": "changes/2026-09-28/r1024_c0.tif",
+      "bbox_wgs84": [
+        -78.83009315167642,
+        35.69638512190098,
+        -78.60101197271158,
+        35.79690240363229
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-21",
+      "tile": "r1024_c1024",
+      "file": "weekly/2026-09-21/r1024_c1024.tif",
+      "bbox_wgs84": [
+        -78.6038985154414,
+        35.69363572359079,
+        -78.46657099663803,
+        35.7925949701759
+      ],
+      "acquisition_dates": [
+        "2026-09-21",
+        "2026-09-24",
+        "2026-09-26"
+      ]
+    },
+    {
+      "kind": "weekly",
+      "week": "2026-09-28",
+      "tile": "r1024_c1024",
+      "file": "weekly/2026-09-28/r1024_c1024.tif",
+      "bbox_wgs84": [
+        -78.6038985154414,
+        35.69363572359079,
+        -78.46657099663803,
+        35.7925949701759
+      ],
+      "acquisition_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-04"
+      ]
+    },
+    {
+      "kind": "change",
+      "week": "2026-09-28",
+      "previous_week": "2026-09-21",
+      "tile": "r1024_c1024",
+      "file": "changes/2026-09-28/r1024_c1024.tif",
+      "bbox_wgs84": [
+        -78.6038985154414,
+        35.69363572359079,
+        -78.46657099663803,
+        35.7925949701759
+      ]
+    }
+  ],
+  "limitations": [
+    "Weekly values are median per-day indices, not daily measurements.",
+    "NDMI is a vegetation moisture indicator, not soil water percentage.",
+    "BSI and water thresholds require local validation; changes do not establish causes.",
+    "Seasonality, agriculture, construction and residual cloud/shadow can affect changes.",
+    "Per-day mosaics may include multiple passes/tiles; catalog.json records candidate scenes.",
+    "Only adjacent fixed weeks are compared; missing weeks are not silently bridged.",
+    "A one-observation week is sparse evidence, not calibrated confidence."
+  ],
+  "completed": true
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "path": "notebooks/assistant/environmental-databank-saved-run.ipynb",
+    "original_notebook_sha256": "e379f427eea05efade26c805674ce7854a0a9cd62839171a28b40c8e9c6455ad",
+    "source_notebook": "environmental-databank-saved-run.ipynb",
+    "output_bundles_cleared": 26
+  },
+  {
+    "path": "notebooks/assistant/grounded-chatbot-saved-run.ipynb",
+    "original_notebook_sha256": "f69ce32b2a4b8945c0d8a28e3a7534850c6a70e8186cc65adbeec536562399e1",
+    "source_notebook": "grounded-chatbot-saved-run.ipynb",
+    "output_bundles_cleared": 20
+  },
+  {
+    "path": "notebooks/assistant/semantic-conversation.ipynb",
+    "original_notebook_sha256": "32185636ae25628cbfab8dc4825cc47a120b94ca78f1cf474fbc6a8a09fd111b",
+    "source_notebook": "semantic-conversation.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/field/features-17-19.ipynb",
+    "original_notebook_sha256": "4509f5001d5dd9408b8636e0d31f0c2b6b08a5844f7ce9052c1655896ede7a3b",
+    "source_notebook": "features-17-19.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/field/repeat-scans-saved-run.ipynb",
+    "original_notebook_sha256": "c8dad133714ea0ad97cc273b201947b49a1dd2c5e08138f82c42dd28e342450e",
+    "source_notebook": "repeat-scans-saved-run.ipynb",
+    "output_bundles_cleared": 14
+  },
+  {
+    "path": "notebooks/georisk/GeoRisk-v2-reviewed.ipynb",
+    "original_notebook_sha256": "0ff80d04cd6bccf34bb89434e734e04165d20597599cb8ea06b9fd4e14b0a616",
+    "source_notebook": "GeoRisk-v2-reviewed.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/georisk/GeoRisk-v2-runtime.ipynb",
+    "original_notebook_sha256": "ad49967728d57f8be7dc69574fc0d3bd20beb5c51c3b644b1ac4cf24970f6352",
+    "source_notebook": "GeoRisk-v2-runtime.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/historical/coverage-pytorch.ipynb",
+    "original_notebook_sha256": "295318b2897ef3bd6f6fc434087cbaa861fd8f7278eddefbc24c360d88e4338f",
+    "source_notebook": "coverage-pytorch.ipynb",
+    "output_bundles_cleared": 64
+  },
+  {
+    "path": "notebooks/historical/features-01-16.ipynb",
+    "original_notebook_sha256": "fec669eede1cbed65c039945d71b56c3af62afe86aab4e24883af548479721c5",
+    "source_notebook": "features-01-16.ipynb",
+    "output_bundles_cleared": 5
+  },
+  {
+    "path": "notebooks/historical/framework-synthetic-data.ipynb",
+    "original_notebook_sha256": "e72c7db3af5f64b5da2372eb51947bc72ed51b213ca1b87f3c3372706095e813",
+    "source_notebook": "framework-synthetic-data.ipynb",
+    "output_bundles_cleared": 43
+  },
+  {
+    "path": "notebooks/planner/active-sampling-real-data.ipynb",
+    "original_notebook_sha256": "05e02b33e2f67b160e0d9159cbb6195fed2454ee354bb88e8c746b422a2df0ce",
+    "source_notebook": "active-sampling-real-data.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/planner/adaptive-planner-v3.ipynb",
+    "original_notebook_sha256": "d6c740e5522fbcd0027b489b9642dff31d7680cf3ecd10aa4c96461b7c7da2c2",
+    "source_notebook": "adaptive-planner-v3.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/planner/planner-confidence-v2.ipynb",
+    "original_notebook_sha256": "500ae26a0fb61e64e36110b6056f0ae5277ec4511b80ee57578730201e1036b2",
+    "source_notebook": "planner-confidence-v2.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/research/chlorosis-historical.ipynb",
+    "original_notebook_sha256": "2f8fa634bca9dc93efa4f461414200ea355b7e9ff2c8302549756976b38ef41a",
+    "source_notebook": "chlorosis-historical.ipynb",
+    "output_bundles_cleared": 19
+  },
+  {
+    "path": "notebooks/research/chlorosis-retraining-v2.ipynb",
+    "original_notebook_sha256": "cc972fa95ebf8cf3d23cb3f3229d965c0d4e1c421d5aecfb057ef0edaac9fafb",
+    "source_notebook": "chlorosis-retraining-v2.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/satellite/repair-preview.ipynb",
+    "original_notebook_sha256": "1e4c390d2a5c423a16d67f5caeab6d413b06c06ee3357bdb379467362c032776",
+    "source_notebook": "repair-preview.ipynb",
+    "output_bundles_cleared": 8
+  },
+  {
+    "path": "notebooks/satellite/weekly-satellite.ipynb",
+    "original_notebook_sha256": "62dece3a3d544038d40c828a28d49d4a2ba4fc9f8695ef45877a9f068f63f321",
+    "source_notebook": "weekly-satellite.ipynb",
+    "output_bundles_cleared": 0
+  },
+  {
+    "path": "notebooks/training/coverage-v3-corrected-untrained.ipynb",
+    "original_notebook_sha256": "814550c95fdecf12cda3f52c2d0a416233fb67b159654daa8f5a9b9b988bb8d8",
+    "source_notebook": "coverage-v3-corrected-untrained.ipynb",
+    "output_bundles_cleared": 56
+  },
+  {
+    "path": "notebooks/training/growth-form-filtered.ipynb",
+    "original_notebook_sha256": "1393eb2455f862d9c99a8ec2beb6a81fac37769e96619bd18e421dbdc6a198bc",
+    "source_notebook": "growth-form-filtered.ipynb",
+    "output_bundles_cleared": 27
+  },
+  {
+    "path": "notebooks/user-supplied/Copy_of_GeoRisk3D (3).ipynb",
+    "original_notebook_sha256": "8601fe60c458002b85cb55e78a235b557fb2a5b59197ddba421ca886a75fd247",
+    "source_notebook": "Copy_of_GeoRisk3D (3).ipynb",
+    "output_bundles_cleared": 124
+  },
+  {
+    "path": "notebooks/user-supplied/EcoSignal_Final_Coverage_Retraining_v2 (3).ipynb",
+    "original_notebook_sha256": "1701b5f5a66f3672808acfce2371f7af453dff88df686772c3200c6a2f30229e",
+    "source_notebook": "EcoSignal_Final_Coverage_Retraining_v2 (3).ipynb",
+    "output_bundles_cleared": 64
+  },
+  {
+    "path": "notebooks/user-supplied/Image_Extraction (1).ipynb",
+    "original_notebook_sha256": "69e481c5f764ca6dc21517df8829f3b8a2e2a032c24838814a1371c26e7fed02",
+    "source_notebook": "Image_Extraction (1).ipynb",
+    "output_bundles_cleared": 24
+  },
+  {
+    "path": "notebooks/validation/unified-score-original.ipynb",
+    "original_notebook_sha256": "dd7f2b9a015455ad86f7e46c623ccb6557d53011e9a2dee1f6c857dda733bfe7",
+    "source_notebook": "unified-score-original.ipynb",
+    "output_bundles_cleared": 18
+  },
+  {
+    "path": "notebooks/validation/unified-score-revised.ipynb",
+    "original_notebook_sha256": "6b35076d515e532bd39447fe57fc49bc5b91b3288bb7a89cbae3b240586e2ddb",
+    "source_notebook": "unified-score-revised.ipynb",
+    "output_bundles_cleared": 0
+  }
+]

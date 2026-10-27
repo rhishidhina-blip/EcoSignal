@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import ts from 'typescript';
+const uri=s=>'data:text/javascript;base64,'+Buffer.from(ts.transpileModule(s,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText).toString('base64');
+const unified=uri(await readFile('app/lib/unified.ts','utf8'));
+const {airInputFromReading,captureAirAlignmentHours}=await import(uri((await readFile('app/lib/unified-air.ts','utf8')).replace("'./unified'",JSON.stringify(unified))));
+const location={lat:35.72528,lon:-78.78533},reading={source:'AirNow',aqi:31,category:'Good',source_url:'https://www.airnow.gov/?latitude=35.72528&longitude=-78.78533',timestamp:'2026-10-25T21:00:00Z',requested_location:location,monitor_location:{lat:35.889402,lon:-78.8747},primary_site_id:'370630099'};
+test('AQI input belongs to the observation coordinates and retains the actual monitor and timestamp',()=>{const air=airInputFromReading(reading,location);assert.deepEqual(air.location,location);assert.notEqual(air.location,location);assert.deepEqual(air.monitor,reading.monitor_location);assert.equal(air.aqi,31);assert.equal(air.observed_at,reading.timestamp);assert.equal(air.version,'AirNow-location-v2')});
+test('a different map location or malformed reading cannot be attached to this observation',()=>{for(const data of [{...reading,requested_location:{lat:35.8,lon:-78.7}},{...reading,aqi:NaN},{...reading,aqi:-1},{...reading,source:'unknown'},{...reading,timestamp:'invalid'}])assert.throws(()=>airInputFromReading(data,location))});
+test('older photo timestamps are displayed as a mismatch without changing either timestamp',()=>{assert.equal(captureAirAlignmentHours('2026-10-24T21:23:30Z',reading.timestamp),23.608333333333334);assert.equal(captureAirAlignmentHours('2026-10-25T15:00:00Z',reading.timestamp),6);assert.equal(captureAirAlignmentHours('invalid',reading.timestamp),null);assert.equal(reading.timestamp,'2026-10-25T21:00:00Z')});

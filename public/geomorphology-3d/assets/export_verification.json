@@ -1,0 +1,55 @@
+{
+  "status": "verified",
+  "model_serialization_matches_frozen_checkpoint": true,
+  "independent_metrics_reproduced_from_original_scores": true,
+  "native_grid_matches_verified_crop": true,
+  "native_raster_valid_pixels": 589172606,
+  "score_range": [
+    0.05016494542360306,
+    0.9944580793380737
+  ],
+  "display_projection": "EPSG:3857",
+  "png_dimensions": [
+    1300,
+    1225
+  ],
+  "png_transparency_matches_display_nodata": true,
+  "artifacts": {
+    "ecosignal_georisk_v2_2024_risk_1m.tif": {
+      "bytes": 1854963956,
+      "sha256": "621e503f1f99cea8a6ba7fdfbf8d6e886aeae2a7df38ec0305e832e61d06f753"
+    },
+    "ecosignal_georisk_v2_overlay.png": {
+      "bytes": 2320817,
+      "sha256": "3ccd850a3e1e3c43155f0e5a0a3c4a4e70bcc9b0a46f55f6a49d9354a00de9d5"
+    },
+    "ecosignal_georisk_v2_overlay.json": {
+      "bytes": 1245,
+      "sha256": "17d0f62bacee6afa07801d552b9d5386b77b6489f6c63c756eda587602de3ab9"
+    },
+    "ecosignal_georisk_v2_1m_metadata.json": {
+      "bytes": 6192,
+      "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83"
+    },
+    "ecosignal_georisk_v2_1m.joblib": {
+      "bytes": 215815,
+      "sha256": "6ec3a4a5e8cd3453f10f8f6b4b84b16dc87fcecccfbf7b0aa5e122bf62c5736d"
+    },
+    "independent_holdout_predictions.npz": {
+      "bytes": 327388,
+      "sha256": "aedaba63b591c5f152f05f704711e2defaad6c54f135273b5847da14d2d53be9"
+    }
+  },
+  "limitations": [
+    "2015-2022 (7 yr) and 2022-2024 (2 yr) are different observation horizons",
+    "Source-specific combined 2022-2024 vertical uncertainty not verified",
+    "Geoid reference assumptions do not establish survey datum consistency",
+    "Negative and positive classes exclude a narrow ambiguous lowering band",
+    "Pixel samples spatially autocorrelated even when evaluation blocks held out",
+    "Model does not estimate exact amount of future erosion, absolute risk or erosion volume",
+    "Construction, water, bare-earth generation and change detection errors may mimic erosion",
+    "Tile-safe predictors exclude global hydrological accumulation and TWI",
+    "Independent field/ground-control confirmation not performed"
+  ],
+  "website_deployment": "pending"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "complete_tiles": 2393,
+  "valid_samples": 1473136,
+  "binary_sha256": "cb1bd7e15d47cbbd9d2a4282108061ca17b5d1600c9e13b78c29934f47309ec7",
+  "checks": [
+    "dimensions and byte order",
+    "nodata and score bounds",
+    "full binary hash",
+    "fixed full-cohort CDF exactness and monotonicity",
+    "24 geographically distributed points independently re-inferred from original feature code",
+    "coordinate round trips and nearest-index mapping"
+  ],
+  "independent_sample_count": 24,
+  "maximum_quantization_error": 4.746642112729571e-05,
+  "model_tree_parity_error": 1.5740870262792583e-07,
+  "scientific_validation": "not independently field validated",
+  "complete_observed_unified_scores": 0
+}

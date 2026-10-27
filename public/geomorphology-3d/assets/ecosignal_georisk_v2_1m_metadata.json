@@ -1,0 +1,172 @@
+{
+  "name": "EcoSignal GeoRisk V2, 1 m windowed terrain model",
+  "created_utc": "2026-10-12T05:39:54.034539+00:00",
+  "model_file": "ecosignal_georisk_v2_1m.joblib",
+  "model_type": "XGBoost",
+  "feature_order": [
+    "elevation_m",
+    "slope_deg",
+    "slope_percent",
+    "grade_east",
+    "grade_north",
+    "aspect_east",
+    "aspect_north",
+    "curvature_laplacian_proxy",
+    "profile_curvature_proxy",
+    "plan_curvature_proxy",
+    "tpi_5m",
+    "tpi_15m",
+    "tpi_61m",
+    "roughness_5m",
+    "roughness_15m",
+    "roughness_61m",
+    "smoothed_slope_15m",
+    "smoothed_slope_61m",
+    "tri_3m_proxy",
+    "valley_depth_61m",
+    "ridge_height_61m"
+  ],
+  "frozen_classification_threshold": 0.6140792965888977,
+  "feature_implementation_version": "square-footprint-north-grade-v2",
+  "frozen_model_checkpoint": "ecosignal_georisk_v2_frozen_checkpoint.joblib",
+  "holdout_checkpoint": "ecosignal_georisk_v2_holdout_checkpoint.json",
+  "feature_definition": "Cell 3 of companion notebook",
+  "training_input_year": 2015,
+  "training_label_period": "2015-2022",
+  "test_input_year": 2022,
+  "test_label_period": "2022-2024",
+  "latest_map_input_year": 2024,
+  "prediction_semantics": "relative uncalibrated susceptibility to observed terrain lowering",
+  "uncertainty_thresholds_m": {
+    "2015_2022": 0.105,
+    "2022_2024": 0.15,
+    "ambiguity_band": 0.03
+  },
+  "source_grid": {
+    "crs": "EPSG:32119",
+    "resolution_m": 1,
+    "shape": [
+      38511,
+      39068
+    ]
+  },
+  "horizontal_grid": "aligned original USGS 2015 EPSG:32119 grid",
+  "vertical_units": "meters",
+  "vertical_reference_status": "PROVISIONAL",
+  "geoid_assumptions": {
+    "2013": "GEOID12A assumed; not used for model",
+    "2015": "GEOID12A source documented",
+    "2022": "GEOID18 assumed; not independently verified",
+    "2024": "GEOID18 documented"
+  },
+  "vertical_offset_applied_m": 0.0,
+  "spatial_validation": {
+    "block_m": 2000,
+    "boundary_buffer_m": 200,
+    "train_percent_of_block_hash": 65,
+    "dev_percent": 20,
+    "final_test_percent": 15
+  },
+  "training_sample_by_class_upper_bound": 25000,
+  "development_max_samples": 60000,
+  "temporal_test_max_samples": 80000,
+  "development_2015_2022": {
+    "RandomForest": {
+      "roc_auc": 0.7324537349785779,
+      "pr_auc": 0.41033292393673687,
+      "precision": 0.3956632190165124,
+      "recall": 0.457703610411419,
+      "f1": 0.42442822384428225,
+      "brier_uncalibrated": 0.19696917845509593,
+      "eligible_sample_prevalence": 0.1588,
+      "top_decile_lift": 3.118178001679261,
+      "top_decile_recall": 0.3118178001679261,
+      "n": 60000,
+      "selected_threshold": 0.6068985494716231
+    },
+    "HistGradientBoosting": {
+      "roc_auc": 0.7311151703569022,
+      "pr_auc": 0.42169684743774283,
+      "precision": 0.37431671697805335,
+      "recall": 0.4815281276238455,
+      "f1": 0.42120725269680975,
+      "brier_uncalibrated": 0.19933632447074875,
+      "eligible_sample_prevalence": 0.1588,
+      "top_decile_lift": 3.1790512174643157,
+      "top_decile_recall": 0.3179051217464316,
+      "n": 60000,
+      "selected_threshold": 0.5965909924708939
+    },
+    "XGBoost": {
+      "roc_auc": 0.7329390008363035,
+      "pr_auc": 0.42551380569684594,
+      "precision": 0.39231738035264485,
+      "recall": 0.457703610411419,
+      "f1": 0.4224956403797714,
+      "brier_uncalibrated": 0.1978322005932587,
+      "eligible_sample_prevalence": 0.1588,
+      "top_decile_lift": 3.174853064651553,
+      "top_decile_recall": 0.3174853064651553,
+      "n": 60000,
+      "selected_threshold": 0.6140792965888977
+    }
+  },
+  "temporal_spatial_holdout_2022_2024": {
+    "roc_auc": 0.8032985710345042,
+    "pr_auc": 0.2694189983588361,
+    "precision": 0.09973463069438301,
+    "recall": 0.6278422273781903,
+    "f1": 0.17212645506011068,
+    "brier_uncalibrated": 0.20771255250247864,
+    "eligible_sample_prevalence": 0.0269375,
+    "top_decile_lift": 5.406032482598608,
+    "top_decile_recall": 0.5406032482598608,
+    "n": 80000,
+    "model": "XGBoost",
+    "threshold": 0.6140792965888977,
+    "test": "2022-2024 independent survey interval and geographically held-out blocks",
+    "lowering_threshold_m": 0.15
+  },
+  "candidate_stable_ground_diagnostic_1m": {
+    "2015-2022": {
+      "candidate_points": 3553620,
+      "median_m": -0.022064208984375,
+      "robust_spread_m": 0.0624951533973217,
+      "regional_p95_minus_p05_m": 0.08723058700561523,
+      "regional_blocks": 184,
+      "status": "candidate_terrain_only_no_geoid_correction"
+    },
+    "2022-2024": {
+      "candidate_points": 3563150,
+      "median_m": 0.0160675048828125,
+      "robust_spread_m": 0.03628677874803543,
+      "regional_p95_minus_p05_m": 0.04525222778320312,
+      "regional_blocks": 184,
+      "status": "candidate_terrain_only_no_geoid_correction"
+    }
+  },
+  "risk_raster": "ecosignal_georisk_v2_2024_risk_1m.tif",
+  "web_overlay_png": "ecosignal_georisk_v2_overlay.png",
+  "web_overlay_manifest": "ecosignal_georisk_v2_overlay.json",
+  "pre2024_sample_cache_signature": "8f8d0846cdf29d5c00e2246bf2f6c1c4c17402d1ec46c77ceda2cd99d64415fd",
+  "libraries": {
+    "rasterio": "1.5.2",
+    "sklearn": "1.6.1",
+    "xgboost": "3.4.1"
+  },
+  "critical_limitations": [
+    "2015-2022 (7 yr) and 2022-2024 (2 yr) are different observation horizons",
+    "Source-specific combined 2022-2024 vertical uncertainty not verified",
+    "Geoid reference assumptions do not establish survey datum consistency",
+    "Negative and positive classes exclude a narrow ambiguous lowering band",
+    "Pixel samples spatially autocorrelated even when evaluation blocks held out",
+    "Model does not estimate exact amount of future erosion, absolute risk or erosion volume",
+    "Construction, water, bare-earth generation and change detection errors may mimic erosion",
+    "Tile-safe predictors exclude global hydrological accumulation and TWI",
+    "Independent field/ground-control confirmation not performed"
+  ],
+  "web_overlay_projection": "EPSG:3857",
+  "native_raster_valid_pixels": 589172606,
+  "independent_holdout_predictions_archive": "independent_holdout_predictions.npz",
+  "export_verification_report": "export_verification.json"
+}

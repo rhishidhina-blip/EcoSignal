@@ -1,0 +1,295 @@
+{
+  "source": "Copernicus Sentinel-2 L2A",
+  "source_resolution_m": 20,
+  "display_crs": "EPSG:3857",
+  "display_pixel_size_m": 25.0,
+  "width": 1646,
+  "height": 1582,
+  "bounds": [
+    -78.83031028498242,
+    35.693470895997336,
+    -78.46065354556724,
+    35.98149201063444
+  ],
+  "weeks": [
+    "2026-09-21",
+    "2026-09-28"
+  ],
+  "acquisition_dates": [
+    "2026-09-21",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-29",
+    "2026-10-01",
+    "2026-10-04"
+  ],
+  "limitations": [
+    "Weekly values are median per-day indices, not daily measurements.",
+    "NDMI is a vegetation moisture indicator, not soil water percentage.",
+    "BSI and water thresholds require local validation; changes do not establish causes.",
+    "Seasonality, agriculture, construction and residual cloud/shadow can affect changes.",
+    "Per-day mosaics may include multiple passes/tiles; catalog.json records candidate scenes.",
+    "Only adjacent fixed weeks are compared; missing weeks are not silently bridged.",
+    "A one-observation week is sparse evidence, not calibrated confidence."
+  ],
+  "summary": [
+    {
+      "week": "2026-09-21",
+      "index": "BSI",
+      "mean": -0.14020690667989538,
+      "valid_area_fraction": 0.8409778036794278,
+      "comparison_area_fraction": 0.0,
+      "mean_change_on_common_pixels": null
+    },
+    {
+      "week": "2026-09-21",
+      "index": "MNDWI",
+      "mean": -0.4739321393549418,
+      "valid_area_fraction": 0.854297071433226,
+      "comparison_area_fraction": 0.0,
+      "mean_change_on_common_pixels": null
+    },
+    {
+      "week": "2026-09-21",
+      "index": "NDMI",
+      "mean": 0.19388931072089816,
+      "valid_area_fraction": 0.7906454060022156,
+      "comparison_area_fraction": 0.0,
+      "mean_change_on_common_pixels": null
+    },
+    {
+      "week": "2026-09-21",
+      "index": "NDVI",
+      "mean": 0.643297339613076,
+      "valid_area_fraction": 0.8409778036794278,
+      "comparison_area_fraction": 0.0,
+      "mean_change_on_common_pixels": null
+    },
+    {
+      "week": "2026-09-28",
+      "index": "BSI",
+      "mean": -0.14271989910259036,
+      "valid_area_fraction": 0.76474457571499,
+      "comparison_area_fraction": 0.6733863415517793,
+      "mean_change_on_common_pixels": -0.0009848326579972248
+    },
+    {
+      "week": "2026-09-28",
+      "index": "MNDWI",
+      "mean": -0.4525911432003468,
+      "valid_area_fraction": 0.7778179417286647,
+      "comparison_area_fraction": 0.685452330103414,
+      "mean_change_on_common_pixels": 0.02468291898409597
+    },
+    {
+      "week": "2026-09-28",
+      "index": "NDMI",
+      "mean": 0.2034512085613128,
+      "valid_area_fraction": 0.7143572599824836,
+      "comparison_area_fraction": 0.629240421819845,
+      "mean_change_on_common_pixels": 0.006416556036064355
+    },
+    {
+      "week": "2026-09-28",
+      "index": "NDVI",
+      "mean": 0.625546803163318,
+      "valid_area_fraction": 0.76474457571499,
+      "comparison_area_fraction": 0.6733863415517793,
+      "mean_change_on_common_pixels": -0.02313300864048227
+    }
+  ],
+  "layers": {
+    "NDVI": {
+      "name": "Vegetation",
+      "description": "Vegetation greenness",
+      "colors": [
+        "#88493b",
+        "#cfaa59",
+        "#e0d985",
+        "#75b977",
+        "#17845b"
+      ]
+    },
+    "NDMI": {
+      "name": "Moisture",
+      "description": "Vegetation moisture indicator",
+      "colors": [
+        "#b97b42",
+        "#d9c68a",
+        "#c3e3d9",
+        "#60bcb8",
+        "#28719d"
+      ]
+    },
+    "BSI": {
+      "name": "Bare soil",
+      "description": "Exposed-ground indicator",
+      "colors": [
+        "#247784",
+        "#74ac9a",
+        "#cbd6a6",
+        "#d4a369",
+        "#a65337"
+      ]
+    },
+    "MNDWI": {
+      "name": "Water",
+      "description": "Surface-water indicator",
+      "colors": [
+        "#9d764e",
+        "#c8b082",
+        "#b7d8c7",
+        "#6cbfcf",
+        "#287dab"
+      ]
+    }
+  },
+  "assets": {
+    "ndvi-baseline": {
+      "image": "/satellite/raleigh/ndvi-baseline.png",
+      "values": "/satellite/raleigh/ndvi-baseline.bin.gz",
+      "valid_pixels": 2001565,
+      "min": -1.0,
+      "max": 0.9425417184829712,
+      "counts": "/satellite/raleigh/ndvi-baseline-count.bin.gz"
+    },
+    "ndmi-baseline": {
+      "image": "/satellite/raleigh/ndmi-baseline.png",
+      "values": "/satellite/raleigh/ndmi-baseline.bin.gz",
+      "valid_pixels": 1881698,
+      "min": -0.7413111329078674,
+      "max": 0.7162162661552429,
+      "counts": "/satellite/raleigh/ndmi-baseline-count.bin.gz"
+    },
+    "bsi-baseline": {
+      "image": "/satellite/raleigh/bsi-baseline.png",
+      "values": "/satellite/raleigh/bsi-baseline.bin.gz",
+      "valid_pixels": 2001565,
+      "min": -0.603448212146759,
+      "max": 0.822277843952179,
+      "counts": "/satellite/raleigh/bsi-baseline-count.bin.gz"
+    },
+    "mndwi-baseline": {
+      "image": "/satellite/raleigh/mndwi-baseline.png",
+      "values": "/satellite/raleigh/mndwi-baseline.bin.gz",
+      "valid_pixels": 2033294,
+      "min": -0.8394774198532104,
+      "max": 0.9153846502304077,
+      "counts": "/satellite/raleigh/mndwi-baseline-count.bin.gz"
+    },
+    "ndvi-comparison": {
+      "image": "/satellite/raleigh/ndvi-comparison.png",
+      "values": "/satellite/raleigh/ndvi-comparison.bin.gz",
+      "valid_pixels": 1820807,
+      "min": -1.0,
+      "max": 0.9371035695075989,
+      "counts": "/satellite/raleigh/ndvi-comparison-count.bin.gz"
+    },
+    "ndmi-comparison": {
+      "image": "/satellite/raleigh/ndmi-comparison.png",
+      "values": "/satellite/raleigh/ndmi-comparison.bin.gz",
+      "valid_pixels": 1700779,
+      "min": -0.6313146352767944,
+      "max": 0.7693302035331726,
+      "counts": "/satellite/raleigh/ndmi-comparison-count.bin.gz"
+    },
+    "bsi-comparison": {
+      "image": "/satellite/raleigh/bsi-comparison.png",
+      "values": "/satellite/raleigh/bsi-comparison.bin.gz",
+      "valid_pixels": 1820807,
+      "min": -0.6765370965003967,
+      "max": 0.7922971248626709,
+      "counts": "/satellite/raleigh/bsi-comparison-count.bin.gz"
+    },
+    "mndwi-comparison": {
+      "image": "/satellite/raleigh/mndwi-comparison.png",
+      "values": "/satellite/raleigh/mndwi-comparison.bin.gz",
+      "valid_pixels": 1851926,
+      "min": -0.9307006001472473,
+      "max": 0.8205912113189697,
+      "counts": "/satellite/raleigh/mndwi-comparison-count.bin.gz"
+    },
+    "ndvi-change": {
+      "image": "/satellite/raleigh/ndvi-change.png",
+      "values": "/satellite/raleigh/ndvi-change.bin.gz",
+      "valid_pixels": 1603095,
+      "min": -1.302720546722412,
+      "max": 1.280778408050537
+    },
+    "ndmi-change": {
+      "image": "/satellite/raleigh/ndmi-change.png",
+      "values": "/satellite/raleigh/ndmi-change.bin.gz",
+      "valid_pixels": 1497961,
+      "min": -0.7835527062416077,
+      "max": 0.7144272327423096
+    },
+    "bsi-change": {
+      "image": "/satellite/raleigh/bsi-change.png",
+      "values": "/satellite/raleigh/bsi-change.bin.gz",
+      "valid_pixels": 1603095,
+      "min": -0.8309085965156555,
+      "max": 0.9727945923805237
+    },
+    "mndwi-change": {
+      "image": "/satellite/raleigh/mndwi-change.png",
+      "values": "/satellite/raleigh/mndwi-change.bin.gz",
+      "valid_pixels": 1631797,
+      "min": -1.0744397640228271,
+      "max": 1.1101617813110352
+    }
+  },
+  "numeric_scale": 10000,
+  "numeric_nodata": -32768,
+  "numeric_precision": 5e-05,
+  "quantization_note": "Nearest source pixel, rounded to 0.0001 index units; no-data remains missing.",
+  "source_files": [
+    {
+      "file": "weekly/2026-09-21/r0_c0.tif",
+      "sha256": "6e58feb16f2f5af733ad0a4a2c13a7ef4746fa993aabe22097773699629a5cb6"
+    },
+    {
+      "file": "weekly/2026-09-28/r0_c0.tif",
+      "sha256": "0d9be956d249d8ab27a78ceb53b7c623324b3b0526c8a7d912d3e4f1307a1e48"
+    },
+    {
+      "file": "changes/2026-09-28/r0_c0.tif",
+      "sha256": "e6f548b9262200c7f22431d0e75c5c55d3416f193a12425377db5ae32ae43530"
+    },
+    {
+      "file": "weekly/2026-09-21/r0_c1024.tif",
+      "sha256": "da06b9ac68f15d85b5632e5997bcda856d0e5797fd4f1d2c23f16787711cb09f"
+    },
+    {
+      "file": "weekly/2026-09-28/r0_c1024.tif",
+      "sha256": "48e8fb5280a4d5b771b75f06b3b881f44cc067bc9d00c02927b301ce387d0a45"
+    },
+    {
+      "file": "changes/2026-09-28/r0_c1024.tif",
+      "sha256": "78502c35ada57e83bb44254730af8c0b8dc7e2572a42c152164632f5e3df08c6"
+    },
+    {
+      "file": "weekly/2026-09-21/r1024_c0.tif",
+      "sha256": "1d3964b53c0e2771999b1f5ab9caea4cc2f7d4f86952db5577d682e2dcf40599"
+    },
+    {
+      "file": "weekly/2026-09-28/r1024_c0.tif",
+      "sha256": "7d2a9689113f708bf3df8a21208384acab62f6143325562bb2d99aee67e8ebd4"
+    },
+    {
+      "file": "changes/2026-09-28/r1024_c0.tif",
+      "sha256": "0a7365e4b6d1cd33fd6985fa1c2ce38392685c649eef75a5b8fb5896a88efeb6"
+    },
+    {
+      "file": "weekly/2026-09-21/r1024_c1024.tif",
+      "sha256": "c8b7a7ca702bb5dc41593fd9e84548d069fe95438c26f93be208e7b6816e3572"
+    },
+    {
+      "file": "weekly/2026-09-28/r1024_c1024.tif",
+      "sha256": "e7f906122728f4ddb273c064c509633b27bcde7ad8f9bae9c9a5f4983e24bebb"
+    },
+    {
+      "file": "changes/2026-09-28/r1024_c1024.tif",
+      "sha256": "5ea7a5681fc93baed745e2e51e710929dded66efb153198ca0e9d795971f21f9"
+    }
+  ]
+}

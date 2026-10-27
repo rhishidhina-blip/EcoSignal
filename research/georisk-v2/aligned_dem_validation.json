@@ -1,0 +1,202 @@
+{
+  "structural_validation_passed": true,
+  "rasters": [
+    {
+      "year": 2013,
+      "path": "/content/aligned_dems_1m/Dem_2013_aligned.tif",
+      "bytes": 1788210829,
+      "crs": "EPSG:32119",
+      "shape": [
+        38511,
+        39068
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        621103.6855380203,
+        0.0,
+        -1.0,
+        254107.34304745495,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds": [
+        621103.6855380203,
+        215596.34304745495,
+        660171.6855380203,
+        254107.34304745495
+      ],
+      "dtype": "float32",
+      "nodata": "-9999.0",
+      "blocks_read": 5852,
+      "valid_pixels": 829887532,
+      "valid_fraction": 0.5515860384644967,
+      "elevation_range": [
+        -29.863014221191406,
+        171.1320037841797
+      ],
+      "vertical_units_tag": "meters",
+      "tags": {
+        "correction_applied_m": "0.0",
+        "geoid_assumption": "GEOID12A assumed",
+        "reference_grid": "USGS Dem_2015.tif",
+        "survey_year": "2013",
+        "vertical_reference_status": "PROVISIONAL",
+        "vertical_units": "meters",
+        "AREA_OR_POINT": "Area"
+      },
+      "sha256": "0d8c8849ae5041932ce0f21fd094513c68a2997c14101fdb9aa0ca0a02072d91"
+    },
+    {
+      "year": 2015,
+      "path": "/content/aligned_dems_1m/Dem_2015_aligned.tif",
+      "bytes": 1837912599,
+      "crs": "EPSG:32119",
+      "shape": [
+        38511,
+        39068
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        621103.6855380203,
+        0.0,
+        -1.0,
+        254107.34304745495,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds": [
+        621103.6855380203,
+        215596.34304745495,
+        660171.6855380203,
+        254107.34304745495
+      ],
+      "dtype": "float32",
+      "nodata": "-9999.0",
+      "blocks_read": 5852,
+      "valid_pixels": 862577762,
+      "valid_fraction": 0.5733136506612219,
+      "elevation_range": [
+        -24.194772720336914,
+        170.67025756835938
+      ],
+      "vertical_units_tag": "meters",
+      "tags": {
+        "correction_applied_m": "0.0",
+        "geoid_assumption": "GEOID12A source documented",
+        "reference_grid": "USGS Dem_2015.tif",
+        "survey_year": "2015",
+        "vertical_reference_status": "PROVISIONAL",
+        "vertical_units": "meters",
+        "AREA_OR_POINT": "Area"
+      },
+      "sha256": "313107f85c3cc567b0fd6cec11685601f7f77ce55267b8f810f0cb2c29b0db9f"
+    },
+    {
+      "year": 2022,
+      "path": "/content/aligned_dems_1m/Dem_2022_aligned.tif",
+      "bytes": 1268320736,
+      "crs": "EPSG:32119",
+      "shape": [
+        38511,
+        39068
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        621103.6855380203,
+        0.0,
+        -1.0,
+        254107.34304745495,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds": [
+        621103.6855380203,
+        215596.34304745495,
+        660171.6855380203,
+        254107.34304745495
+      ],
+      "dtype": "float32",
+      "nodata": "-9999.0",
+      "blocks_read": 5852,
+      "valid_pixels": 589445847,
+      "valid_fraction": 0.3917760986871651,
+      "elevation_range": [
+        -47.15351867675781,
+        183.01242065429688
+      ],
+      "vertical_units_tag": "meters",
+      "tags": {
+        "correction_applied_m": "0.0",
+        "geoid_assumption": "GEOID18 assumed",
+        "reference_grid": "USGS Dem_2015.tif",
+        "survey_year": "2022",
+        "vertical_reference_status": "PROVISIONAL",
+        "vertical_units": "meters",
+        "AREA_OR_POINT": "Area"
+      },
+      "sha256": "f17e9be442c41641cc32e8e1cace19ad19578c43d09c57fdb4d7c23b8a457d71"
+    },
+    {
+      "year": 2024,
+      "path": "/content/aligned_dems_1m/Dem_2024_aligned.tif",
+      "bytes": 2035461357,
+      "crs": "EPSG:32119",
+      "shape": [
+        38511,
+        39068
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        621103.6855380203,
+        0.0,
+        -1.0,
+        254107.34304745495,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds": [
+        621103.6855380203,
+        215596.34304745495,
+        660171.6855380203,
+        254107.34304745495
+      ],
+      "dtype": "float32",
+      "nodata": "-9999.0",
+      "blocks_read": 5852,
+      "valid_pixels": 975481920,
+      "valid_fraction": 0.6483555748208797,
+      "elevation_range": [
+        -55.48294448852539,
+        184.6343994140625
+      ],
+      "vertical_units_tag": "meters",
+      "tags": {
+        "correction_applied_m": "0.0",
+        "geoid_assumption": "GEOID18 documented",
+        "reference_grid": "USGS Dem_2015.tif",
+        "survey_year": "2024",
+        "vertical_reference_status": "PROVISIONAL",
+        "vertical_units": "meters",
+        "AREA_OR_POINT": "Area"
+      },
+      "sha256": "2c2e666c2965636c788067383ccc9c456ad8a9c76169472590fca621bb3371cf"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "scientific_limitations": [
+    "A successful full read does not prove every intended source tile was written.",
+    "Verify valid-pixel counts against alignment logs and the intended common footprint.",
+    "Grid alignment does not establish survey vertical-reference compatibility.",
+    "Elevation units require source metadata and alignment conversion evidence.",
+    "Training and field-validation statistics are not produced by this check."
+  ]
+}

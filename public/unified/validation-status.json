@@ -1,0 +1,134 @@
+{
+  "engine_version": "EcoSignal-Unified-Provisional-v3.1.1",
+  "input_schema_version": 1,
+  "observed_evidence": {
+    "unique_sites": 1,
+    "site_id": "TREE-001",
+    "coverage_percent": 69.5573,
+    "coverage_model_confidence": 0.3728,
+    "missing": [
+      "coordinates",
+      "AQI",
+      "growth_form",
+      "GeoRisk"
+    ],
+    "complete_sites": 0,
+    "attached_to_device_records": false,
+    "missing_for_full_v3": [
+      "coordinates",
+      "AQI",
+      "GeoRisk",
+      "capture/source provenance"
+    ]
+  },
+  "ablation": "not_evaluable",
+  "sensitivity": "not_evaluable",
+  "independent_validation": "not_run",
+  "growth_form": "unweighted_optional_biological_context",
+  "georisk_numeric": "verified_and_integrated",
+  "partial_estimates": "disabled_no_renormalization",
+  "satellite": {
+    "native_resolution_m": 20,
+    "patch_pixels": 3,
+    "nominal_patch_m": 60,
+    "tiles": 4,
+    "chunks": 169,
+    "compressed_bytes": 28719348,
+    "week": "2026-09-28",
+    "acquisitions": [
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-04"
+    ]
+  },
+  "synthetic_test_evidence": {
+    "user_notebook_checks": 28,
+    "site_test_cases": 104,
+    "scientific_validation": false,
+    "retired_v2_baseline": 49.58333333333333,
+    "v3_midpoint_baseline": 50
+  },
+  "browser_visual_QA": {
+    "environment": "cloud browser / managed Site preview",
+    "mobile_iframe_viewports_px": [
+      320,
+      360,
+      390
+    ],
+    "mobile_stages": [
+      "photograph",
+      "context",
+      "results"
+    ],
+    "horizontal_overflow": "none",
+    "desktop_content_width_px": 1348,
+    "desktop_stages": [
+      "photograph",
+      "context",
+      "results"
+    ],
+    "synthetic_browser_score": 55.25263791,
+    "synthetic_missing_aqi": "insufficient_data, no score, 3/4",
+    "production_browser": "private sign-in required",
+    "preview_numeric_network_limit": "HTTP preview lacks usable secure Web Crypto; production numeric asset integrity verified separately"
+  },
+  "weights": {
+    "satellite": 0.35,
+    "aqi": 0.15,
+    "lichen_coverage": 0.25,
+    "growth_form": 0,
+    "geomorphology": 0.25
+  },
+  "method_change": {
+    "previous_engine": "EcoSignal-Unified-Provisional-v2.0.0",
+    "choice": "User explicitly selected visible-coverage inversion as full 25% lichen domain; 2:1 split retired",
+    "v20_source_preserved": "a72c9abb57982d587ab48b5ebf7d12fd909dcd14"
+  },
+  "georisk": {
+    "reference_version": "georisk-2024-native-features-20m-sampling-v1",
+    "sample_count": 1473136,
+    "sample_spacing_m": 20,
+    "native_feature_resolution_m": 1,
+    "sampling": "nearest lattice point, no interpolation or area aggregate",
+    "binary_sha256": "cb1bd7e15d47cbbd9d2a4282108061ca17b5d1600c9e13b78c29934f47309ec7",
+    "cdf": "fixed entire valid sampled common-coverage cohort, not full 1m pixel CDF",
+    "real_numeric_terrain_test_fixtures": 24,
+    "terrain_fixtures_are_lichen_observations": false,
+    "source_date_precision": "year 2024"
+  },
+  "scientific_validation": "not_run_without_independent_field_data",
+  "complete_observed_scores": 0,
+  "numeric_source_checks": [
+    "binary hash and dimensions",
+    "1473136 valid sample count",
+    "all 10001 CDF entries against full numerical cohort",
+    "24 terrain sampling fixtures",
+    "nodata/bounds/rounding",
+    "synthetic complete scoring flow"
+  ],
+  "production_validation_runner": "scripts/validate-site-export.mjs",
+  "production_export_schema": "EcoSignal-site-inputs-v1",
+  "observed_data_audit": {
+    "workspace_confirmed_located_dated_lichen_records": 0,
+    "user_browser_saved_records": 0,
+    "user_local_four_coverage_rows": "unverified examples: missing IDs/capture dates/provenance/confirmation",
+    "repeat_manifest": "not found",
+    "site_input_table": "not found",
+    "ground_truth": "not found"
+  },
+  "audit_date": "2026-10-23",
+  "input_dates": "strict ISO calendar dates with explicit timezone",
+  "verification_report": "/unified/verification-report.md",
+  "photo_analysis": {
+    "integration": "same-origin POST /api/analyze -> server-authenticated backend POST /analyze",
+    "authenticated_connection_check": "HTTP 200 on synthetic blank fixture; not an observed lichen scan",
+    "observed_backend_models": {
+      "coverage": "coverage_mobilenetv2_unet_320_v2_t065",
+      "growth_form": "growthform_effnet_filtered_highacc_v1"
+    },
+    "rejected_outputs": "raw evidence only, not unified score inputs",
+    "token": "server-side Sites secret only",
+    "field_model_validation": "not established by connectivity checks",
+    "worker_runtime_verification": "Production handler exercised in actual Workers runtime with multipart upload and synthetic outbound service; manual redirects rejected"
+  }
+}

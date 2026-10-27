@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import ts from 'typescript';
+const source=await readFile(new URL('../app/lib/display.ts',import.meta.url),'utf8');
+const D=await import('data:text/javascript;base64,'+Buffer.from(ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText).toString('base64'));
+test('readout rounding preserves the underlying numeric value and handles missing data',()=>{const value=.76241;assert.equal(D.displayNumber(value),'0.76');assert.equal(value,.76241);assert.equal(D.displayNumber(0),'0.00');assert.equal(D.displayNumber(undefined),'—');assert.equal(D.displayNumber(NaN),'—');});
+test('capture date picker round-trips the actual instant including seconds',()=>{for(const original of ['2026-10-20T14:32:18-04:00','2026-09-01T06:12:00Z']){const local=D.localDateTime(original);assert.equal(Date.parse(D.captureIso(local)),Date.parse(original));}assert.equal(D.localDateTime('unknown'),'');assert.equal(D.captureIso(''),'');});

@@ -1,0 +1,12 @@
+# Copy to .dev.vars for local Cloudflare Worker development.
+# Paste the existing values privately. Never commit .dev.vars.
+ECOSIGNAL_ANALYSIS_URL="https://literate-rotary-phone-4j9p659479p6c5rg5-8001.app.github.dev"
+ECOSIGNAL_ANALYSIS_TOKEN=""
+ECOSIGNAL_CHATBOT_URL="https://ecosignal-ask-lichen-lens.onrender.com/assistant/ask"
+ECOSIGNAL_CHATBOT_TOKEN=""
+# Optional remote planner; keep empty if using the workspace planner.
+ECOSIGNAL_PLANNER_URL=""
+ECOSIGNAL_PLANNER_TOKEN=""
+# Optional direct Gemini path; keep empty to retain the Render path.
+GEMINI_API_KEY=""
+GEMINI_MODEL=""

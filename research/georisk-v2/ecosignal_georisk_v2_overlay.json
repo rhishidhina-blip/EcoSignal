@@ -1,0 +1,45 @@
+{
+  "image_filename": "ecosignal_georisk_v2_overlay.png",
+  "image_dimensions_px": [
+    1300,
+    1225
+  ],
+  "bounds_wgs84": {
+    "west": -78.82763409759329,
+    "south": 35.69795304738754,
+    "east": -78.46371247889225,
+    "north": 35.97589123264954
+  },
+  "leaflet_image_overlay_bounds": [
+    [
+      35.69795304738754,
+      -78.82763409759329
+    ],
+    [
+      35.97589123264954,
+      -78.46371247889225
+    ]
+  ],
+  "layer_name": "GeoRisk V2 \u2014 terrain-lowering susceptibility",
+  "color_map": "inferno",
+  "opacity_embedded_in_png": true,
+  "score_scale": [
+    0.0,
+    1.0
+  ],
+  "interpretation": "Relative model score; not a calibrated erosion probability",
+  "data_year": 2024,
+  "limitations": [
+    "Vertical datum/geoid equivalence not independently confirmed",
+    "Provisional 2022\u20132024 label uncertainty",
+    "Terrain-only features: no global hydrology/catchment flow",
+    "Raster may include natural, construction or LiDAR processing changes",
+    "PNG downsampled for browser; authoritative raster is 1 m GeoTIFF"
+  ],
+  "display_projection": "EPSG:3857",
+  "display_resolution_projected_m": [
+    31.16274560189448,
+    31.155244496317238
+  ],
+  "display_resampling": "average of valid native 1 m scores"
+}

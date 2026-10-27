@@ -1,0 +1,24 @@
+{
+  "method": "Per-display-cell ordinary least squares elevation trend over 2015, 2022, 2024, anchored to observed 2024 elevation",
+  "semantics": "Exploratory historical-trend extrapolation; not a validated geomorphology forecast",
+  "base_year": 2024,
+  "last_year": 2040,
+  "rate_m_per_year": "stored in terrain-timeseries.json",
+  "hindcast": {
+    "test": "2015 and 2022 elevations predict withheld 2024 survey",
+    "n_display_cells": 10092,
+    "trend_mae_m": 0.19427877809863559,
+    "trend_rmse_m": 1.3136634286051132,
+    "no_change_mae_m": 0.1600862068965517,
+    "no_change_rmse_m": 1.064142498369978,
+    "trend_beats_no_change_mae": false,
+    "not_independent_of_survey_errors": true
+  },
+  "rate_quantiles_m_per_year": [
+    -0.17603059701455392,
+    -0.0008208955220596149,
+    0.0977813432842254
+  ],
+  "drivers": "Only historical elevations; no future rainfall, development, interventions, sediment transport or episodic events",
+  "uncertainty": "No validated confidence interval. Geoid/survey offsets and historical disturbances may be extrapolated as apparent change."
+}

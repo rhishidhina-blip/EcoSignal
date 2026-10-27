@@ -1,0 +1,79 @@
+{
+  "notebook": "C:\\Users\\dhina\\Downloads\\Copy_of_GeoRisk3D (3).ipynb",
+  "sha256": "8601fe60c458002b85cb55e78a235b557fb2a5b59197ddba421ca886a75fd247",
+  "version": "historical Geomorphology V1; not active GeoRisk V2",
+  "model": "RandomForestClassifier",
+  "n_estimators": 500,
+  "max_depth": 22,
+  "min_samples_leaf": 8,
+  "max_features": "sqrt",
+  "class_weight": "balanced_subsample",
+  "seed": 42,
+  "training_period": "2013-2015",
+  "temporal_test_period": "2015-2022",
+  "train_pixels_used": 300000,
+  "temporal_test_pixels": 1347419,
+  "label_rule": "erosion if DEM difference < -0.15 m and annual rate < -0.03 m/year; stable if absolute difference <=0.15 m; exclude other pixels",
+  "features": [
+    "elevation",
+    "slope",
+    "ridge",
+    "valley",
+    "roughness",
+    "flow_accumulation",
+    "specific_catchment_area",
+    "topographic_wetness",
+    "profile_curvature",
+    "plan_curvature",
+    "local_relief",
+    "distance_to_drainage",
+    "slope_x_flow"
+  ],
+  "threshold": 0.5034833567768527,
+  "threshold_selection": "maximum F1 using training out-of-bag probabilities",
+  "saved_metrics": {
+    "roc_auc": 0.7624,
+    "pr_auc": 0.2069,
+    "precision": 0.3125,
+    "recall": 0.2064,
+    "f1": 0.2486,
+    "top_10_percent_lift": 3.71,
+    "erosion_capture_percent": 37.08
+  },
+  "confusion_matrix": [
+    [
+      1233187,
+      35679
+    ],
+    [
+      62339,
+      16214
+    ]
+  ],
+  "checkpoint": "/content/drive/MyDrive/EcoSignal_DEM/geomorphology_v1_backup/geomorphology_rf_v1.joblib",
+  "saved_size_mb_reported": 133.6,
+  "reload_verification_saved_output": "MODEL VERIFICATION PASSED\nPredictions match exactly within tolerance.\nSaved features: 13\nSaved trees: 500\nBackup: /content/drive/MyDrive/EcoSignal_DEM/geomorphology_v1_backup\n",
+  "checkpoint_hash": "not recorded",
+  "active_linkage": "Current recovered V2 metadata describes XGBoost, 21 features, training 2015-2022, test 2022-2024. V1 results must not be substituted.",
+  "evidence_cells_zero_based": [
+    98,
+    100,
+    101,
+    102,
+    105,
+    106,
+    129,
+    130,
+    135,
+    136,
+    137,
+    139,
+    140,
+    141,
+    142,
+    146,
+    147,
+    148,
+    149
+  ]
+}

@@ -1,0 +1,31 @@
+/** Versioned Sites port of the explicit current_georisk_review_v1 notebook profile. */
+import {observationTime} from './unified';
+import {point,meters,finite,hash,canonical,requireThat,illustrative,type Obj} from './evidence-core';
+export const PLANNER_VERSION='EcoSignal-Adaptive-Planner-v3.0.0-sites1';
+export const PLANNER_WEIGHTS={terrain:.28/.75,follow_up:.24/.75,coverage_gap:.18/.75,diversity:.05/.75};
+export function eligiblePlannerRecords(rows:Obj[],bounds:number[],now=Date.now()){
+ const accepted:Obj[]=[],reviews:Obj[]=[],issues:Obj[]=[],groups=new Map<string,Obj[]>(),seen=new Set<string>(),duplicates=new Set<string>();
+ for(const r of rows){const id=r.observation_id||r.id;if(seen.has(id))duplicates.add(id);seen.add(id)}
+ for(const r of rows){const s=r.screening||r,l=s.lichen||{},raw=r.raw_model_output?.coverage||{};const id=r.observation_id||r.id,site=s.site_id,p=s.location,at=s.captured_at,age=now-observationTime(at),source=l.source||r.source,version=l.version||r.model_version;
+ const invalid=!id||!site||duplicates.has(id)||illustrative(r)||s.site_confirmed!==true||!point(p)||p.lon<bounds[0]||p.lat<bounds[1]||p.lon>bounds[2]||p.lat>bounds[3]||!source||!version||!/(Z|[+-]\d\d:\d\d)$/.test(at||'')||!Number.isFinite(age)||age<0||age>30*86400000||l.coverage_confidence!=null&&!finite(l.coverage_confidence,0,1);
+ if(invalid){issues.push({observation_id:id,reason:'Missing, duplicate, illustrative, stale, unconfirmed or outside-coverage metadata'});continue}
+ const acceptedCoverage=raw.status!=='rejected_low_confidence'&&l.confirmed===true&&finite(l.coverage_percent,0,100)&&Number.isFinite(observationTime(l.observed_at))&&Math.abs(observationTime(l.observed_at)-observationTime(at))<=3600000;
+ const row={...r,id,site,location:p,at,accepted:acceptedCoverage,review:!acceptedCoverage||!!r.correction};groups.set(site,[...(groups.get(site)||[]),row]);
+ }
+ for(const [site,g] of groups){if(g.some(a=>g.some(b=>meters(a.location,b.location)>25))){issues.push({site_id:site,reason:'Conflicting site coordinates; no automatic repeat join'});continue}g.sort((a,b)=>Date.parse(a.at)-Date.parse(b.at)||a.id.localeCompare(b.id));const a=g.filter(x=>x.accepted).at(-1);if(a)accepted.push(a);if(g.at(-1)?.review)reviews.push(g.at(-1)!)}
+ return {accepted,reviews,issues};
+}
+export async function localPlan(candidates:Obj[],meta:Obj,observations:Obj[],filter:string[]|null,limit=10,now=Date.now()){
+ requireThat(meta.schema==='EcoSignal-planner-candidates-v3'&&meta.evidence_kind!=='synthetic_test'&&meta.georisk_reference_version==='georisk-2024-native-features-20m-sampling-v1','INVALID_POOL','Use a real versioned numerical candidate pool');
+ const {accepted,reviews,issues}=eligiblePlannerRecords(observations,meta.bounds_wgs84,now),pool=candidates.filter(c=>c.access_status!=='permission_required'&&!c.access_status.startsWith('excluded')&&(!filter?.length||filter.includes(c.site_type))),counts:Obj={};
+ for(const s of accepted){let best:Obj|undefined,d=Infinity;for(const c of pool){const q=meters(s.location,{lat:c.latitude,lon:c.longitude});if(q<d){best=c;d=q}}if(best&&d<=200)counts[best.site_type]=(counts[best.site_type]||0)+1}
+ const denom=Object.values(counts).reduce((a:number,b:any)=>a+b,0),scored:Obj[]=[];
+ for(const c of pool){const p={lat:c.latitude,lon:c.longitude},nearest=(a:Obj[])=>a.length?Math.min(...a.map(s=>meters(p,s.location))):null,dacc=nearest(accepted),dreview=nearest(reviews);if(dacc!==null&&dacc<30)continue;
+ const terms={terrain:c.georisk_percentile/100,follow_up:dreview===null?0:Math.max(0,1-dreview/150),coverage_gap:dacc===null?1:Math.min(1,dacc/750),diversity:denom?1-(counts[c.site_type]||0)/denom:1},parts=Object.fromEntries(Object.entries(PLANNER_WEIGHTS).map(([k,w])=>[k,100*w*terms[k as keyof typeof terms]])),priority=Object.values(parts).reduce((a,b)=>a+b,0);
+ scored.push({...c,components:{...terms,historical_change:null,control:null},weighted_points:parts,priority_score:priority,nearest_accepted_m:dacc,nearest_review_m:dreview,objective:terms.follow_up>.25?'retake_or_review':terms.terrain>=.65?'terrain_susceptibility_check':'coverage_gap',reason:Object.entries(parts).sort((a,b)=>b[1]-a[1]).filter(x=>x[1]>0).slice(0,3).map(([k])=>({terrain:'Relative 2024 terrain susceptibility',follow_up:'Nearby retake/review need',coverage_gap:'Gap in accepted site coverage',diversity:'Underrepresented site type'})[k]),strict_control_eligible:false});
+ }
+ scored.sort((a,b)=>b.priority_score-a.priority_score||a.candidate_id.localeCompare(b.candidate_id));const selected:Obj[]=[],typeCounts:Obj={};
+ function choose(rows:Obj[],n:number){for(const c of rows){if(n<=0||selected.length>=limit)return;const cap=c.site_type==='school'?4:3;if(selected.some(s=>s.candidate_id===c.candidate_id||meters({lat:s.latitude,lon:s.longitude},{lat:c.latitude,lon:c.longitude})<120)||(typeCounts[c.site_type]||0)>=cap)continue;selected.push(c);typeCounts[c.site_type]=(typeCounts[c.site_type]||0)+1;n--}}
+ choose(scored.filter(c=>c.components.follow_up>.25),2);choose(scored.filter(c=>c.components.terrain>=.65),3);for(const k of [...new Set(scored.map(c=>c.site_type))].sort())if(!typeCounts[k]&&Object.keys(typeCounts).length<4)choose(scored.filter(c=>c.site_type===k),1);choose(scored,limit-selected.length);selected.sort((a,b)=>b.priority_score-a.priority_score||a.candidate_id.localeCompare(b.candidate_id));
+ const result={method_version:PLANNER_VERSION,profile:'current_georisk_review_v1',weights:{...PLANNER_WEIGHTS,historical_change:0,control:0},as_of:new Date(now).toISOString(),status:accepted.length||reviews.length?'adaptive_with_eligible_observations':'candidate_only_no_eligible_observations',dataset_version:meta.dataset_version,candidate_source_sha256:meta.source_sha256,counts:{source_candidates:candidates.length,policy_candidates:pool.length,eligible_unique_accepted_sites:accepted.length,eligible_review_sites:reviews.length,recommended:selected.length,input_observation_rows:observations.length},observation_issues:issues,recommendations:selected.map((c,i):Obj=>({...c,rank:i+1})),selection_shortfall:selected.length<limit,scientific_validation:'not_run',synthetic_test_only:false};return {...result,plan_hash:await hash(canonical(result))};
+}

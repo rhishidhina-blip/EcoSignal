@@ -1,0 +1,25 @@
+{
+  "checks_passed": [
+    "Every corrected and historical code cell compiles",
+    "Notebook schema validates",
+    "All 56 original output bundles preserved exactly",
+    "Strict 0/255 and palette 0/1 masks; rejects lossy, color, stray values and misalignment",
+    "EXIF orientation and raw-coordinate mask rotation",
+    "Duplicate filenames cannot silently overwrite training pairs",
+    "Exact duplicates and source groups stay together; splits are deterministic and disjoint",
+    "Coverage metrics, empty-mask handling and validation-only threshold selection",
+    "Confidence intervals resample independent groups rather than related images",
+    "TensorFlow training/inference preprocessing parity and graph-mode joint augmentation",
+    "Original MobileNet graph retains upstream scaling; no preprocessing-bypass diagnosis invented",
+    "320x320 model: single MobileNet scaling, forward pass, save/reload, stage weight loading and deployed inference",
+    "Both stage callbacks save distinct checkpoints and reload best weights"
+  ],
+  "tensorflow_tested": true,
+  "tensorflow_version": "2.21.0",
+  "original_output_bundles": 56,
+  "limits": [
+    "No original datasets or trained checkpoint supplied",
+    "No retraining or real-field accuracy measurement performed",
+    "Model smoke tests use random initialization; they do not establish segmentation quality"
+  ]
+}

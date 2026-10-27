@@ -1,0 +1,73 @@
+{
+  "notebook": "C:\\Users\\dhina\\Downloads\\EcoSignal_Final_Coverage_Retraining_v2 (3).ipynb",
+  "sha256": "1701b5f5a66f3672808acfce2371f7af453dff88df686772c3200c6a2f30229e",
+  "seed": 42,
+  "split_counts": {
+    "train": 64,
+    "validation": 14,
+    "test": 21
+  },
+  "architecture": "MobileNetV2 U-Net",
+  "input": [
+    320,
+    320,
+    3
+  ],
+  "batch_size": 4,
+  "head_epochs_limit": 18,
+  "fine_tuning_epochs_limit": 10,
+  "checkpoint_monitor": "val_soft_iou (maximize)",
+  "loss": "0.5 binary crossentropy + 0.5 (1 - Dice)",
+  "preprocessing": "RGB float [0,1]; bilinear resize; nearest mask resize, foreground >0; source graph includes Rescaling(2,-1)",
+  "fine_tune_learning_rate": 5e-06,
+  "threshold_selection": "Validation sweep 0.20\u20130.85 in 0.05 steps; keep mean IoU within 0.02 of best, then minimize coverage MAE.",
+  "selected_threshold": 0.55,
+  "test_summary": {
+    "test_images": 21,
+    "threshold": 0.5499999999999999,
+    "mean_iou": 0.7426483485293818,
+    "median_iou": 0.8152999037739722,
+    "mean_dice": 0.8213542881270813,
+    "mean_precision": 0.8170396520393743,
+    "mean_recall": 0.8518307847845947,
+    "coverage_mae_percentage_points": 4.588541666666668,
+    "coverage_bias_percentage_points": 1.0295758928571435
+  },
+  "confidence_intervals": {
+    "mean_iou_95_ci": [
+      0.6288830923272458,
+      0.8355995292383489
+    ],
+    "mean_dice_95_ci": [
+      0.7093053941459302,
+      0.9064501545886352
+    ],
+    "coverage_mae_95_ci": [
+      2.5004127139136916,
+      7.04173874627976
+    ]
+  },
+  "saved_checkpoint": "lichen_coverage_model_v2.keras",
+  "saved_checkpoint_sha256": "b7c52a57e4176b349ee85898fd49d43ee37d2037d5e99064db9cd817c27640e8",
+  "local_saved_checkpoint_hash_matches": true,
+  "active_checkpoint_sha256": "0496f79a349de607d43f6e3db3f05fe542e7d76ee13e46bf7b352feae7db3133",
+  "active_threshold": 0.65,
+  "active_linkage": "Different file hash. Saved-run metrics cannot be assigned to active checkpoint. Tensor equality was not tested.",
+  "evidence_cells_zero_based": [
+    8,
+    9,
+    10,
+    11,
+    14,
+    15,
+    16,
+    20,
+    21,
+    22,
+    23,
+    26,
+    29,
+    68,
+    69
+  ]
+}

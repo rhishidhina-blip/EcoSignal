@@ -1,0 +1,56 @@
+{
+  "source_archive": "EcoSignal-GitHub-v39-2026-10-26.zip",
+  "archive_sha256": "2c04939a617b85519b598086557fae4089012026cf42678d75f26d5e3e28b602",
+  "published_version": 39,
+  "source_commit": "e91366006e0f3a20992163d41eea143abaa75ef9",
+  "export_original_hash_mismatches": [
+    ".gitignore",
+    "README.md"
+  ],
+  "allowed_export_documentation_changes": [
+    ".gitignore",
+    "README.md",
+    ".env.example",
+    ".dev.vars.example",
+    "GITHUB-SETUP.md"
+  ],
+  "original_application_sources_and_data_verified": true,
+  "excluded_generated_items": [
+    {
+      "path": "public/unified/source-backup/.source-checkpoint.part02.vLDirg",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part00",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part01",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part02",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part03",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part04",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part05",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part06",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    },
+    {
+      "path": "public/unified/source-backup/source-checkpoint.part07",
+      "reason": "generated, recursively duplicated source archive; source-download page replaced with GitHub source link"
+    }
+  ]
+}

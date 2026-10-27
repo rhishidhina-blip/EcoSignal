@@ -1,0 +1,46 @@
+{
+  "source_statement": "online images",
+  "source_statement_author": "user",
+  "per_image_source_urls": "not supplied",
+  "licenses": "not supplied; no redistribution permission inferred",
+  "image_archive": {
+    "path": "C:\\Users\\dhina\\OneDrive\\Desktop\\CV_Chlorosis\\Images.zip",
+    "bytes": 32324765,
+    "sha256": "e52c735a1c67da4b9e6e5879284dc9f84a1ab9e021d8cb3285bb6780d2d64b34"
+  },
+  "mask_archive": {
+    "path": "C:\\Users\\dhina\\OneDrive\\Desktop\\CV_Chlorosis\\Masks.zip",
+    "bytes": 3641011,
+    "sha256": "f4ba14fe8b5111e106033cd4ae1e1c39fa9296d738e2b759005a391a80000498"
+  },
+  "pairs": 99,
+  "unmatched": {
+    "images_without_masks": [],
+    "masks_without_images": []
+  },
+  "geometry_mismatches": [
+    "100",
+    "2",
+    "97",
+    "98",
+    "99"
+  ],
+  "bins": {
+    "low": 16,
+    "medium": 57,
+    "negative": 6,
+    "high": 19,
+    "very_low": 1
+  },
+  "native_mask_coverage_mean": 40.59183012486499,
+  "notebook_saved_native_coverage_mean_rounded": 40.59183,
+  "notebook_saved_bins": {
+    "medium": 57,
+    "high": 19,
+    "low": 16,
+    "negative": 6,
+    "very_low": 1
+  },
+  "matches_notebook_displayed_distribution": true,
+  "split_status": "Not reconstructed: ModuleNotFoundError"
+}

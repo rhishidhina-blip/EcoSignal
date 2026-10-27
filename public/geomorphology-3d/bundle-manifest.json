@@ -1,0 +1,74 @@
+{
+  "browser-verification.json": {
+    "bytes": 648,
+    "sha256": "ecafce2814254d26f7a49253164d142bcfdcfecabbaa9c284dcfa88fceeda922"
+  },
+  "data-verification.json": {
+    "bytes": 900,
+    "sha256": "44fbcb659c63a6fb1909f66066319b91b773a0c02ad9882d989a415782d8586a"
+  },
+  "index.html": {
+    "bytes": 762,
+    "sha256": "50937939747292a7458e8550be8f569ef00e59ff5cab0a1c97844f62071bca35"
+  },
+  "README.md": {
+    "bytes": 4812,
+    "sha256": "c09532c03ffd508fb9cdb9b4a22a7f470b138c10235f6a5f52e6834cf273e8fc"
+  },
+  "viewer.css": {
+    "bytes": 6386,
+    "sha256": "58da3cd110de91a2dd2cc3d88e6b279f816ec816bf986b9a2dfbb6139f51d3ff"
+  },
+  "viewer.js": {
+    "bytes": 23553,
+    "sha256": "9db5159aec3a1625709ff2853d23385b4f2681a8242f3d073cf41610e0aadefd"
+  },
+  "assets/ecosignal_georisk_v2_1m.joblib": {
+    "bytes": 215815,
+    "sha256": "6ec3a4a5e8cd3453f10f8f6b4b84b16dc87fcecccfbf7b0aa5e122bf62c5736d"
+  },
+  "assets/ecosignal_georisk_v2_1m_metadata.json": {
+    "bytes": 6192,
+    "sha256": "656c1fdb7bc7113efb52e058de141e5994f6c511931f0168fd7f78f143605e83"
+  },
+  "assets/export_verification.json": {
+    "bytes": 2191,
+    "sha256": "66d174ce4a45d87aba961354372fd3847dddfccea3a8b79511f824a04be5e8fa"
+  },
+  "assets/georisk-overlay.png": {
+    "bytes": 2320817,
+    "sha256": "3ccd850a3e1e3c43155f0e5a0a3c4a4e70bcc9b0a46f55f6a49d9354a00de9d5"
+  },
+  "assets/projection-assessment.json": {
+    "bytes": 1115,
+    "sha256": "7bcb6c7222fa6f2b23a6b2da001fddbeee80a862be2953d06faa58cdc44d86eb"
+  },
+  "assets/terrain.json": {
+    "bytes": 887770,
+    "sha256": "d8a61bdc5e66851b5bd070f7aee2d5b8283cae2244b40d6322f43b7dfa5fff28"
+  },
+  "integration/EcoSignalTerrain.tsx": {
+    "bytes": 1702,
+    "sha256": "2aaf34c503cebfc4ab5e25178259749425312e09d0f7db7236086c146442e6e5"
+  },
+  "vendor/MATPLOTLIB-LICENSE.txt": {
+    "bytes": 4830,
+    "sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc"
+  },
+  "vendor/OrbitControls.js": {
+    "bytes": 40767,
+    "sha256": "30386f7141d5ce5d5e0a3ab643e4eb16265f4564466108105ce449857f62fdda"
+  },
+  "vendor/THREE-LICENSE.txt": {
+    "bytes": 1081,
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  "vendor/three.core.js": {
+    "bytes": 1458113,
+    "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+  },
+  "vendor/three.module.js": {
+    "bytes": 662772,
+    "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+  }
+}

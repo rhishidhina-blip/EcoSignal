@@ -1,0 +1,1 @@
+{"status": "passed", "native_tiles": 4, "lossless_chunks": 169, "bands_per_chunk": 8, "week": "2026-09-28", "resolution_m": 20, "checks": ["original GeoTIFF SHA256", "EPSG:32617 and affine transform", "all band names", "every compressed chunk hash", "all Float32 values and nodata equal original GeoTIFF"], "scientific_validation": false}

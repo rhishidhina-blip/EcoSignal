@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import ts from 'typescript';
+const code=ts.transpileModule(await readFile('app/lib/air-quality-client.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const {fetchAirQuality}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+const reading={aqi:30,timestamp:'2026-10-25T18:00:00Z',pollutants:[{key:'OZONE',aqi:30}]};
+test('AirNow client retries a temporary outage once and uses actual returned observations',async()=>{const original=globalThis.fetch;let calls=0;try{globalThis.fetch=async()=>++calls===1?new Response('',{status:503}):Response.json(reading);assert.deepEqual(await fetchAirQuality(35.778,-78.781,new AbortController().signal),reading);assert.equal(calls,2)}finally{globalThis.fetch=original}});
+test('AirNow client bounds failures and never manufactures an AQI',async()=>{const original=globalThis.fetch;let calls=0;try{globalThis.fetch=async()=>{calls++;return new Response('',{status:503})};await assert.rejects(fetchAirQuality(35.8,-78.7,new AbortController().signal),/temporarily unavailable/);assert.equal(calls,2);globalThis.fetch=async()=>Response.json({...reading,aqi:null});await assert.rejects(fetchAirQuality(35.8,-78.7,new AbortController().signal),/temporarily unavailable/)}finally{globalThis.fetch=original}});
+test('cancelled air-quality requests do not retry',async()=>{const original=globalThis.fetch;let calls=0;try{globalThis.fetch=async()=>{calls++;throw Error('should not fetch')};const controller=new AbortController();controller.abort();await assert.rejects(fetchAirQuality(35.8,-78.7,controller.signal));assert.equal(calls,0)}finally{globalThis.fetch=original}});

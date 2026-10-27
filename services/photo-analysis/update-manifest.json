@@ -1,0 +1,34 @@
+{
+  "api/coverage.py": {
+    "new": "f091c46666fae26f121c97cede2260f212526186b07a0ac6b76723fcc0acafbe",
+    "old": "2ebf8229d48d6e105dc8140dd3e777ec5df3a60bc2f50622de55cb06bab97ea9"
+  },
+  "api/coverage_quality.py": {
+    "new": "a0503ed98f45338d0bfb07a018ea83ceba3fd0eb91b02d96edb738c1fc4a20e9",
+    "old": null
+  },
+  "api/main.py": {
+    "new": "47caf869846e6951e4c9bfdb5734c184851d9d8e676d1dc4c558715fd62a191e",
+    "old": "f0bfbec30ff88b9619dc75d6a913073cc92548ce33dc7d8fbc24c2b030f4b1b5"
+  },
+  "models/lichen_coverage_v2.keras": {
+    "new": "0496f79a349de607d43f6e3db3f05fe542e7d76ee13e46bf7b352feae7db3133",
+    "old": null
+  },
+  "models/coverage_metadata.json": {
+    "new": "d4647449bff8cc93eb7e562291be72b0b900f291e2c2d883bd5fd740a149b20f",
+    "old": null
+  },
+  "tests/test_coverage_v2.py": {
+    "new": "527e86367f0d54ef8ca24d4661481d14efe79e778070b4f01f26b518c0a54c29",
+    "old": null
+  },
+  "requirements.txt": {
+    "new": "5ec05477c6b2204de625532c8f866cc2d903eb0ceec51647b03b9bd069d78e2d",
+    "old": "dea34c74d280b731229dbde35f27fc9ab5bdfe322366fc606a93fee1138e653a"
+  },
+  "Dockerfile": {
+    "new": "406e574d71f10fb96ea10fb1b77e9812b90e6d8a6a12cd05e39a88d1aa9d9c0b",
+    "old": "d219d4f12b9a976799f2fc72f0e61260d6f810db23d9d05fea87f86e50ee0482"
+  }
+}

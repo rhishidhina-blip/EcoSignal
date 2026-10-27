@@ -1,0 +1,86 @@
+[
+  {
+    "source_id": "KB-LICHEN-BIO-001",
+    "title": "NPS \u2014 Lichens as Bioindicators",
+    "url": "https://www.nps.gov/articles/lichens-as-bioindicators.htm",
+    "supports": "Why lichen communities can be used as air-pollution bioindicators.",
+    "text": "Lichens obtain water and nutrients from wet and dry atmospheric deposition. Species differ in pollution tolerance, so scientists evaluate community composition\u2014such as shifts between sensitive and tolerant species\u2014rather than treating one photograph as a direct pollutant measurement."
+  },
+  {
+    "source_id": "KB-GROWTH-001",
+    "title": "NPS \u2014 Lichens of Mount Rainier",
+    "url": "https://www.nps.gov/mora/learn/nature/lichens.htm",
+    "supports": "Definitions of the three main lichen growth forms.",
+    "text": "Three commonly used growth forms are foliose, fruticose, and crustose. Foliose lichens are leaf-like, fruticose lichens have a three-dimensional or branching structure, and crustose lichens adhere tightly to the substrate. Some species blend forms, so a growth-form label is not a species identification."
+  },
+  {
+    "source_id": "KB-AQI-001",
+    "title": "AirNow \u2014 AQI Basics",
+    "url": "https://www.airnow.gov/aqi/aqi-basics/",
+    "supports": "Meaning and health-purpose of the U.S. Air Quality Index.",
+    "text": "The U.S. AQI communicates current or recent outdoor air pollution and associated health concern. Its six categories are Good 0\u201350, Moderate 51\u2013100, Unhealthy for Sensitive Groups 101\u2013150, Unhealthy 151\u2013200, Very Unhealthy 201\u2013300, and Hazardous 301\u2013500. EcoSignal must label whether an AQI value came from AirNow, AQS, or another named source."
+  },
+  {
+    "source_id": "KB-AQS-001",
+    "title": "EPA \u2014 Air Quality System (AQS)",
+    "url": "https://www.epa.gov/aqs",
+    "supports": "What EPA AQS data represents.",
+    "text": "EPA AQS is a repository of ambient air quality data submitted by federal, state, local, and tribal air-pollution control agencies. It includes pollutant measurements, monitor metadata, meteorology, and quality-assurance information. A lichen image is complementary screening evidence, not an AQS monitor."
+  },
+  {
+    "source_id": "KB-AIRDATA-001",
+    "title": "EPA \u2014 Outdoor Air Quality Data",
+    "url": "https://www.epa.gov/outdoor-air-quality-data",
+    "supports": "Where to obtain current and historical U.S. outdoor air-quality data.",
+    "text": "EPA AirData provides recent and historical outdoor-monitor data, downloads, maps, and reports. EPA directs users to AirNow for current air quality. A chatbot should not substitute a lichen-derived screening result for health guidance from these monitoring sources."
+  },
+  {
+    "source_id": "ES-METHOD-001",
+    "title": "EcoSignal internal method card \u2014 image models",
+    "url": "internal://ecosignal/methods/image-models",
+    "supports": "What EcoSignal image outputs mean.",
+    "text": "EcoSignal image models may report visible lichen coverage, a segmentation mask, image quality, and a coarse growth-form class. These are image-derived screening outputs. They do not measure a chemical concentration, prove pollution, or identify a lichen species."
+  },
+  {
+    "source_id": "ES-CONFIDENCE-001",
+    "title": "EcoSignal internal method card \u2014 decomposed confidence",
+    "url": "internal://ecosignal/methods/confidence",
+    "supports": "How app confidence should be explained.",
+    "text": "EcoSignal confidence is decomposed into available components such as image quality, coverage, growth-form confidence, geospatial completeness, risk-engine confidence, and feature completeness. Missing components remain explicit; confidence is not the probability that pollution caused the observation."
+  },
+  {
+    "source_id": "ES-REPEAT-001",
+    "title": "EcoSignal internal method card \u2014 repeat scans",
+    "url": "internal://ecosignal/methods/repeat-scans",
+    "supports": "How repeat-scan comparisons are interpreted.",
+    "text": "A repeat scan must be confirmed as the same site or tree and should be captured with similar framing, distance, angle, lighting, and moisture conditions. Registration and comparability are checked before reporting visible-coverage change. Similar conditions reduce confounding but do not establish causation."
+  },
+  {
+    "source_id": "ES-MISSION-001",
+    "title": "EcoSignal internal method card \u2014 field missions",
+    "url": "internal://ecosignal/methods/field-missions",
+    "supports": "What a field-mission recommendation means.",
+    "text": "Field missions prioritize locations where a new observation could improve geographic coverage, address model uncertainty, or support a repeat scan. Mission priority and expected information gain are planning heuristics, not calibrated health-risk probabilities."
+  },
+  {
+    "source_id": "ES-LIMIT-001",
+    "title": "EcoSignal internal limitation card",
+    "url": "internal://ecosignal/limitations",
+    "supports": "Required scientific and health guardrails.",
+    "text": "The current assistant must not diagnose chlorosis, infer a pollutant from color alone, make individual medical recommendations, or claim regulatory-grade air monitoring. Health questions should be redirected to AirNow, EPA guidance, or an appropriate professional."
+  },
+  {
+    "source_id": "ES-SAT-RALEIGH-001",
+    "title": "EcoSignal \u2014 uploaded Raleigh Sentinel-2 dataset",
+    "url": "/satellite/raleigh/dataset.json",
+    "supports": "Connected dataset provenance, index availability, weekly means, and common-pixel change.",
+    "text": "User-supplied satellite_results_preview_fixed.zip contains Copernicus Sentinel-2 L2A NDVI (vegetation greenness), NDMI (vegetation moisture indicator, not soil-water percentage), BSI (exposed-ground indicator), and MNDWI (surface-water indicator). Source resolution 20 m. Weekly median baseline Sep 21\u201327, 2026; comparison Sep 28\u2013Oct 4, 2026. Change is comparison minus baseline on common clear pixels, not the difference between means of differently masked areas. Cloud-probability threshold 40%, cloud buffer 40 m, at least one clear observation. Acquisition days: 2026-09-21, 2026-09-24, 2026-09-26, 2026-09-29, 2026-10-01, 2026-10-04. These measured rasters are connected in the website; the independent Esri satellite basemap does not show those historical capture dates. Environmental-context and confidence overlays and field markers remain examples. Sparse observations are not calibrated confidence. No-data is transparent, not zero. This user-supplied export has not been independently validated. Landscape change does not establish a cause or measure lichen coverage. BSI week 2026-09-21: valid-pixel mean -0.1402; usable area 84.1%. MNDWI week 2026-09-21: valid-pixel mean -0.4739; usable area 85.4%. NDMI week 2026-09-21: valid-pixel mean 0.1939; usable area 79.1%. NDVI week 2026-09-21: valid-pixel mean 0.6433; usable area 84.1%. BSI week 2026-09-28: valid-pixel mean -0.1427; usable area 76.5%. Comparison minus baseline on common clear pixels -0.0010; common clear area 67.3%. MNDWI week 2026-09-28: valid-pixel mean -0.4526; usable area 77.8%. Comparison minus baseline on common clear pixels +0.0247; common clear area 68.5%. NDMI week 2026-09-28: valid-pixel mean 0.2035; usable area 71.4%. Comparison minus baseline on common clear pixels +0.0064; common clear area 62.9%. NDVI week 2026-09-28: valid-pixel mean 0.6255; usable area 76.5%. Comparison minus baseline on common clear pixels -0.0231; common clear area 67.3%."
+  },
+  {
+    "source_id": "ES-AIR-LIVE-001",
+    "title": "AirNow location-specific observations",
+    "url": "https://www.airnow.gov/",
+    "supports": "Reported AQI, selected monitors, location and observation timestamps.",
+    "text": "EcoSignal uses the public v2 location-specific observation lookup used by AirNow.gov for selected Greater Raleigh coordinates, with its default 50-mile search. The displayed overall AQI is the maximum of the reported pollutant AQIs returned by AirNow, never a forecast or yesterday\u2019s daily maximum. Show the reporting area, individual monitor names and each observation timestamp. Values are preliminary and may be revised. The server caches for one minute; the visible panel checks every five minutes. Compare the same coordinates and hour on AirNow. Other monitor maps and forecasts can differ. No modeled concentrations or modeled history are blended with reported AQI. Current AQI and historical satellite weeks refer to different dates and cannot establish causes for a lichen observation. Never invent live values from static knowledge."
+  }
+]
