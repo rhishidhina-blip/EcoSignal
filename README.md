@@ -35,8 +35,7 @@ Active Sampling PLanner: Used to host the adaptive planner through Render
 https://github.com/rhishidhina-blip/ecosignal-active-sampling-planner
 
 **Personal Statement**
-
-Read my Personal Statement to learn about my motivation for developing EcoSignal, the environmental problem it addresses, and what I learned throughout the project.
+EcoSignal originally started out as LichenLens, which included just the computer vision models to detect lichen growth form and coverage. Over time, this app has developed into something that combines multiple different features, and has expanded from my initial vision. I faced many technical difficulties throughout the creation of this app, and I learned many skills throughout the creation of EcoSignal. I learned a lot from competing in the Congressional App Challenge, and value the opportunity.
 
 ## Features and supporting code
 
