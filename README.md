@@ -21,6 +21,23 @@ This repository contains the latest website, the recovered photo-analysis servic
 
 The app keeps **model predictions, human corrections, data-quality diagnostics and environmental context distinguishable**. A model output is not automatically an approved label or an environmental conclusion.
 
+**Supporting Repositories**
+
+EcoSignal is an integrated environmental screening application supported by several independently developed components. The following repositories contain the source code, model development, and backend implementations.
+
+Ask-Lichen-Lens: Used to host the Gemini API used for the AI Chatbot through Render
+https://github.com/rhishidhina-blip/ecosignal_ask_lichen-lens
+
+Photo-Analysis: Used to host computer vision models for app demonstration locally
+https://github.com/rhishidhina-blip/ecosignal-photo-analysis
+
+Active Sampling PLanner: Used to host the adaptive planner through Render
+https://github.com/rhishidhina-blip/ecosignal-active-sampling-planner
+
+**Personal Statement**
+
+Read my Personal Statement to learn about my motivation for developing EcoSignal, the environmental problem it addresses, and what I learned throughout the project.
+
 ## Features and supporting code
 
 ### LichenLens and observations
