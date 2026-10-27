@@ -2,9 +2,9 @@
 
 **Photograph lichens. Connect environmental context. Review the evidence. Plan the next observation.**
 
-EcoSignal is an environmental observation and research application built for the Congressional App Challenge by **Rhishi Dhinakaran**. It brings together lichen computer vision, satellite indices, nearby air-quality readings, numerical terrain susceptibility, evidence review, adaptive sampling and a grounded AI assistant in one workspace.
+EcoSignal is an environmental observation and research application built for the Congressional App Challenge by Rhishi Dhinakaran. It brings together lichen computer vision, satellite indices, nearby air-quality readings, numerical terrain susceptibility, evidence review, adaptive sampling and a grounded AI assistant in one workspace.
 
-This repository contains the **published v39 website source**, the recovered photo-analysis service, research/training notebooks, model metadata, scientific limitations and the code supporting the features below. It is a technical showcase and source distribution. The existing website stays on its existing host.
+This repository contains the latest website, the recovered photo-analysis service, research/training notebooks, model metadata, scientific limitations and the code supporting the features below. It is a technical showcase and source distribution. The existing website stays on its existing host.
 
 **[Open EcoSignal](https://ecosignal-app.dhina-srini.chatgpt.site/)** · [Feature implementation guide](docs/FEATURES.md) · [Training records](docs/TRAINING_RECORDS.md) · [Related backend repositories](docs/RELATED_REPOSITORIES.md)
 
